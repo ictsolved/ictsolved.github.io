@@ -8,35 +8,30 @@ permalink: /
     <div class="container">
         <div class="row centered">
             <div class="col-md-4">
-                <i class="fa fa-heart-o"></i>
-                <h4>Handsomely Crafted</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+                <i class="fa fa-unlock-alt"></i>
+                <h4>Problems Unlocked</h4>
+                <p><big> "ICT Solved!" aims to help you fix the problems related with Android, iOS, Linux and Windows. Along with the solution to your problems, you can also find tips and tricks about them in this web portal. News and issues that are creating the buzz in the field of ICT are also published here which keeps you up-to date with the tech world.</big></p>
             </div>
             <div class="col-md-4">
-                <i class="fa fa-flask"></i>
-                <h4>Retina Ready</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+                <i class="fa fa-users"></i>
+                <h4>User Friendly</h4>
+                <p><big>"ICT Solved!" cares about all kinds of user. It is a common place to get help and to help. If you are a novice you can learn as well as ask for help, if you are a moderate user then you can help the novice plus increase your knowledge, and if you are an expert you are warmly welcomed to help other users by sharing your own knowledge.</big></p>
             </div>
             <div class="col-md-4">
-                <i class="fa fa-trophy"></i>
-                <h4>Quality Theme</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+                <i class="fa fa-envelope"></i>
+                <h4>Supportive and Trustworthy</h4>
+                <p><big>Your problems or questions are treated specially in "ICT Solved!". Yes, it is a place where you can quickly get your question answered and responded. Not only your queries and questions, but also feedbacks and comments are required in order to help you more. Hence, feel free to help or ask for help.</big></p>
             </div>		 				
         </div>
     </div><! --/container -->
 </div><! --/service -->
 
-{% include portfolio.html title="LATEST WORKS" limit=10 %}
-
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-4 col-lg-offset-1">
-            <h4>More About Our Agency.</h4>
+            <h4>More About ICT Solved!</h4>
             <p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">Read More</a></p>
         </div>
 
         <div class="col-lg-3">
@@ -44,7 +39,7 @@ permalink: /
             <div class="hline"></div>
             {% for post in site.categories['question'] %} 
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
+           {% endfor %}
         </div>
 
         <div class="col-lg-3">
@@ -57,3 +52,5 @@ permalink: /
 
     </div><! --/row -->
 </div><! --/container -->
+
+{% include portfolio.html title="LATEST WORKS" limit=10 %}

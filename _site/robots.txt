@@ -1,0 +1,15 @@
+sitemap: https://ictsolved.github.io/sitemap.xml
+
+User-agent:  *
+
+User-agent: Mediapartners-Google*
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: *
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /

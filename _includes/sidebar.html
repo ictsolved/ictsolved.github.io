@@ -1,12 +1,22 @@
 <div class="col-lg-4">
-   <!--  <h4>Search</h4>
+   <h4>Search Post</h4>
     <div class="hline"></div>
         <p>
-            <br/>
-            <input type="text" class="form-control" placeholder="Search something">
+	         <form action="/search.html" method="get" id="search-box" name="query">
+						<div class="row">
+  					<div class="col-lg-12">
+  				<div class="input-group">
+      			<input type="text" class="form-control" placeholder="Input search term" id="search-box" name="query" required="required" data-error="Please input search term">
+      		<span class="input-group-btn">
+        			<button class="btn btn-default" id="search-box" name="query" type="submit" require="required">Search</button>
+		      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-12 -->
+</div><!-- /.row -->
+</form>
         </p>
-    <div class="spacing"></div> -->
-    <h4>Subscribe</h4>
+    <div class="spacing"></div>
+     <h4>Subscribe</h4>
     <div class="hline"></div>
         <p>
             <p class="rss-subscribe">Subscribe to this blog <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>

@@ -11,18 +11,17 @@ layout: default
             <! -- Blog Post  -->
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+            <p><small><i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;<i class="fa fa-user"></i> {{ page.author }} &nbsp;&nbsp;<i class="fa fa-clock-o"></i> Reading time: {% include read_time_post.html %} </small></p>
               
             {{ content }}
-
             <div class="spacing"></div>
-            <!-- <h6>SHARE:</h6>
+             <h4>Share post</h6>
             <p class="share">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-tumblr"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
-            </p> -->
+                <a href="https://twitter.com/share" target="_blank" data-show-count="false"><i class="fa fa-twitter"></i></a>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </p> <br>
+            {% include disqus.html %}
+
         </div><! --/col-lg-8 -->
         
         {% include sidebar.html %}

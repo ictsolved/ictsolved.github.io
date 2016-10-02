@@ -1,0 +1,6 @@
+ {% assign words = post.content | number_of_words %}
+  {% if words < 360 %}
+    1 min
+  {% else %}
+    {{ post.content | number_of_words | plus:90 | divided_by:180 }} minutes
+  {% endif %}

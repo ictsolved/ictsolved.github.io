@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ictsolved.github.io/ictsolved.github.io/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ictsolved.github.io/ictsolved.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ictsolved.github.io/ictsolved.github.io/" rel="alternate" type="text/html" /><updated>2016-10-03T00:20:17+05:45</updated><id>https://ictsolved.github.io/ictsolved.github.io/</id><title type="html">ICT Solved!</title><subtitle>A complete web portal to solve your problems related with Android, iOS, Linux and Windows.</subtitle><entry><title type="html">Recover Grub of EFI System in Linux</title><link href="https://ictsolved.github.io/ictsolved.github.io/blog/linux/recover-grub-in-linux-efi" rel="alternate" type="text/html" title="Recover Grub of EFI System in Linux" /><published>2016-09-30T09:01:46+05:45</published><updated>2016-09-30T09:01:46+05:45</updated><id>https://ictsolved.github.io/ictsolved.github.io/blog/linux/recover-grub-in-linux-efi</id><content type="html" xml:base="https://ictsolved.github.io/ictsolved.github.io/blog/linux/recover-grub-in-linux-efi">&lt;p&gt;All the linux users who use distro having &lt;b&gt;GRUB&lt;/b&gt; as a bootloader are aware of its value. That hard time when you power on the computer and after a brand logo the next screen just appears to show you message that GRUB was not able to load the entries. In this article, you’ll get to know how to recover the GRUB bootloader on EFI/UEFI system. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;NOTE:&lt;/b&gt; This article shows the method of recovering the GRUB only for EFI/UEFI systems so if your bootsector uses MBR this does not work at all.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Pre-requisite:&lt;/b&gt; Live bootable media of your Linux distro and an working internet connection&lt;/p&gt;
+
+&lt;font color=&quot;red&quot;&gt;&lt;b&gt;Warning:&lt;/b&gt;&lt;/font&gt;
+&lt;p&gt;Donot forget to unmount the mounted drives before you power off or reboot otherwise your disk or data may corrupt.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;b&gt;Steps:&lt;/b&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Boot your Linux distro live&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;open the terminal&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Find out Linux partition and EFI partition with following command:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; sudo fdisk -l
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;You will see the output similar to image below:&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/img/blog/fdisk.jpg&quot; width=&quot;850&quot; height=&quot;450&quot; alt=&quot;partitions&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Look at the ‘Device’ and ‘Type’ column. In my case,&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; /dev/sda2 is EFI System
+
+ /dev/sda7 is Linux filesystem
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;Note out your EFI System and Linux filesystem Device.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now you need to execute the following commands replacing with your ‘Device’ accordingly:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; sudo mount /dev/sda7 /mnt
+
+ sudo mount /dev/sda2 /mnt/boot/efi
+
+ sudo for i in /dev /dev/pts /proc /sys; do sudo mount -B $i /mnt$i; done
+
+ sudo cp /etc/resolv.conf /mnt/etc/
+
+ sudo modprobe efivars
+
+ sudo chroot /mnt
+
+ sudo apt-get install --reinstall grub-efi-amd64
+
+ sudo update-grub
+
+ sudo for i in /sys /proc /dev/pts /dev; do sudo umount /mnt$i; done
+
+ sudo umount /mnt/boot/efi
+
+ sudo umount /mnt
+
+ sudo reboot
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now you are done and the grub menu should appear on reboot.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;b&gt;NOTE:&lt;/b&gt; If you have dual boot, another OS may not be listed in the entry so after reboot open the terminal and enter following command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	sudo update-grub
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;That’s all and you are good to go. Let me know through comments if you face any problem and I’ll be there for you.&lt;/p&gt;</content><author><name>Sarad Gajurel</name></author><summary type="html">All the linux users who use distro having GRUB as a bootloader are aware of its value. That hard time when you power on the computer and after a brand logo the next screen just appears to show you message that GRUB was not able to load the entries. In this article, you’ll get to know how to recover the GRUB bootloader on EFI/UEFI system.</summary></entry><entry><title type="html">Won NOSKode 2016</title><link href="https://ictsolved.github.io/ictsolved.github.io/blog/my%20life%20events/noskode2016-winner" rel="alternate" type="text/html" title="Won NOSKode 2016" /><published>2016-09-22T13:39:46+05:45</published><updated>2016-09-22T13:39:46+05:45</updated><id>https://ictsolved.github.io/ictsolved.github.io/blog/my%20life%20events/noskode2016-winner </id><content type="html" xml:base="https://ictsolved.github.io/ictsolved.github.io/blog/my%20life%20events/noskode2016-winner">&lt;p&gt;Almost every techie is aware about 3&lt;sup&gt;rd&lt;/sup&gt; Saturday of September and specially those who love open source, it is obviously a special day. Yes, it is the day of freedom and liberty which we call as &lt;b&gt;Software Freedom Day.&lt;/b&gt; It is a global event and is being celebrated since 2004 August 28.
+Software Freedom Day. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/sfd2016.jpg&quot; width=&quot;850&quot; height=&quot;329&quot; alt=&quot;SFD 2016&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Being a computer science student and a Linux user, it was more than an ordinary day for me too. On the top of it, I had registered for a event ‘NOSKathon’ organised by Nepal Open Source Club (NOSK) where the team of 2-4 person could participate and compete with other team under theme ‘FOSS for people’. The challenge was to make use of the open source and to serve the locality. I also built-up the team with my other 3 friends and named our team &lt;a href=&quot;https://aarcana.github.io&quot; target=&quot;_blank&quot;&gt;Aarcana&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/aarcana.jpg&quot; width=&quot;850&quot; height=&quot;478&quot; alt=&quot;Aarcana: for society&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The event was held at NCIT College, Balkumari and I along with my team reached there on time. There were number of programs in the schedule list. First we were taken to the hall where we would compete and then we were given the instructions on what and how we need to do the project. After discussing the idea and how we will implement it for half an hour, next program from the schedule took us to the speech hall. First speech was by &lt;b&gt;Mahabir Pun&lt;/b&gt; who inspired all the participants. After him another speech was given by &lt;b&gt;Takehiro Mouri&lt;/b&gt; who is co-founder of TECHRISE. He demonstrated how one who is dedicated contribute the effort can become a web developer in two months.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/speakers.jpg&quot; width=&quot;960&quot; height=&quot;426&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After the speech we returned to our workplace and we were given a couple of hours to prepare a draft and we had to present that to the judges. We had a brand new concept &lt;a href=&quot;https://github.com/teamaarcana/Gas-Soln&quot; target=&quot;_blank&quot;&gt;Gas-Soln&lt;/a&gt;. which targets to minimise the shortage of fuel inside the valley. We prepared prototype and presented it to the jury members. It was an interactive presentation as they threw question one after another to us and we also replied each of the questions. It seemed they were much impressed by the idea of our project and they even asked if they would like to implement the similar idea what licence we could provide to them. We were so much happy n hoped to win and we had a break.&lt;/p&gt;
+
+&lt;p&gt;During the break time we had launch and then we we visited different stalls. There were lots of artists who were potraying their creativity with absolutely beautiful piece of drawings. And then we visited to another stall which had the exhibition of different Linux distributions including Debain, Ubuntu, Kali Linux, Manjaro, Arch Linux, Elemantary OS etc. Followed by distro exhibition, we were on another stall which let us experience the Virtual Reality (VR).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/vr.jpg&quot; width=&quot;850&quot; height=&quot;638&quot; alt=&quot;Experiencing VR&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The break ended and we were back to the hall to work further. We were informed that the project must be submitted at the end of the program so we continued our work and till the last minute we invovled ourselves on the work and finally submitted it to the judges for evalutaion. We were then informed that result will be published next day. Expecting us to be at the first position we then went to photo booth which was the only remaining stall. We clicked photos there and then we left.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/pbooth.jpg&quot; width=&quot;850&quot; height=&quot;638&quot; alt=&quot;Photo Session&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The next day, result published out and we were flooded with boundless happiness. We then received a call from the organiser team to take the certificate on next day and we did the same. We were congratulated and handed the &lt;b&gt;Certificate of Excellence&lt;/b&gt; along with &lt;strong&gt;NRs. 20,000&lt;/strong&gt; worth free &lt;strong&gt;Enrollment at Techrise&lt;/strong&gt;. The project is still being continued and we are working our best to implement it soon.&lt;/p&gt;</content><author><name>Sarad Gajurel</name></author><summary type="html">Almost every techie is aware about 3rd Saturday of September and specially those who love open source, it is obviously a special day. Yes, it is the day of freedom and liberty which we call as Software Freedom Day. It is a global event and is being celebrated since 2004 August 28.
+Software Freedom Day.</summary></entry></feed>

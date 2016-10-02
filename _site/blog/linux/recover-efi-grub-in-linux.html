@@ -10,7 +10,7 @@
     <meta name="author" content="sarad">
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
-    <title>ICT Solved! - Won NOSKode 2016</title>
+    <title>ICT Solved! - Recover Grub of EFI System in Linux</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
@@ -19,23 +19,23 @@
     <link href="/assets/css/style.css" rel="stylesheet">
     <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
     <!-- Begin Jekyll SEO tag v2.0.0 -->
-<title>Won NOSKode 2016 - ICT Solved!</title>
-<meta property="og:title" content="Won NOSKode 2016">
-<meta name="description" content="Almost every techie is aware about 3rd Saturday of September and specially those who love open source, it is obviously a special day. Yes, it is the day of freedom and liberty which we call as Software Freedom Day. It is a global event and is being celebrated since 2004 August 28.Software Freedom Day.">
-<meta property="og:description" content="Almost every techie is aware about 3rd Saturday of September and specially those who love open source, it is obviously a special day. Yes, it is the day of freedom and liberty which we call as Software Freedom Day. It is a global event and is being celebrated since 2004 August 28.Software Freedom Day.">
-<link rel="canonical" href="https://ictsolved.github.io/blog/my%20life%20events/noskode2016-winner">
-<meta property="og:url" content="https://ictsolved.github.io/blog/my%20life%20events/noskode2016-winner">
+<title>Recover Grub of EFI System in Linux - ICT Solved!</title>
+<meta property="og:title" content="Recover Grub of EFI System in Linux">
+<meta name="description" content="All the linux users who use distro having GRUB as a bootloader are aware of its value. That hard time when you power on the computer and after a brand logo the next screen just appears to show you message that GRUB was not able to load the entries. In this article, you’ll get to know how to recover the GRUB bootloader on EFI/UEFI system.">
+<meta property="og:description" content="All the linux users who use distro having GRUB as a bootloader are aware of its value. That hard time when you power on the computer and after a brand logo the next screen just appears to show you message that GRUB was not able to load the entries. In this article, you’ll get to know how to recover the GRUB bootloader on EFI/UEFI system.">
+<link rel="canonical" href="https://ictsolved.github.io/blog/linux/recover-efi-grub-in-linux">
+<meta property="og:url" content="https://ictsolved.github.io/blog/linux/recover-efi-grub-in-linux">
 <meta property="og:site_name" content="ICT Solved!">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2016-09-22T13:39:46+05:45">
+<meta property="article:published_time" content="2016-09-30T09:01:46+05:45">
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "Won NOSKode 2016",
-    "datePublished": "2016-09-22T13:39:46+05:45",
-    "description": "Almost every techie is aware about 3rd Saturday of September and specially those who love open source, it is obviously a special day. Yes, it is the day of freedom and liberty which we call as Software Freedom Day. It is a global event and is being celebrated since 2004 August 28.Software Freedom Day.",
-    "url": "https://ictsolved.github.io/blog/my%20life%20events/noskode2016-winner"
+    "headline": "Recover Grub of EFI System in Linux",
+    "datePublished": "2016-09-30T09:01:46+05:45",
+    "description": "All the linux users who use distro having GRUB as a bootloader are aware of its value. That hard time when you power on the computer and after a brand logo the next screen just appears to show you message that GRUB was not able to load the entries. In this article, you’ll get to know how to recover the GRUB bootloader on EFI/UEFI system.",
+    "url": "https://ictsolved.github.io/blog/linux/recover-efi-grub-in-linux"
   }
 </script>
 <!-- End Jekyll SEO tag -->
@@ -85,7 +85,7 @@
             <div id="blue">
     <div class="container">
         <div class="row">
-            <h3>Won NOSKode 2016</h3>
+            <h3>Recover Grub of EFI System in Linux</h3>
         </div>
 <!-- /row -->
     </div> <!-- /container -->
@@ -97,37 +97,97 @@
         
         <div class="col-lg-8">
             
-            <p><img class="img-responsive" src="/assets/img/blog/team.jpg"></p>
-            <a href="/blog/my%20life%20events/noskode2016-winner"><h3 class="ctitle">Won NOSKode 2016</h3></a>
-            <p><small><i class="fa fa-calendar"></i>  Sep 22, 2016   <i class="fa fa-user"></i> Sarad Gajurel   <i class="fa fa-clock-o"></i> Reading time:  
+            <p><img class="img-responsive" src="/assets/img/blog/grub.jpg"></p>
+            <a href="/blog/linux/recover-efi-grub-in-linux"><h3 class="ctitle">Recover Grub of EFI System in Linux</h3></a>
+            <p><small><i class="fa fa-calendar"></i>  Sep 30, 2016   <i class="fa fa-user"></i> Sarad Gajurel   <i class="fa fa-clock-o"></i> Reading time:  
   
-    4 minutes
+    2 minutes
    </small></p>
               
-            <p>Almost every techie is aware about 3<sup>rd</sup> Saturday of September and specially those who love open source, it is obviously a special day. Yes, it is the day of freedom and liberty which we call as <b>Software Freedom Day.</b> It is a global event and is being celebrated since 2004 August 28.
-Software Freedom Day. <!--more--></p>
+            <p>All the linux users who use distro having <b>GRUB</b> as a bootloader are aware of its value. That hard time when you power on the computer and after a brand logo the next screen just appears to show you message that GRUB was not able to load the entries. In this article, you’ll get to know how to recover the GRUB bootloader on EFI/UEFI system. <!--more--></p>
 
-<p><img src="/assets/img/blog/sfd2016.jpg" width="850" height="329" alt="SFD 2016"></p>
+<p><b>NOTE:</b> This article shows the method of recovering the GRUB only for EFI/UEFI systems so if your bootsector uses MBR this does not work at all.</p>
 
-<p>Being a computer science student and a Linux user, it was more than an ordinary day for me too. On the top of it, I had registered for a event ‘NOSKathon’ organised by Nepal Open Source Club (NOSK) where the team of 2-4 person could participate and compete with other team under theme ‘FOSS for people’. The challenge was to make use of the open source and to serve the locality. I also built-up the team with my other 3 friends and named our team <a href="https://aarcana.github.io" target="_blank">Aarcana</a>.</p>
+<p><b>Pre-requisite:</b> Live bootable media of your Linux distro and an working internet connection</p>
 
-<p><img src="/assets/img/blog/aarcana.jpg" width="850" height="478" alt="Aarcana: for society"></p>
+<font color="red"><b>Warning:</b></font>
+<p>Donot forget to unmount the mounted drives before you power off or reboot otherwise your disk or data may corrupt.</p>
 
-<p>The event was held at NCIT College, Balkumari and I along with my team reached there on time. There were number of programs in the schedule list. First we were taken to the hall where we would compete and then we were given the instructions on what and how we need to do the project. After discussing the idea and how we will implement it for half an hour, next program from the schedule took us to the speech hall. First speech was by <b>Mahabir Pun</b> who inspired all the participants. After him another speech was given by <b>Takehiro Mouri</b> who is co-founder of TECHRISE. He demonstrated how one who is dedicated contribute the effort can become a web developer in two months.</p>
+<p><u><b>Steps:</b></u></p>
 
-<p><img src="/assets/img/blog/speakers.jpg" width="960" height="426" alt=""></p>
+<ol>
+  <li>
+    <p>Boot your Linux distro live</p>
+  </li>
+  <li>
+    <p>open the terminal</p>
+  </li>
+  <li>
+    <p>Find out Linux partition and EFI partition with following command:</p>
 
-<p>After the speech we returned to our workplace and we were given a couple of hours to prepare a draft and we had to present that to the judges. We had a brand new concept <a href="https://github.com/teamaarcana/Gas-Soln" target="_blank">Gas-Soln</a>. which targets to minimise the shortage of fuel inside the valley. We prepared prototype and presented it to the jury members. It was an interactive presentation as they threw question one after another to us and we also replied each of the questions. It seemed they were much impressed by the idea of our project and they even asked if they would like to implement the similar idea what licence we could provide to them. We were so much happy n hoped to win and we had a break.</p>
+    <div class="highlighter-rouge">
+<pre class="highlight"><code> sudo fdisk -l
+</code></pre>
+    </div>
 
-<p>During the break time we had launch and then we we visited different stalls. There were lots of artists who were potraying their creativity with absolutely beautiful piece of drawings. And then we visited to another stall which had the exhibition of different Linux distributions including Debain, Ubuntu, Kali Linux, Manjaro, Arch Linux, Elemantary OS etc. Followed by distro exhibition, we were on another stall which let us experience the Virtual Reality (VR).</p>
+    <p>You will see the output similar to image below:</p>
 
-<p><img src="/assets/img/blog/vr.jpg" width="850" height="638" alt="Experiencing VR"></p>
+    <p><img src="/assets/img/blog/fdisk.jpg" width="850" height="450" alt="partitions"></p>
 
-<p>The break ended and we were back to the hall to work further. We were informed that the project must be submitted at the end of the program so we continued our work and till the last minute we invovled ourselves on the work and finally submitted it to the judges for evalutaion. We were then informed that result will be published next day. Expecting us to be at the first position we then went to photo booth which was the only remaining stall. We clicked photos there and then we left.</p>
+    <p>Look at the ‘Device’ and ‘Type’ column. In my case,</p>
 
-<p><img src="/assets/img/blog/pbooth.jpg" width="850" height="638" alt="Photo Session"></p>
+    <div class="highlighter-rouge">
+<pre class="highlight"><code> /dev/sda2 is EFI System
 
-<p>The next day, result published out and we were flooded with boundless happiness. We then received a call from the organiser team to take the certificate on next day and we did the same. We were congratulated and handed the <b>Certificate of Excellence</b> along with <strong>NRs. 20,000</strong> worth free <strong>Enrollment at Techrise</strong>. The project is still being continued and we are working our best to implement it soon.</p>
+ /dev/sda7 is Linux filesystem
+</code></pre>
+    </div>
+
+    <p>Note out your EFI System and Linux filesystem Device.</p>
+  </li>
+  <li>
+    <p>Now you need to execute the following commands replacing with your ‘Device’ accordingly:</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code> sudo mount /dev/sda7 /mnt
+
+ sudo mount /dev/sda2 /mnt/boot/efi
+
+ sudo for i in /dev /dev/pts /proc /sys; do sudo mount -B $i /mnt$i; done
+
+ sudo cp /etc/resolv.conf /mnt/etc/
+
+ sudo modprobe efivars
+
+ sudo chroot /mnt
+
+ sudo apt-get install --reinstall grub-efi-amd64
+
+ sudo update-grub
+
+ sudo for i in /sys /proc /dev/pts /dev; do sudo umount /mnt$i; done
+
+ sudo umount /mnt/boot/efi
+
+ sudo umount /mnt
+
+ sudo reboot
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Now you are done and the grub menu should appear on reboot.</p>
+  </li>
+</ol>
+
+<p><b>NOTE:</b> If you have dual boot, another OS may not be listed in the entry so after reboot open the terminal and enter following command:</p>
+
+<div class="highlighter-rouge">
+<pre class="highlight"><code>	sudo update-grub
+</code></pre>
+</div>
+
+<p>That’s all and you are good to go. Let me know through comments if you face any problem and I’ll be there for you.</p>
 
             <div class="spacing"></div>
              <h4>Share post
@@ -194,8 +254,8 @@ var disqus_config = function () {
     <div class="hline"></div>
     
         <p>
-            <a href="/category/#My%20Life%20Events"><i class="fa fa-angle-right"></i> My life events</a>
-            <span class="badge badge-theme pull-right">1</span>
+            <a href="/category/#Personal%20Archive"><i class="fa fa-angle-right"></i> Personal archive</a>
+            <span class="badge badge-theme pull-right">2</span>
         </p>
     
         <p>
@@ -211,14 +271,20 @@ var disqus_config = function () {
         <ul class="popular-posts">
              
                 <li>
-                    <a href="/blog/linux/recover-grub-in-linux-efi"><img src="/assets/img/blog/thumbs/grub.jpg" alt="Popular Post"></a>
-                    <p><a href="/blog/linux/recover-grub-in-linux-efi">Recover Grub of EFI System in Linux</a></p>
+                    <a href="/blog/personal%20archive/web-development-at-techrise"><img src="/assets/img/blog/thumbs/techrise-enrollment.jpg" alt="Popular Post"></a>
+                    <p><a href="/blog/personal%20archive/web-development-at-techrise">Learning Web Development at TECHRISE</a></p>
+                <em>Posted on 02 Oct 2016</em>
+            </li>
+             
+                <li>
+                    <a href="/blog/linux/recover-efi-grub-in-linux"><img src="/assets/img/blog/thumbs/grub.jpg" alt="Popular Post"></a>
+                    <p><a href="/blog/linux/recover-efi-grub-in-linux">Recover Grub of EFI System in Linux</a></p>
                 <em>Posted on 30 Sep 2016</em>
             </li>
              
                 <li>
-                    <a href="/blog/my%20life%20events/noskode2016-winner"><img src="/assets/img/blog/thumbs/team.jpg" alt="Popular Post"></a>
-                    <p><a href="/blog/my%20life%20events/noskode2016-winner">Won NOSKode 2016</a></p>
+                    <a href="/blog/personal%20archive/noskode2016-winner"><img src="/assets/img/blog/thumbs/team.jpg" alt="Popular Post"></a>
+                    <p><a href="/blog/personal%20archive/noskode2016-winner">Won NOSKode 2016</a></p>
                 <em>Posted on 22 Sep 2016</em>
             </li>
              
@@ -230,7 +296,7 @@ var disqus_config = function () {
     <div class="hline"></div>
     <p>
     
-            <a class="btn btn-theme" href="/category/#My%20Life%20Events" role="button">My life events (1)</a>	         
+            <a class="btn btn-theme" href="/category/#Personal%20Archive" role="button">Personal archive (2)</a>	         
         
             <a class="btn btn-theme" href="/category/#Linux" role="button">Linux (1)</a>	         
         

@@ -5,7 +5,7 @@ date: 2016-09-22 07:54:46
 author: Sarad Gajurel
 categories:
 - blog
-- My Life Events
+- Personal Archive
 img: team.jpg
 thumb: team.jpg
 ---
@@ -19,6 +19,7 @@ Software Freedom Day. <!--more-->
 Being a computer science student and a Linux user, it was more than an ordinary day for me too. On the top of it, I had registered for a event 'NOSKathon' organised by Nepal Open Source Club (NOSK) where the team of 2-4 person could participate and compete with other team under theme 'FOSS for people'. The challenge was to make use of the open source and to serve the locality. I also built-up the team with my other 3 friends and named our team <a href="https://aarcana.github.io" target="_blank">Aarcana</a>.
 
 <img src="/assets/img/blog/aarcana.jpg" width="850" height="478" alt="Aarcana: for society">
+Team Aarcana: Rujan Shakya, Sarad Gajurel, Deepak Lal Karna and Ranjan Bir Bajracharya (Left-to-Right)
 
 The event was held at NCIT College, Balkumari and I along with my team reached there on time. There were number of programs in the schedule list. First we were taken to the hall where we would compete and then we were given the instructions on what and how we need to do the project. After discussing the idea and how we will implement it for half an hour, next program from the schedule took us to the speech hall. First speech was by <b>Mahabir Pun</b> who inspired all the participants. After him another speech was given by <b>Takehiro Mouri</b> who is co-founder of TECHRISE. He demonstrated how one who is dedicated contribute the effort can become a web developer in two months.
 

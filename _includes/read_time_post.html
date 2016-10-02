@@ -1,5 +1,5 @@
  {% assign words = content | number_of_words %}
-  {% if words < 360 %}
+  {% if words < 180 %}
     1 min
   {% else %}
     {{ content | number_of_words | plus:90 | divided_by:180 }} minutes

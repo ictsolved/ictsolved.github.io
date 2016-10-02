@@ -19,6 +19,7 @@ All the linux users who use distro having <b>GRUB</b> as a bootloader are aware 
 <font color="red"><b>Warning:</b></font> Donot forget to unmount the mounted drives before you power off or reboot otherwise your disk or data may corrupt.
 
 <u><b>Steps:</b></u>
+
 1. Boot your Linux distro live
 
 2. open the terminal

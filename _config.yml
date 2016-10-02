@@ -12,7 +12,7 @@ gems:
 # Site settings
 title: ICT Solved!
 description: "A complete web portal to solve your problems related with Android, iOS, Linux and Windows."
-baseurl: "/ictsolved.github.io"
+#baseurl: "/ictsolved.github.io"
 url: "https://ictsolved.github.io"
 
 # Build settings

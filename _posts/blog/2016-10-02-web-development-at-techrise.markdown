@@ -10,7 +10,7 @@ img: techrise-enrollment.jpg
 thumb: techrise-enrollment.jpg
 ---
 
-I have already posted about my event of <a href="noskode2016-winner" target="_blank">winning NOSKode2016</a> held on Software Freedom Day. I along with my team other members of our team <a href="https://aarcana.github.io" target="_blank">Aarcana: for society</a> were rewarded with the certificate of excellence and were given an opportunity to learn an web development course worth NRs. 20,000 for free at <a href="https://www.facebook.com/techrisenepal/" target="_blank">TECHRISE</a>. It was a great moment of joy and our happiness was on the top. So here is how our web development career begun at TECHRISE. <!--more-->
+I have already posted about my event of <a href="noskode2016-winner" target="_blank">winning NOSKode2016</a> held on Software Freedom Day. I along with other members of my team <a href="https://aarcana.github.io" target="_blank">Aarcana: for society</a> were rewarded with the certificate of excellence and were given an opportunity to learn an web development course worth NRs. 20,000 for free at <a href="https://www.facebook.com/techrisenepal/" target="_blank">TECHRISE</a>. It was a great moment of joy and our happiness was on the top. So here is how our web development career begun at TECHRISE. <!--more-->
 
 After the announcement of reward, we were scheduled for an meeting at TECHRISE a couple of days later. When we reached there, we were congratulated by the co-founders <b>Takehiro Mouri</b> and <b>Natsuko Robyn Shinozaki</b>. They officially welcomed us at TECHRISE and we enrolled ourselves for learning one of the courses they provide. It's all about being a web developer within two months standing on the platform of Ruby on Rails.
 

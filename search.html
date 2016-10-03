@@ -11,10 +11,8 @@ permalink: /search
         <div class="col-lg-8">
         
             <! -- Search Result -->
-		<h3 class="ctitle" id="search-results"></h3>
-                <h4>Search Complete! Click <a href="/blog/" target="_self">here </a>to see all posts.</h4>
+		<ol><h4 class="ctitle" id="search-results"></h4></ol>
                 <div class="spacing"></div>
-            
         </div><! --/col-lg-8 -->
         {% include sidebar.html %}
     </div><! --/row -->
@@ -36,4 +34,4 @@ permalink: /search
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
   };
-</script>						
+</script>

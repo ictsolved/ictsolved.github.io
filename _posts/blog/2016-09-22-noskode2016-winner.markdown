@@ -5,14 +5,13 @@ date: 2016-09-22 07:54:46
 author: Sarad Gajurel
 categories:
 - blog
-- Personal Archive
+- Memorandum
 img: team.jpg
 thumb: team.jpg
 ---
 
 
-Almost every techie is aware about 3<sup>rd</sup> Saturday of September and specially those who love open source, it is obviously a special day. Yes, it is the day of freedom and liberty which we call as <b>Software Freedom Day.</b> It is a global event and is being celebrated since 2004 August 28.
-Software Freedom Day. <!--more-->
+Almost every techie is aware about 3<sup>rd</sup> Saturday of September and specially those who love open source, it is obviously a special day. Yes, it is the day of freedom and liberty which we call as <b>Software Freedom Day.</b> It is a global event and is being celebrated since 2004 August 28. <!--more-->
 
 <img src="/assets/img/blog/sfd2016.jpg" width="850" height="329" alt="SFD 2016">
 

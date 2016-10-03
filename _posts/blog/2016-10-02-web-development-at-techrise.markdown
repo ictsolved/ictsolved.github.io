@@ -5,7 +5,7 @@ date: 2016-10-02 17:54:46
 author: Sarad Gajurel
 categories:
 - blog
-- Personal Archive
+- Memorandum
 img: techrise-enrollment.jpg
 thumb: techrise-enrollment.jpg
 ---

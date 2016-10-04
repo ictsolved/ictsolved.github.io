@@ -8,6 +8,7 @@ categories:
 - Memorandum
 img: team.jpg
 thumb: team.jpg
+redirect_from: /blog/my%2520life%2520events/noskode2016-winner
 ---
 
 

@@ -46,7 +46,7 @@ This plugin will automatically generate an Atom feed at "/feed.xml" or "_site/fe
 <br><br><br>
 <img src="/assets/img/blog/ifttt5.jpg" alt="feed results">
 <br><br><br><br>
-<b>8. The next step is to provide link to feed.xml. If your site is hosted in Github it is probably "github_username.github.io/feed.xml" or "github_username.github.io/repository_name/feed.xml". Provide the link correctly link and click "Create Trigger".</b>
+<b>8. The next step is to provide link to feed.xml. If your site is hosted in Github it is probably "github_username.github.io/feed.xml" or "github_username.github.io/repo_name/feed.xml". Provide the link correctly link and click "Create Trigger".</b>
 <br><br><br>
 <img src="/assets/img/blog/ifttt6.jpg" alt="feed.xml link">
 <br><br><br><br>

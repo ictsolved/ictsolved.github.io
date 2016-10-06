@@ -74,7 +74,7 @@ Note: The URL of your posts get shortened while tweeting but if you do not want 
 <br><br><br><br>
 <img src="/assets/img/blog/ifttt11.jpg" alt="preferences">
 <br><br><br><br>
-<b>2. Remove tick from tick "Auto shorten URLs" and click on Update settings</b>
+<b>2. Remove check mark from "Auto shorten URLs" and click on Update settings</b>
 <br><br><br><br>
 <img src="/assets/img/blog/ifttt12.jpg" alt="avoiding short urls">
 <br><br><br><br>

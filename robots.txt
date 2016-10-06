@@ -1,5 +1,5 @@
+Sitemap: https://ictsolved.github.io/sitemap.xml
 User-agent:  *
 Disallow: /404.html
 Disallow: /search.html
 Disallow: /google8f9b3acf64578e46.html
-Sitemap: https://ictsolved.github.io/sitemap.xml

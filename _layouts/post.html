@@ -34,7 +34,11 @@ layout: default
                 </a>
 
                 <a href="//www.pinterest.com/pin/create/button/?description={{ page.title | cgi_escape }}&url={{ page.url | prepend: site.url }}&media={{ site.url }}{% if page.cover %}{{ page.cover | prepend: site.baseurl  }}{% elsif site.cover %}{{ site.cover | prepend: site.baseurl }}{% else %}{{ site.logo | prepend: site.baseurl }}{% endif %}" target="_blank" onclick="window.open(this.href, 'pinterest-share');return false;">
-                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-pinterest-p"></i>
+                </a>
+
+                <a href="//www.reddit.com/submit" onclick="window.open(this.href = '//www.reddit.com/submit?url=' + encodeURIComponent('{{ page.url | prepend: site.url }}') + '&title={{page.title}}'); return false">
+                    <i class="fa fa-reddit-alien" ></i>
                 </a>
                 
             </p> <br>

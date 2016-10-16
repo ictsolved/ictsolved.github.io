@@ -17,8 +17,26 @@ layout: default
             <div class="spacing"></div>
             <h4>Share post</h4>
             <p class="share">
-                <a href="https://twitter.com/share" target="_blank" data-show-count="false"><i class="fa fa-twitter"></i></a>
-                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="//www.twitter.com/share?text={{ page.title | cgi_escape }}&url={{ page.url | prepend: site.url }}" target="_blank" onclick="window.open(this.href, 'twitter-share');return false;">
+                    <i class="fa fa-twitter"></i>
+                </a>
+
+                <a href="//www.facebook.com/sharer.php?t={{ page.title | cgi_escape }}&u={{ page.url | prepend: site.url }}" target="_blank" onclick="window.open(this.href, 'facebook-share');return false;">
+                    <i class="fa fa-facebook"></i>
+                </a>
+
+                <a href="//plus.google.com/share?title={{ page.title | cgi_escape }}&url={{ page.url | prepend: site.url }}" target="_blank" onclick="window.open(this.href, 'google-plus-share');return false;">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+
+                <a href="//www.linkedin.com/shareArticle?mini=true&url={{ page.url | prepend: site.url }}" target="_blank" onclick="window.open(this.href, 'linkedin-share');return false;">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+
+                <a href="//www.pinterest.com/pin/create/button/?description={{ page.title | cgi_escape }}&url={{ page.url | prepend: site.url }}&media={{ site.url }}{% if page.cover %}{{ page.cover | prepend: site.baseurl  }}{% elsif site.cover %}{{ site.cover | prepend: site.baseurl }}{% else %}{{ site.logo | prepend: site.baseurl }}{% endif %}" target="_blank" onclick="window.open(this.href, 'pinterest-share');return false;">
+                    <i class="fa fa-pinterest"></i>
+                </a>
+                
             </p> <br>
             {% include disqus.html %}
 

@@ -14,7 +14,7 @@ title: ICT Solved!
 description: "A complete web portal to solve your problems related with Android, iOS, Linux and Windows."
 #baseurl: ""
 url: "https://ictsolved.github.io"
-logo: "/assets/img/logo.png"
+blog_img_path: "/assets/img/blog/"
 
 # Build settings
 markdown: kramdown

@@ -4,12 +4,36 @@
     {% include head.html %}
 
     <body>
+        <!-- bootstrap -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- bootstrap.js-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link href="{{ "/assets/css/style.css" | prepend: site.baseurl }}" rel="stylesheet">
+        <!-- font-awesome -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <!-- retina.js -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/2.1.0/retina.min.js"></script>
+        <!-- prettyPhoto.js -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.min.js"></script>
+        <!-- isotope.js -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js"></script>
+        <!-- lunr -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/0.7.2/lunr.min.js"></script>
+        <!-- jquerry -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- hoverdir -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.hoverdir/1.1.1/jquery.hoverdir.min.js"></script>
+
+        <script src="{{ "/assets/js/jquery.hoverex.min.js" | prepend: site.baseurl }}"></script>
+        
+        {% include js.html %}
+        
         {% include nav.html %}
 
             {{ content }}
 
         {% include footer.html %}
-        {% include js.html %}
         
     </body>
 </html>

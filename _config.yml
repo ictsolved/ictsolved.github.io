@@ -9,6 +9,8 @@ gems:
    - jekyll-feed
    - jekyll-sitemap
 
+include: [.htaccess]
+
 # Site settings
 title: ICT Solved!
 description: "A complete web portal to solve your problems related with Android, iOS, Linux and Windows."

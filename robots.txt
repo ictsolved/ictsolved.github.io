@@ -4,3 +4,4 @@ Disallow: /404.html
 Disallow: /search.html
 Disallow: /google8f9b3acf64578e46.html
 Disallow: /pinterest-7bd45.html
+Disallow: /robots.txt

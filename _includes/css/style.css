@@ -1,4 +1,4 @@
-/*@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);@import url(https://fonts.googleapis.com/css?family=Lato:400,900);@import url("prettyPhoto.css") screen;@import url("hoverex-all.css") screen;*/*{margin:0;padding:0px;}
+*{margin:0;padding:0px;}
 body{background:#ffffff;margin:0;height:100%;color:#384452;font-family:'Lato', sans-serif;font-weight:400;}
 h1, h2, h3, h4, h5, h6{font-family:'Raleway', sans-serif;font-weight:700;}
 p{padding:0;margin-bottom:12px;font-family:'Lato', sans-serif;font-weight:400;font-size:15px;line-height:24px;color:#384452;margin-top:10px;}
@@ -78,5 +78,5 @@ csmall{font-size:12px;color:#b3b3b3;}
 .popular-posts li img{float:left;margin-right:20px;}
 .popular-posts li em{font-family:'Lato', sans-serif;font-size:12px;color:#b3b3b3}
 .popular-posts p{line-height:normal;margin-bottom:auto;}
-.share i{padding-right:15px;font-size:18px;}
+.share i{padding-right:15px;padding-left:10px;font-size:24px;}
 a.anchor{display:block;position:relative;top:-80px;visibility:hidden;}

@@ -85,10 +85,20 @@
     </script>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <style type="text/css">
+      {% include css/bootstrap.css %}
+    </style>
 
     <!-- Custom styles for this template -->
-    <link href="{{ "/assets/css/style.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <style type="text/css">
+      {% include css/style.css %}
+    </style>
+        <style type="text/css">
+      {% include css/lato-font.css %}
+    </style>
+        <style type="text/css">
+      {% include css/raleway-font.css %}
+    </style>
     <script>
       loadCSS("{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}")
     </script>
@@ -101,14 +111,6 @@
       loadCSS("{{ "/assets/css/hoverex-all.css" | prepend: site.baseurl }}")
     </script>
     <noscript><link href="{{ "/assets/css/hoverex-all.css" | prepend: site.baseurl }}" rel="stylesheet"></noscript>
-    <script>
-      loadCSS("{{ "/assets/css/raleway-font.css" | prepend: site.baseurl }}")
-    </script>
-    <noscript><link href="{{ "/assets/css/raleway-font.css" | prepend: site.baseurl }}" rel="stylesheet"></noscript>
-    <script>
-      loadCSS("{{ "/assets/css/lato-font.css" | prepend: site.baseurl }}")
-    </script>
-    <noscript><link href="{{ "/assets/css/lato-font.css" | prepend: site.baseurl }}" rel="stylesheet"></noscript>
     {% seo %}
     {% feed_meta %}
     

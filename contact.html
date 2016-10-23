@@ -4,78 +4,70 @@ title: Contact
 permalink: /contact/
 ---
 
-<div id="contactwrap"></div>
-
+<div id="contactwrap">
+</div>
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
             <h4>Leave Message or Feedback</h4>
             <div class="hline"></div>
-                <p>{{ site.about }}</p>
-                    <form role="form" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdaHXsqtqlCZuJOHa_gxg09Wsfi-6kmHYxRbvsOhn41EAjddQ/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
-         				  <div class="messages"></div>
-			           			<div class="controls">
-										<div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_name">Firstname *</label>
-                                        <input id="entry.2005620554" type="text" name="entry.2005620554" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_lastname">Lastname *</label>
-                                        <input id="entry.1120656259" name="entry.1120656259" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_email">Email *</label>
-                                        <input id="entry.1045781291" type="email" name="entry.1045781291" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_subject">Subject *</label>
-                                        <input id="entry.1065046570" type="text" name="entry.1065046570" class="form-control" placeholder="Please provide subject *" required="required" data-error="Subject is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="form_message">Message *</label>
-                                        <textarea id="entry.839337160" name="entry.839337160" class="form-control" placeholder="Message or Feedback *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <p class="text-muted"><strong>*</strong> These fields are required.</p>
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn btn-theme">Send Message</button>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                </div>
-                            </div>
+            <p>{{ site.about }}</p>
+            <form id="contact-form" method="POST" action="//formspree.io/ictsimplified@gmail.com">
+                <input type="hidden" name="_next" value="https://ictsolved.github.io/thanks" />
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="fname">Firstname</label>
+                            <input class="form-control" type="text" name="name" required placeholder="Firstname">
                         </div>
-						  </form>
-                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>	
-			</div><! --/col-lg-8 -->
-			<div class="col-lg-4">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="lname">Lastname</label>
+                            <input class="form-control" type="text" name="name" required placeholder="Lastname">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input class="form-control" type="email" name="_replyto" required placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input class="form-control" type="text" name="subject" required placeholder="Subject of Message">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" name="message" placeholder="Message" required rows="5"></textarea>
+                        </div>
+                    </div>
+                    <p class="text-muted"><strong>*</strong> All fields are required.</p>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-theme">Send Message</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+             </form>
+        </div><! --/col-lg-8 -->
+        <div class="col-lg-4">
             <h4>Address</h4>
             <div class="hline"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
+            <p>
+                {% for line in site.address.first.lines %} {{ line }}
+                <br> {% endfor %}
+            </p>
         </div>
     </div><! --/row -->
 </div><! --/container -->

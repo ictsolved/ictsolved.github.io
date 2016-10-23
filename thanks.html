@@ -1,0 +1,82 @@
+---
+layout: contact
+title: Contact
+permalink: /thanks/
+---
+
+<div id="contactwrap">
+</div>
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>Leave Message or Feedback</h4>
+            <div class="hline"></div>
+            <p>{{ site.about }}</p>
+            <div class="alert alert-success alert-dismissible fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <strong>Success!</strong> You will be responded soon.
+            </div>
+            <form id="contact-form" method="POST" action="//formspree.io/ictsimplified@gmail.com">
+                <input type="hidden" name="_next" value="https://ictsolved.github.io/thanks" />
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="fname">Firstname</label>
+                            <input class="form-control" type="text" name="name" required placeholder="Firstname">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="lname">Lastname</label>
+                            <input class="form-control" type="text" name="name" required placeholder="Lastname">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input class="form-control" type="email" name="_replyto" required placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input class="form-control" type="text" name="subject" required placeholder="Subject of Message">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" name="message" placeholder="Message" required rows="5"></textarea>
+                        </div>
+                    </div>
+                    <p class="text-muted"><strong>*</strong> All fields are required.</p>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-theme">Send Message</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <! --/col-lg-8 -->
+        <div class="col-lg-4">
+            <h4>Address</h4>
+            <div class="hline"></div>
+            <p>
+                {% for line in site.address.first.lines %} {{ line }}
+                <br> {% endfor %}
+            </p>
+        </div>
+    </div>
+    <! --/row -->
+</div>
+<! --/container -->

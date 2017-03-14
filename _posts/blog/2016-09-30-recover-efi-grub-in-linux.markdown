@@ -10,13 +10,11 @@ img: grub.jpg
 thumb: grub.jpg
 ---
 
-All the linux users who use distro having <b>GRUB</b> as a bootloader are aware of its value. That hard time when you power on the computer and after a brand logo the next screen just appears to show you message that GRUB was not able to load the entries. In this article, you'll get to know how to recover the GRUB bootloader on EFI/UEFI system. <!--more-->
+All the linux users who use distro with <b>GRUB</b> as a bootloader are aware of its value. That hard time when you power on the computer and after a brand logo the next screen just appears to show you message that GRUB was not able to load the entries. In this article, you'll get to know how to recover the GRUB bootloader on EFI/UEFI system. <!--more-->
 
-<b>NOTE:</b> This article shows the method of recovering the GRUB only for EFI/UEFI systems so if your bootsector uses MBR this does not work at all.
+<b>NOTE:</b> This article shows the method of recovering the GRUB only for Debian and it's derrivatives that uses 'apt-get' as package manager with EFI/UEFI systems. If your bootsector uses MBR this does not work at all.
 
 <b>Pre-requisite:</b> Live bootable media of your Linux distro and an working internet connection
-
-<font color="red"><b>Warning:</b></font> Donot forget to unmount the mounted drives before you power off or reboot otherwise your disk or data may corrupt.
 
 <u><b>Steps:</b></u>
 
@@ -46,23 +44,25 @@ All the linux users who use distro having <b>GRUB</b> as a bootloader are aware 
 	
 		sudo mount /dev/sda2 /mnt/boot/efi
 	
-		sudo for i in /dev /dev/pts /proc /sys; do sudo mount -B $i /mnt$i; done
+		sudo for i in /dev /dev/pts /proc /sys /run; do sudo mount -B $i /mnt$i; done
 	
 		sudo cp /etc/resolv.conf /mnt/etc/
 	
 		sudo modprobe efivars
 	
 		sudo chroot /mnt
+
+		sudo apt-get update
 	
 		sudo apt-get install --reinstall grub-efi-amd64
 	
 		sudo update-grub
 	
-		sudo for i in /sys /proc /dev/pts /dev; do sudo umount /mnt$i; done
-	
 		sudo umount /mnt/boot/efi
 	
 		sudo umount /mnt
+
+		exit
 	
 		sudo reboot
 	

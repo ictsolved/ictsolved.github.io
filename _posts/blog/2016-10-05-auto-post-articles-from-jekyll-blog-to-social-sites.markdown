@@ -26,7 +26,7 @@ Please note that _config.yml does not support "TAB" so use "white space" for ind
 
 This plugin will automatically generate an Atom feed at "/feed.xml" or "_site/feed.xml", if you are running locally.
 
-<b>3. Go to [IFTTT](https://ifttt.com/){:target="_blank"} and sign-up for an account.</b>
+<b>3. Go to [IFTTT <i class="fa fa-external-link" aria-hidden="true"></i>](https://ifttt.com/){:target="_blank"} and sign-up for an account.</b>
 <br><br><br><br>
 <img src="/assets/img/blog/ifttt1.jpg" alt="IFTTT sign-up">
 <br><br><br><br><br>

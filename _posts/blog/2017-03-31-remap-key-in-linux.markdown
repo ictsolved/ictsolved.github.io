@@ -11,7 +11,7 @@ thumb: linux-remap.jpg
 
 ---
 
-If you are using Linux on MacBook or a key on your keyboard is broken or you have a special key on your keyboard and you want to use it differently than it is designed then you may feel the need to remap the keys of your keyboard. Remapping the keys means changing the input behaviour of your keyboard and making it work as we want, not as it was intended. In this post you will learn to remap the keys on Linux using 'xkb', which is pre-installed on most of the linux distros. If you want to remap the keys in Windows then you can follow <a href="/blog/linux/remap-key-in-windows"> this post.</a>  <!--more-->
+If you are using Linux on MacBook or a key on your keyboard is broken or you have a special key on your keyboard and you want to use it differently than it is designed then you may feel the need to remap the keys of your keyboard. Remapping the keys means changing the input behaviour of your keyboard and making it work as we want, not as it was intended. In this post you will learn to remap the keys on Linux using 'xkb', which is pre-installed on most of the linux distros. If you want to remap the keys in Windows then you can follow <a href="/blog/windows/remap-key-in-windows"> this post.</a>  <!--more-->
 
 The 'Delete' key is broken in my laptop so I am going to remap it to 'Insert' key. The procedure is same for other keys as well which is as follows:
 

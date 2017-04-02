@@ -16,7 +16,7 @@ thumb: win-remap.png
 In my keyboard ‘Delete’ key is broken so I am going to remap it to ‘Insert’ key. You can follow the same procedure for remapping other keys as well.
 
 <u><b>Steps:</b></u>
-1. Download and install <a href="/assets/files/KeyTweak.exe">KeyTweak.exe</a>
+1. Download and install <a href="/assets/files/KeyTweak.zip">KeyTweak.zip</a>
 
 2. If you are on 64-bit Windows then goto following location and open KeyTweak.exe
 

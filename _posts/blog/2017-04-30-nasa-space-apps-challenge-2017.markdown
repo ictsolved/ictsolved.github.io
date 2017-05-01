@@ -24,7 +24,7 @@ On the first day all the team introduced themselves and pitched their ideas on s
 After award ceremony there was a Hi-Tea session and Networking session where participants engaged in extending their friend circle. The participants also created the network with organizers, collaborators and supporters. We discussed about our project with the jury members too and they wanted to know if we'll be implementing the project, we reported that it is currently in the development phase and it will be further continued if we get support of mentors and sponsers.
 
 <img src="/assets/img/blog/nasa-2.jpg" alt="Aarcana with RAN president and vice president">
-Photo shoot with RAN President Bikash Gurung and Vice-president Utsab Shrestha (Position 3<sup>rd</sup> and 4<sup>th</sup> from right to left respectively)
+Photo shoot with RAN President Bikash Gurung and Vice-president Utsab Shrestha (Position 4<sup>th</sup> and 5<sup>th</sup> from right to left respectively)
 
 
 These were the major incidents of the two-days hackathon. Feel free to share your response on how interesting was it for you to know about my experience. Thanks!

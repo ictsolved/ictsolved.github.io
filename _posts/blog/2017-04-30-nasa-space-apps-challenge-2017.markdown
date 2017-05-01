@@ -27,4 +27,4 @@ After award ceremony there was a Hi-Tea session and networking session where par
 Photo shoot with RAN President Bikash Gurung and Vice-president Utsab Shrestha (Position 3<sup>rd</sup> and 4<sup>th</sup> from right to left respectively)
 
 
-These were the major incidents of the two-day hackathon. Feel free to share your response on how interesting was it for you to know about my experience. Thanks!
+These were the major incidents of the two-days hackathon. Feel free to share your response on how interesting was it for you to know about my experience. Thanks!

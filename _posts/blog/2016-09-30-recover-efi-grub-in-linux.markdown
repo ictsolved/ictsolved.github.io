@@ -8,6 +8,7 @@ categories:
 - Linux
 img: grub.jpg
 thumb: grub.jpg
+redirect_from: /blog/linux/recover-grub-in-linux-efi
 ---
 
 All the linux users who use distro with <b>GRUB</b> as a bootloader are aware of its value. That hard time when you power on the computer and after a brand logo the next screen just appears to show you message that GRUB was not able to load the entries. In this article, you'll get to know how to recover the GRUB bootloader on EFI/UEFI system. <!--more-->

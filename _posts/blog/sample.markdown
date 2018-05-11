@@ -19,3 +19,7 @@ thumb:
 
 
 <img src="/assets/img/blog/.jpg" alt="">
+
+image_size=850x450
+
+thumb_size=70x70

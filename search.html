@@ -4,20 +4,6 @@ title: Search
 permalink: /search
 ---
 
-<div class="container mtb">
-    <div class="row">
-    
-        <!-- BLOG POSTS LIST -->
-        <div class="col-lg-8">
-        
-            <!-- Search Result -->
-		<ol><h4 class="ctitle" id="search-results"></h4></ol>
-                <div class="spacing"></div>
-        </div><!--/col-lg-8 -->
-        {% include sidebar.html %}
-    </div><!-- /row -->
-</div><!-- /container -->
-
 <!-- Search -->
 <script async src="/assets/js/lunr.min.js"></script>
 <script async src="/assets/js/search.js"></script>
@@ -35,3 +21,18 @@ permalink: /search
     {% endfor %}
   };
 </script>
+
+<!-- Result -->
+<div class="container mtb">
+    <div class="row">
+    
+        <!-- BLOG POSTS LIST -->
+        <div class="col-lg-8">
+        
+            <!-- Search Result -->
+		<ol><h3 class="ctitle" id="search-results"></h3></ol>
+                <div class="spacing"></div>
+        </div><!--/col-lg-8 -->
+        {% include sidebar.html %}
+    </div><!-- /row -->
+</div><!-- /container -->

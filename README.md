@@ -6,6 +6,6 @@ ICT Solved! is a complete web portal that covers news, tips and tricks and my ex
 
 I need your suggestions and feedback in order to make it more helpful for you so feel free to send me feedback or message on:
 
-https://ictsolved.github.io/ictsolved.github.io/contact
+https://ictsolved.github.io/ictsolved.github.io/about
 
 Thanks.

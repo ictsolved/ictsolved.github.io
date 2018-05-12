@@ -1,8 +1,26 @@
 ---
-layout: contact
+layout: about
 title: Contact
 permalink: /thanks/
 ---
+
+<div class="container mtb">
+    <div class="row">
+        <div class="alert alert-success alert-dismissible fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <strong>Success!</strong> You will be responded soon.
+            </div>
+        <div class="col-lg-6">
+            <img class="img-responsive" src="{{ "/assets/img/about.jpg" | prepend: site.baseurl }}" alt="ICT Solved!">
+        </div>
+        <div class="col-lg-6">
+            <h4>About ICT Solved!</h4>
+            <div align="justify"><p><big>ICT Solved! is a tech blog created with an aim to update you with the posts related with computer, programming and technology. ICT Solved! covers a wide variety of posts ranging from the most common to most rare with useful tips and tricks.</big></p></div>
+        </div>
+    </div><!-- /row -->
+</div><!-- /container -->
 
 <div id="contactwrap">
 </div>
@@ -12,12 +30,6 @@ permalink: /thanks/
             <h4>Leave Message or Feedback</h4>
             <div class="hline"></div>
             <p>{{ site.about }}</p>
-            <div class="alert alert-success alert-dismissible fade in" role="alert">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <strong>Success!</strong> You will be responded soon.
-            </div>
             <form id="contact-form" method="POST" action="//formspree.io/ictsimplified@gmail.com">
                 <input type="hidden" name="_next" value="https://ictsolved.github.io/thanks" />
 
@@ -65,9 +77,8 @@ permalink: /thanks/
                     <div class="col-md-12">
                     </div>
                 </div>
-            </form>
-        </div>
-        <! --/col-lg-8 -->
+             </form>
+        </div><!-- /col-lg-8 -->
         <div class="col-lg-4">
             <h4>Address</h4>
             <div class="hline"></div>
@@ -76,7 +87,5 @@ permalink: /thanks/
                 <br> {% endfor %}
             </p>
         </div>
-    </div>
-    <! --/row -->
-</div>
-<! --/container -->
+    </div><!-- /row -->
+</div><!-- /container -->

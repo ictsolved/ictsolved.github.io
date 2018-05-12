@@ -1,6 +1,4 @@
-### GENERAL SETTINGS ###
-
-#gems used
+#plugins used
 plugins:
    - jekyll-seo-tag
    - jekyll-redirect-from
@@ -9,7 +7,8 @@ plugins:
 
 # Site settings
 title: ICT Solved!
-description: "A complete web portal to solve your problems related with Android, iOS, Linux and Windows."
+description: "Tech Blog"
+
 #baseurl: ""
 url: "https://ictsolved.github.io"
 blog_img_path: "/assets/img/blog/"
@@ -17,7 +16,7 @@ blog_img_path: "/assets/img/blog/"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post is
 
 colors:  #in hex code if not noted else
   primary: "#00b3fe" #"#F70031" 
@@ -48,17 +47,10 @@ social:
       - title: reddit-alien
         url: https://www.reddit.com/user/saradgajurel
     
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines: 
-    - Suryakot,
-    - Koteshwor, 34,
-    - Bagmati, Nepal
-
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
     
-# Members information. Shown on About page.
+# Author information
 members:
   - name: Sarad Gajurel
     position: Author
@@ -66,9 +58,9 @@ members:
     img: sarad.png
     social:
       - title: facebook
-        url: https://facebook.com/daju.sarad
+        url: https://facebook.com/saradgajurel
       - title: twitter
-        url: https://twitter.com/Sarad_Gajurel
+        url: https://twitter.com/SaradGajurel
       - title: github
         url: https://github.com/ictsolved
       - title: linkedin
@@ -80,22 +72,6 @@ members:
       - title: reddit-alien
         url: https://www.reddit.com/user/saradgajurel
     
-# Clients information. Shown on Home and About pages.
-used:
-  - name: Bootstrap
-    img: bootstrap.png
-  - name: CSS3
-    img: CSS3.png
-  - name: HTML5
-    img: HTML5.png
-  - name: Jekyll
-    img: jekyll.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "ICT Solved! is created by Sarad Gajurel with an aim to solve your problems that arise in Linux, Windows, Android and iOS. Your feedbacks are welcomed."
-
-# Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: "I am a student studying BSc. CSIT with a great enthusiasm and effort to become a successful IT professional. I want to contribute something valuable to my community, society, country and possibly to the whole world in the sector of ICT. ICT is a such field where revolution can be brought in moment of time and to bring that revolution the evolution of the ideas are needed. Trend being used should be revised in a manner that has not been implemented yet! I am on the way to it."
-    author: Sarad Gajurel
-    position: Author
+about: "ICT Solved! is a tech blog created with an aim to update you with the posts related with computer, programming and technology. ICT Solved! covers wide variety of posts with useful tips and tricks."

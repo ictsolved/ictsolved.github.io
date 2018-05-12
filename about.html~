@@ -3,38 +3,14 @@ layout: about
 title: About
 permalink: /about/
 ---
-
-<div class="container mtb">
-    <div class="row centered">
-        <h3 class="mb">About Author</h3>
-        
-        {% for member in site.members %}
-        <!-- <div class="col-lg-3 col-md-3 col-sm-3"> -->
-            <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/" | prepend: site.baseurl }}{{ member.img }}" alt="">
-                <div class="he-view">
-                    <div class="bg a0" data-animate="fadeIn">
-                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
-                        {% for entry in member.social %}
-                            <a href="{{ entry.url }}" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
-                        {% endfor %}
-                    </div><!-- he bg -->
-                </div><!-- he view -->      
-            </div><!-- he wrap -->
-            <h4>{{ member.name }}</h4>
-            <h5 class="ctitle">{{ member.position }}</h5>
-            <p><big>{{ member.text }}</big></p>
-        <!-- </div><! --/col-lg-3 -->       
-        {% endfor %}
-        
-    </div><! --/row -->
-</div><! --/container -->
-
-<div id="contactwrap">
-</div>
 <div class="container mtb">
     <div class="row">
-        <div class="col-lg-12">
+    </div><!-- /row -->
+</div><!-- /container -->
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
             <h4>Leave Message or Feedback</h4>
             <div class="hline"></div>
             <p>{{ site.about }}</p>

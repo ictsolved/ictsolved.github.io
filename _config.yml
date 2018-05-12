@@ -33,23 +33,16 @@ colors:  #in hex code if not noted else
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
       - title: facebook
-        url: https://facebook.com/daju.sarad
+        url: https://facebook.com/saradgajurel
       - title: twitter
-        url: https://twitter.com/Sarad_Gajurel
+        url: https://twitter.com/SaradGajurel
       - title: github
         url: https://github.com/ictsolved
       - title: linkedin
         url: https://np.linkedin.com/in/sarad-gajurel-10a236120
-      - title: google-plus
-        url: https://plus.google.com/u/0/105332295114267466679
-      - title: pinterest-p
-        url: https://www.pinterest.com/saradgajurel
-      - title: reddit-alien
-        url: https://www.reddit.com/user/saradgajurel
-    
 
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###    
 # Author information
 members:
   - name: Sarad Gajurel
@@ -65,12 +58,6 @@ members:
         url: https://github.com/ictsolved
       - title: linkedin
         url: https://np.linkedin.com/in/sarad-gajurel-10a236120
-      - title: google-plus
-        url: https://plus.google.com/u/0/105332295114267466679
-      - title: pinterest-p
-        url: https://www.pinterest.com/saradgajurel
-      - title: reddit-alien
-        url: https://www.reddit.com/user/saradgajurel
     
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.

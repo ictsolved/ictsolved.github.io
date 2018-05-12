@@ -5,28 +5,42 @@ permalink: /thanks/
 ---
 
 <div class="container mtb">
-    <div class="row">
+    <div class="row centered">
         <div class="alert alert-success alert-dismissible fade in" role="alert">
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 <strong>Success!</strong> You will be responded soon.
             </div>
-        <div class="col-lg-6">
-            <img class="img-responsive" src="{{ "/assets/img/about.jpg" | prepend: site.baseurl }}" alt="ICT Solved!">
-        </div>
-        <div class="col-lg-6">
-            <h4>About ICT Solved!</h4>
-            <div align="justify"><p><big>ICT Solved! is a tech blog created with an aim to update you with the posts related with computer, programming and technology. ICT Solved! covers a wide variety of posts ranging from the most common to most rare with useful tips and tricks.</big></p></div>
-        </div>
-    </div><!-- /row -->
-</div><!-- /container -->
+        <h3 class="mb">About Author</h3>
+        
+        {% for member in site.members %}
+        <!-- <div class="col-lg-3 col-md-3 col-sm-3"> -->
+            <div class="he-wrap tpl6">
+            <img src="{{ "/assets/img/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+                <div class="he-view">
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
+                        {% for entry in member.social %}
+                            <a href="{{ entry.url }}" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                        {% endfor %}
+                    </div><!-- he bg -->
+                </div><!-- he view -->      
+            </div><!-- he wrap -->
+            <h4>{{ member.name }}</h4>
+            <h5 class="ctitle">{{ member.position }}</h5>
+            <p><big>{{ member.text }}</big></p>
+        <!-- </div><! --/col-lg-3 -->       
+        {% endfor %}
+        
+    </div><! --/row -->
+</div><! --/container -->
 
 <div id="contactwrap">
 </div>
 <div class="container mtb">
     <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
             <h4>Leave Message or Feedback</h4>
             <div class="hline"></div>
             <p>{{ site.about }}</p>
@@ -79,13 +93,5 @@ permalink: /thanks/
                 </div>
              </form>
         </div><!-- /col-lg-8 -->
-        <div class="col-lg-4">
-            <h4>Address</h4>
-            <div class="hline"></div>
-            <p>
-                {% for line in site.address.first.lines %} {{ line }}
-                <br> {% endfor %}
-            </p>
-        </div>
     </div><!-- /row -->
 </div><!-- /container -->

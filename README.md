@@ -8,4 +8,9 @@ I need your suggestions and feedback in order to make it more helpful for you so
 
 https://ictsolved.github.io/ictsolved.github.io/about
 
-Thanks.
+
+##Theme is forked from: https://github.com/st4ple/solid-jekyll
+
+##License: This theme is licensed under CC BY 3.0.
+
+Thanks!

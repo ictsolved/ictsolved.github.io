@@ -8,7 +8,6 @@ categories:
 - Windows
 img: win-remap-1.png
 thumb: win-remap.png
-
 ---
 
  Maybe a key is broken on your keyboard or you want the keys to function differently than it is intended then you have to remap the keyboard. This post will show you how to solve the problem of broken key or swapping the keys with the help of a tiny utility known as 'KeyTweak'. This method works on every version of Windows. If you want to remap the keyboard keys in Linux then you can follow <a href="/blog/linux/remap-key-in-linux"> this post.</a>  <!--more-->

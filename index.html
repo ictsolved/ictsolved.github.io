@@ -4,7 +4,6 @@ title: Home
 permalink: /
 ---
 
-{% assign author = site.data.authors[page.author] %}
 <div class="container mtb">
     <div class="row">
         <!-- BLOG POSTS LIST -->
@@ -16,7 +15,7 @@ permalink: /
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
                 </a>    
-                <p><small><i class="fa fa-calendar"></i>&nbsp;{{ post.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;<i class="fa fa-user"></i> {{ author.name }} &nbsp;&nbsp;<i class="fa fa-clock-o"></i> Reading time: {% include read_time_blog.html %}</small></p>
+                <p><small><i class="fa fa-calendar"></i>&nbsp;{{ post.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;<i class="fa fa-user"></i> {{ site.name }} &nbsp;&nbsp;<i class="fa fa-clock-o"></i> Reading time: {% include read_time_blog.html %}</small></p>
                 {{ post.excerpt }}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
                 <div class="hline"></div>

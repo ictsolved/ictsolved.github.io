@@ -25,7 +25,7 @@ layout: blog
     {% endunless %}
     <li><span class="post-date">
         {% assign date_format = site.date_format.archive %}
-        {{ post.date | date: date_format }} </span><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+        {{ post.date | date: date_format }} </span><h4><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h4></li>
 {% endfor %}
 </ul>
 </div>

@@ -29,14 +29,11 @@ colors:  #in hex code if not noted else
   footer_content: "#bfc9d3"
 
 # Pagination
-  paginate: 5
+  paginate: 7
 
-## default date_format
+## default DATAe_format
 date_format: 
-  title: "%B-%-d-%Y"
-  archive: "%b"
-  categories: "%b-%Y"
-  tag: "%b-%Y"
+  archive: "%b %d"
   
   
 ### CONTACT SETTINGS ###

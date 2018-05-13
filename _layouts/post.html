@@ -9,25 +9,20 @@ layout: default_posts
 {% else %}
 {% assign modified = page.date %}
 {% endif %}
+{% assign date_format = site.date_format.post %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <meta itemprop="name headline" content="{{ page.title }}" />
     <p class="post-meta">
-    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    <meta datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" content="{{ page.date | date: date_format }}" />
     <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified" />
-    {% if author %} •
+    {% if author %}
     <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <span itemprop="name">{{ author.name }}</span>
+      <meta itemprop="name" content="{{ author.name }}" />
       <meta itemprop="email" content="{{ author.email }}" />
       <meta itemprop="image" content="{{ author.image }}" />
-      {% if author.email %}
-      <a
-        class="fa fa-envelope"
-        title="contact me via e-mail"
-        href="mailto:{{ site.email }}">&nbsp;</a>
-      {% endif %}
     </span>
     <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="{{ site.name }}" />

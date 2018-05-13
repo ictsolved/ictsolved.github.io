@@ -31,9 +31,10 @@ colors:  #in hex code if not noted else
 # Pagination
   paginate: 7
 
-## default DATAe_format
+## default date_format
 date_format: 
   archive: "%b %d"
+  post: "%b %-d, %Y"
   
   
 ### CONTACT SETTINGS ###

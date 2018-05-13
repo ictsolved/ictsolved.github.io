@@ -1,9 +1,11 @@
+{% assign author = site.data.authors[page.author] %}
 <head>
-  <!-- This head is intended for blog posts only. It contains GoogleAdsense script -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl }}">
 
   <meta property="og:site_name" content="{{ site.title }}">
   {% if page.title %}
@@ -29,9 +31,6 @@
   {% if author %}
   <meta property="article:author" content="{{ author.name }}" />
   {% endif %}
-    <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl }}">
-
-    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 
     <script>
     /*! loadCSS: load a CSS file asynchronously. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT */

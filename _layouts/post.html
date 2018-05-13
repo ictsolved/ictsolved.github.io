@@ -41,7 +41,7 @@ layout: default_posts
     </p>
       </header>
 
-<div class="container mtb" itemprop="articleBody">
+<div class="container mtb">
     <div class="row">
         <! -- SINGLE POST -->
         <div class="col-lg-8">
@@ -49,8 +49,10 @@ layout: default_posts
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
             <p><small><i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;<i class="fa fa-user"></i> {{ author.name }} &nbsp;&nbsp;<i class="fa fa-clock-o"></i> Reading time: {% include read_time_post.html %} </small></p>
-              
-            {{ content }}
+
+                <div class="post-content" itemprop="articleBody">
+                  {{ content }}
+                </div>
 
             <div class="spacing"></div>
 

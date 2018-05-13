@@ -22,10 +22,10 @@
   <meta property="article:author" content="{{ site.url }}/about/">
   {% endif %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-  {% if page.tags %}
-  <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
-  {% for tag in page.tags %}
-  <meta property="article:tag" content="{{ tag }}">
+  {% if page.categories %}
+  <meta itemprop="keywords" content="{{ page.categories | join: ',' }}" />
+  {% for category in page.categories %}
+  <meta property="article:category" content="{{ category }}">
   {% endfor %}
   {% endif %}
   {% if author %}

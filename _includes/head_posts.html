@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl }}">
 
@@ -22,10 +22,10 @@
   <meta property="article:author" content="{{ site.url }}/about/">
   {% endif %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-  {% if page.tags %}
-  <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
-  {% for tag in page.tags %}
-  <meta property="article:tag" content="{{ tag }}">
+  {% if page.categories %}
+  <meta itemprop="keywords" content="{{ page.categories | join: ',' }}" />
+  {% for category in page.categories %}
+  <meta property="article:category" content="{{ category }}">
   {% endfor %}
   {% endif %}
   {% if author %}

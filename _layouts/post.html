@@ -52,44 +52,15 @@ layout: default_posts
             <p><small><i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;<i class="fa fa-user"></i> {{ page.author }} &nbsp;&nbsp;<i class="fa fa-clock-o"></i> Reading time: {% include read_time_post.html %} </small></p>
               
             {{ content }}
+
             <div class="spacing"></div>
-            <h4>Share this post on</h4>
-            <p class="share">
-                <a href="//www.twitter.com/share?text={{ page.title | cgi_escape }}&url={{ page.url | prepend: site.url }}" target="_blank" onclick="window.open(this.href, 'twitter-share');return false;">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="//www.facebook.com/sharer.php?t={{ page.title | cgi_escape }}&u={{ page.url | prepend: site.url }}" target="_blank" onclick="window.open(this.href, 'facebook-share');return false;">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="//plus.google.com/share?title={{ page.title | cgi_escape }}&url={{ page.url | prepend: site.url }}" target="_blank" onclick="window.open(this.href, 'google-plus-share');return false;">
-                    <i class="fa fa-google-plus"></i>
-                </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="//www.linkedin.com/shareArticle?mini=true&url={{ page.url | prepend: site.url }}" target="_blank" onclick="window.open(this.href, 'linkedin-share');return false;">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="//www.pinterest.com/pin/create/button/?description={{ page.title | cgi_escape }}&url={{ page.url | prepend: site.url }}&media={{ site.url }}{{ page.img | prepend: site.blog_img_path }}" target="_blank" onclick="window.open(this.href, 'pinterest-share');return false;">
-                    <i class="fa fa-pinterest-p"></i>
-                </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="//www.reddit.com/submit" onclick="window.open(this.href = '//www.reddit.com/submit?url=' + encodeURIComponent('{{ page.url | prepend: site.url }}') + '&title={{page.title}}'); return false">
-                    <i class="fa fa-reddit-alien" ></i>
-                </a>
-                
-            </p> <br>
+
+            <!-- Share Post -->
+            {% include share.html %}
+             <br>
 
          <!-- Pagination Begin -->
-            <div class="row centered">
-            {% if page.next %}
-            <a class="btn btn-theme" href="{{ site.baseurl}}{{ page.next.url }}" class="previous">Previous Post</a>
-            {% endif %}
-            {% if page.previous %}
-            <a class="btn btn-theme" href="{{ site.baseurl}}{{ page.previous.url }}" class="next">Next Post</a>
-            {% endif %}
-            </div>
+            {% include pagination.html %}
             <br>
         <!-- Pagination End -->
 

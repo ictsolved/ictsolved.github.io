@@ -12,7 +12,6 @@ layout: default_posts
 {% assign date_format = site.date_format.post %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <meta itemprop="name headline" content="{{ page.title }}" />
     <p class="post-meta">
@@ -40,9 +39,9 @@ layout: default_posts
       <meta itemprop="width" content="128" />
     </span>
     </p>
-    <!-- Meta Tagas for SEO End-->
+      </header>
 
-<div class="container mtb">
+<div class="container mtb" itemprop="articleBody">
     <div class="row">
         <! -- SINGLE POST -->
         <div class="col-lg-8">
@@ -75,3 +74,4 @@ layout: default_posts
 
     </div><! --/row -->
 </div><! --/container -->
+</article>

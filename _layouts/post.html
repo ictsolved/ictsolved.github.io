@@ -13,7 +13,7 @@ layout: default
               
             {{ content }}
             <div class="spacing"></div>
-            <h4>Share post</h4>
+            <h4>Share this post on</h4>
             <p class="share">
                 <a href="//www.twitter.com/share?text={{ page.title | cgi_escape }}&url={{ page.url | prepend: site.url }}" target="_blank" onclick="window.open(this.href, 'twitter-share');return false;">
                     <i class="fa fa-twitter"></i>
@@ -40,7 +40,22 @@ layout: default
                 </a>
                 
             </p> <br>
+
+         <!-- Pagination Begin -->
+            <div class="row centered">
+            {% if page.next %}
+            <a class="btn btn-theme" href="{{ site.baseurl}}{{ page.next.url }}" class="previous">Previous Post</a>
+            {% endif %}
+            {% if page.previous %}
+            <a class="btn btn-theme" href="{{ site.baseurl}}{{ page.previous.url }}" class="next">Next Post</a>
+            {% endif %}
+            </div>
+            <br>
+        <!-- Pagination End -->
+
+        <!-- Discuss Comments Begin -->
             {% include disqus.html %}
+        <!-- Discuss Comments End -->
 
         </div><! --/col-lg-8 -->
         

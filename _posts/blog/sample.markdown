@@ -2,7 +2,7 @@
 layout: post
 title: ""
 date: 2018-05-10 17:04:46 +0545
-author: Sarad Gajurel
+author: sarad
 categories:
 - blog
 - 

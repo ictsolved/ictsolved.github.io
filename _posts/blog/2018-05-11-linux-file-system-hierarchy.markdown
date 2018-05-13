@@ -2,7 +2,7 @@
 layout: post
 title: "Purpose of each Directory inside Root Partition in Linux"
 date: 2018-05-11 14:04:46 +0545
-author: Sarad Gajurel
+author: sarad
 categories:
 - blog
 - Linux

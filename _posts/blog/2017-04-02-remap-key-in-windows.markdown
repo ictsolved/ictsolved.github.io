@@ -2,7 +2,7 @@
 layout: post
 title: "How to remap or swap keyboard keys in Windows 7, 8.1 & 10?"
 date: 2017-04-02 09:18:42
-author: Sarad Gajurel
+author: sarad
 categories:
 - blog
 - Windows

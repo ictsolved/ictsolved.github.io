@@ -2,7 +2,7 @@
 layout: post
 title: "How to remap or swap special keyboard keys in Linux?"
 date: 2017-03-31 08:38:46
-author: Sarad Gajurel
+author: sarad
 categories:
 - blog
 - Linux

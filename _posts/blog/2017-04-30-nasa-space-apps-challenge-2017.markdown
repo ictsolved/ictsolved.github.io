@@ -2,7 +2,7 @@
 layout: post
 title: "Participated in NASA Space Apps Challenge 2017"
 date: 2017-04-30 20:54:46
-author: Sarad Gajurel
+author: sarad
 categories:
 - blog
 - Memorandum

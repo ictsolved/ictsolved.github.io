@@ -2,7 +2,7 @@
 layout: post
 title: "Post articles from jekyll to Twitter, Facebook and LinkedIn automatically"
 date: 2016-10-04 05:54:46
-author: Sarad Gajurel
+author: sarad
 categories:
 - blog
 - Blogging

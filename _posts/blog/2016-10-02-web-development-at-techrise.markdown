@@ -2,7 +2,7 @@
 layout: post
 title: "Learning Web Development at TECHRISE"
 date: 2016-10-02 17:54:46
-author: Sarad Gajurel
+author: sarad
 categories:
 - blog
 - Memorandum

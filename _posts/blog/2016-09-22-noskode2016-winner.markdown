@@ -2,7 +2,7 @@
 layout: post
 title: "Won NOSKode 2016"
 date: 2016-09-22 07:54:46
-author: Sarad Gajurel
+author: sarad
 categories:
 - blog
 - Memorandum

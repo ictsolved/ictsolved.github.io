@@ -2,7 +2,7 @@
 layout: post
 title: "Recover Grub of EFI System in Linux"
 date: 2016-09-30 03:16:46
-author: Sarad Gajurel
+author: sarad
 categories:
 - blog
 - Linux

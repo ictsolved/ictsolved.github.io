@@ -2,7 +2,7 @@
 layout: post
 title: "How to setup SkyPro/EVDO, NCELL Connect, UTL Modem/USB Dongle in Linux?"
 date: 2016-10-20 06:04:46
-author: Sarad Gajurel
+author: sarad
 categories:
 - blog
 - Linux

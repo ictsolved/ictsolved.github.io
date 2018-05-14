@@ -1,0 +1,26 @@
+    <div class="spacing"></div>
+    <h4>Post Archive</h4>
+    <div class="hline"></div>
+    <p>
+            <p class="rss-subscribe">Click <a href="{{ "/archive" | prepend: site.baseurl }}">here </a>to see full archive.</p>
+        </p>
+    <div>
+{%for post in site.posts limit:5 %}
+    {% unless post.next %}
+        <h4>{{ post.date | date: '%Y' }}</h4>
+        <ul>
+    {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+            </ul>
+            <h4>{{ post.date | date: '%Y' }}</h4>
+            <ul>
+        {% endif %}
+    {% endunless %}
+    <li><span class="post-date">
+        {% assign date_format = site.date_format.archive %}
+        {{ post.date | date: date_format }} </span><p><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></p></li>
+{% endfor %}
+</ul>
+</div>

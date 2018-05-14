@@ -29,7 +29,7 @@ All the linux users who use distro with <b>GRUB</b> as a bootloader are aware of
 		
 	You will see the output similar to image below:
 
-	<img src="/assets/img/blog/fdisk.jpg" width="850" height="450" alt="partitions">
+	<img src="/assets/img/blog/fdisk.jpg" width="850" height="450" alt="list partitions with fdisk">
 
 	Look at the 'Device' and 'Type' column. In my case, 
 

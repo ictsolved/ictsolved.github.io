@@ -20,7 +20,7 @@ a:focus{text-decoration:none;color:#01b2fe;}
 .navbar-default{background-color:#384452;border-color:transparent;}
 .dropdown-menu{background:#384452;}
 .dropdown-menu > li > a{color:white;font-weight:700;font-size:12px;}
-.btn-theme{color:#fff;background-color:#384452;border-color:#384452;margin:4px;}
+.btn-theme{color:#fff;background-color:#384452;border-color:#384452;margin:0px;}
 .btn-theme:hover,
 .btn-theme:focus,
 .btn-theme:active,

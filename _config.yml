@@ -1,8 +1,5 @@
 #plugins used
-plugins:
-   - jekyll-feed
-   - jekyll-sitemap
-   - jekyll-paginate
+plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
 
 # Site settings
 title: ICT Solved!
@@ -28,7 +25,8 @@ colors:  #in hex code if not noted else
   footer_content: "#bfc9d3"
 
 # Pagination
-  paginate: 7
+paginate: 6
+paginate_path: /page:num/
 
 ## default date_format
 date_format: 

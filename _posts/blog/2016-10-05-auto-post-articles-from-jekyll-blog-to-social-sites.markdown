@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Post articles from jekyll to Twitter, Facebook and LinkedIn automatically"
+description: Automaticaly posting the new articles published on blog to social media in Jekyll can be obtained with IFTTT. Put jekyll-feed plugin inside your _config.yml file and in the head section of your html file, put the feed_meta code.
 date: 2016-10-04 05:54:46
 author: sarad
 categories:

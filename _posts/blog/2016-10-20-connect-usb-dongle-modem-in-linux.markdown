@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to setup SkyPro/EVDO, NCELL Connect, UTL Modem/USB Dongle in Linux?"
+description: Setting up USB dongle for internet access in Linux is easier when done correctly. Connect your USB modem into the computer and open a terminal. Input the following command to enable the USB modem first.
 date: 2016-10-20 06:04:46
 author: sarad
 categories:

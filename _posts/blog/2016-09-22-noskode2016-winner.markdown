@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Won NOSKode 2016"
+description: Team Aarcana won the NOSKode 2016 competition in Nepal. On Software freedom day 2016, Nepal Open Source Klub organised a hackathon competition in Nepal at NCIT College.
 date: 2016-09-22 07:54:46
 author: sarad
 categories:

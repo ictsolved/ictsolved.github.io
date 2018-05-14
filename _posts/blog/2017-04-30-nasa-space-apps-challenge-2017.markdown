@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Participated in NASA Space Apps Challenge 2017"
+description: NASA organized Space Apps Challenge this year with five global challenges and in Nepal, along with the global challenges, six local challenges were also given by the collaborators Mercy Corps Nepal and ICIMOD.
 date: 2017-04-30 20:54:46
 author: sarad
 categories:

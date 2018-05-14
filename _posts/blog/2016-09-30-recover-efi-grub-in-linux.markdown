@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Recover Grub of EFI System in Linux"
+description: Recovering GRUB is an easy task and it can be done quickly by following these steps. Prepare your Live bootable linux media and get your hands ready to issue the command to the terminal.
 date: 2016-09-30 03:16:46
 author: sarad
 categories:

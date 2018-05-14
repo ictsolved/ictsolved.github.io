@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to remap or swap special keyboard keys in Linux?"
+description: Remapping keyboard keys in Linux can be performed by following two methods. If a key is broken or you need to change the functionality of certain key, keyboard remapping is necessary. You can tweak the keys to function differently with following command.
 date: 2017-03-31 08:38:46
 author: sarad
 categories:

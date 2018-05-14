@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Purpose of each Directory inside Root Partition in Linux"
-date: 2018-05-11 14:04:46 +0545
+description: Linux or Unix-like operating systems are based on it's own Filesystem Hierarchy Standards (FHS). Each directory has it's own purpose. This article will talk about the purpose of these directories.
+date: 2018-05-11 14:04:46
 author: sarad
 categories:
 - blog
@@ -10,7 +11,7 @@ img: 2018-05-11-linux-directories.jpg
 thumb: 2018-05-11-linux-directories.jpg
 ---
 
-If we take a look inside the root directory of a Linux or Unix operating system, we can see numbers of directories present inside it. But have you ever thought what is those each directory intended to do? We call it Linux File System Hierarchy Standards (FHS). In this post, <!--more--> we are going to discuss briefly all those directories.
+If we take a look inside the root directory of a Linux or Unix-like operating system, we can see numbers of directories present inside it. But have you ever thought what is those each directory intended to do? We call it Linux File System Hierarchy Standards (FHS). In this post, <!--more--> we are going to discuss briefly all those directories.
 
 #### /
 We call it root directory or root of the filesystem. This is the parent directory of the Linux Operating System. All the files or directory existing in the system starts from the root directory and write privilege is provided only to the root user under this directory.

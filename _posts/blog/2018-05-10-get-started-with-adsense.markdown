@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "How to get started with Google AdSense?"
-date: 2018-05-10 17:04:46 +0545
+description: Integrating Google AdSense in your website to make passive income is really a great idea. To be eligible for the AdSense program, one must comply with the terms and policies set by Google.
+date: 2018-05-10 17:04:46
 author: sarad
 categories:
 - blog

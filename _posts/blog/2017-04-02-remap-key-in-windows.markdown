@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to remap or swap keyboard keys in Windows 7, 8.1 & 10?"
+description: Windows offers a method to tweak the keyboard keys functionality through use of registry. There are also several graphical tools to perform this operation. You can follow these steps to remap your keyboard in Windows.
 date: 2017-04-02 09:18:42
 author: sarad
 categories:

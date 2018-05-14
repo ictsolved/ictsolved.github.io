@@ -5,87 +5,15 @@ permalink: /about/
 ---
 
 <div class="container mtb">
-    <div class="row centered">
-        <h3 class="mb">About Author</h3>
-        
-        {% for member in site.members %}
-        <!-- <div class="col-lg-3 col-md-3 col-sm-3"> -->
-            <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/" | prepend: site.baseurl }}{{ member.img }}" alt="">
-                <div class="he-view">
-                    <div class="bg a0" data-animate="fadeIn">
-                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
-                        {% for entry in member.social %}
-                            <a href="{{ entry.url }}" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
-                        {% endfor %}
-                    </div><!-- he bg -->
-                </div><!-- he view -->      
-            </div><!-- he wrap -->
-            <h4>{{ member.name }}</h4>
-            <h5 class="ctitle">{{ member.position }}</h5>
-            <p><big>{{ member.text }}</big></p>
-        <!-- </div><! --/col-lg-3 -->       
-        {% endfor %}
-        
-    </div><! --/row -->
-</div><! --/container -->
-
-<div id="contactwrap">
-</div>
-<div class="container mtb">
     <div class="row">
-        <div class="col-lg-12">
-            <h4>Leave Message or Feedback</h4>
-            <div class="hline"></div>
-            <p>{{ site.about }}</p>
-            <form id="contact-form" method="POST" action="//formspree.io/ictsimplified@gmail.com">
-                <input type="hidden" name="_next" value="https://ictsolved.github.io/thanks" />
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="fname">Firstname</label>
-                            <input class="form-control" type="text" name="name" required placeholder="Firstname">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="lname">Lastname</label>
-                            <input class="form-control" type="text" name="name" required placeholder="Lastname">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input class="form-control" type="email" name="_replyto" required placeholder="Your Email">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input class="form-control" type="text" name="subject" required placeholder="Subject of Message">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" name="message" placeholder="Message" required rows="5"></textarea>
-                        </div>
-                    </div>
-                    <p class="text-muted"><strong>*</strong> All fields are required.</p>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-theme">Send Message</button>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                    </div>
-                </div>
-             </form>
-        </div><!-- /col-lg-8 -->
+        <div class="col-lg-6">
+            <img class="img-responsive" src="{{ "/assets/img/about.jpg" | prepend: site.baseurl }}" alt="ICT Solved!">
+        </div>
+        <div class="col-lg-6">
+            <h4>About ICT Solved!</h4>
+            <div align="justify"><p><big>{{ site.about }}</big></p>
+            <p><big>ICT Solved! is created with an aim to solve your problems that arise in Linux, Windows, Android and iOS. This web portal is completely dedicated to provide you a detailed and full information so that you not only can solve your problems but also can learn and understand what are the reasons behind the problem and what you can do to prevent it from letting that happen again. Giving you useful tips and tricks so that you can utilize the optimum output from your computer or mobile is the main focus of ICT Solved!.</big></p>
+            <p><big>This web portal specially targets the noob as well as the moderate users. The noob can take advantage by learning the new things and solving the problems with the help of this portal whereas the moderate users can enhance their knowledge even more further and can solve their problems too. No matter the user uses Linux or Windows, Android or iOS; ICT Solved! covers a wide variety of problems ranging from the most common to most rare. That is what "ICT Solved!" is.</big></p></div>
+        </div>
     </div><!-- /row -->
 </div><!-- /container -->

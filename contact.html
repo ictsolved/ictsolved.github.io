@@ -1,0 +1,91 @@
+---
+layout: blog
+title: Contact
+permalink: /contact/
+---
+
+<div class="container mtb">
+    <div class="row centered">
+        <h3 class="mb">Author</h3>
+        
+        {% for member in site.members %}
+        <!-- <div class="col-lg-3 col-md-3 col-sm-3"> -->
+            <div class="he-wrap tpl6">
+            <img src="{{ "/assets/img/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+                <div class="he-view">
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1" data-animate="fadeInDown">My Social Links</h3>
+                        {% for entry in member.social %}
+                            <a href="{{ entry.url }}" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                        {% endfor %}
+                    </div><!-- he bg -->
+                </div><!-- he view -->      
+            </div><!-- he wrap -->
+            <h4>{{ member.name }}</h4>
+            <h5 class="ctitle">{{ member.position }}</h5>
+            <p><big>{{ member.text }}</big></p>
+        <!-- </div><! --/col-lg-3 -->       
+        {% endfor %}
+        
+    </div><! --/row -->
+</div><! --/container -->
+
+<div id="contactwrap">
+</div>
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-12">
+            <h4>Leave Message or Feedback</h4>
+            <div class="hline"></div>
+            <p>{{ site.contact }}</p>
+            <form id="contact-form" method="POST" action="//formspree.io/ictsimplified@gmail.com">
+                <input type="hidden" name="_next" value="https://ictsolved.github.io/thanks" />
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="fname">Firstname</label>
+                            <input class="form-control" type="text" name="name" required placeholder="Firstname">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="lname">Lastname</label>
+                            <input class="form-control" type="text" name="name" required placeholder="Lastname">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input class="form-control" type="email" name="_replyto" required placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input class="form-control" type="text" name="subject" required placeholder="Subject of Message">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" name="message" placeholder="Message" required rows="5"></textarea>
+                        </div>
+                    </div>
+                    <p class="text-muted"><strong>*</strong> All fields are required.</p>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-theme">Send Message</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+             </form>
+        </div><!-- /col-lg-8 -->
+    </div><!-- /row -->
+</div><!-- /container -->

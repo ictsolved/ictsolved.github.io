@@ -8,6 +8,7 @@ categories:
 - blog
 - Windows
 img: win-remap-1.png
+imagealt: windows keyboard remap
 thumb: win-remap.png
 ---
 

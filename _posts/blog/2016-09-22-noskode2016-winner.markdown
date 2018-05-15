@@ -8,6 +8,7 @@ categories:
 - blog
 - Memorandum
 img: team.jpg
+imagealt: team aarcana at NOSKode 2016
 thumb: team.jpg
 ---
 

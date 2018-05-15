@@ -8,6 +8,7 @@ categories:
 - blog
 - Linux
 img: grub.jpg
+imagealt: grub screen
 thumb: grub.jpg
 ---
 

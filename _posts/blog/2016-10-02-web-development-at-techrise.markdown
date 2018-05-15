@@ -8,6 +8,7 @@ categories:
 - blog
 - Memorandum
 img: techrise-enrollment.jpg
+imagealt: team aarcan enrollment day at techrise
 thumb: techrise-enrollment.jpg
 ---
 

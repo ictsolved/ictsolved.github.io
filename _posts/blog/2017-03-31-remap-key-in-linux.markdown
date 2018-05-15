@@ -8,6 +8,7 @@ categories:
 - blog
 - Linux
 img: linux-remap.png
+imagealt: linux keyboard remap
 thumb: linux-remap.jpg
 ---
 

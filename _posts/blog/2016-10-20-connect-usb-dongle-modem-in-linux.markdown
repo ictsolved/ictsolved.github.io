@@ -8,6 +8,7 @@ categories:
 - blog
 - Linux
 img: modem-linux.jpg
+imagealt: connect usb dongle to linux
 thumb: modem-linux_thumb.jpg
 ---
 

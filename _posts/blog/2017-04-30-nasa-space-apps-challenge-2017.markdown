@@ -8,6 +8,7 @@ categories:
 - blog
 - Memorandum
 img: nasa-1.jpg
+imagealt: team aarcana at NASA Space Apps Challenge 2017
 thumb: nasa-1.jpg
 ---
 

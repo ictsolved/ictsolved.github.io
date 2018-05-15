@@ -8,6 +8,7 @@ categories:
 - blog
 - Blogging
 img: ifttt0.jpg
+imagealt: auto post jekyll posts to social media
 thumb: ifttt0_thumb.jpg
 ---
 In this article I am going to show how to auto post your articles from Jekyll blog that is hosted on github pages or any other hosting site, to your Facebook, Twitter and LinkedIn account. Since jekyll is a static site and it does not have any plugin that automatically posts your article to the social networks we need to follow this process in order to succeed. <!--more-->

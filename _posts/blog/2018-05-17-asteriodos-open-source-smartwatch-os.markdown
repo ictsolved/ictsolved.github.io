@@ -6,7 +6,6 @@ date: 2018-05-16 21:04:46
 author: sarad
 categories:
 - blog
-- Linux
 - Technology
 img: 2018-05-17-asteriodos-open-source-smartwatch-os.jpg
 thumb: 2018-05-17-asteriodos-open-source-smartwatch-os.jpg

@@ -7,7 +7,10 @@ author: sarad
 categories:
 - blog
 - Technology
+tags: ‪‪AsteroidOS‬, ‪Wear OS‬, ‪Smartwatch‬, ‪operating system‬, ‪Android‬‬
+generes: Smartwatch
 img: 2018-05-17-asteriodos-open-source-smartwatch-os.jpg
+imagealt: asteroidos gets first stable release
 thumb: 2018-05-17-asteriodos-open-source-smartwatch-os.jpg
 ---
 

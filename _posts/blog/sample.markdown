@@ -7,7 +7,10 @@ author: sarad
 categories:
 - blog
 - 
+tags: 
+generes: 
 img: 
+imagealt: 
 thumb: 
 ---
 

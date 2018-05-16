@@ -7,6 +7,8 @@ author: sarad
 categories:
 - blog
 - Linux
+tags: fhs, linux directories
+generes: linux
 img: 2018-05-11-linux-directories.jpg
 imagealt: list of directories in linux
 thumb: 2018-05-11-linux-directories.jpg

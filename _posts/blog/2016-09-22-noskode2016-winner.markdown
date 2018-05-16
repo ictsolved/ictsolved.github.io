@@ -7,6 +7,8 @@ author: sarad
 categories:
 - blog
 - Memorandum
+tags: Noskode, software freedom day 2016, takehiro mouri, techrise, ncit, mahabir pun
+generes: Memorandum
 img: team.jpg
 imagealt: team aarcana at NOSKode 2016
 thumb: team.jpg

@@ -7,6 +7,8 @@ author: sarad
 categories:
 - blog
 - Blogging
+tags: adsense, online money, passive income, blogging
+generes: adsense
 img: 2018-05-10-get-started-with-adsense-1.jpg
 imagealt: integrate google adsense to your blog
 thumb: 2018-05-10-get-started-with-adsense-1.jpg

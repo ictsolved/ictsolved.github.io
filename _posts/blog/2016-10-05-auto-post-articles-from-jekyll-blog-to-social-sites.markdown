@@ -7,6 +7,8 @@ author: sarad
 categories:
 - blog
 - Blogging
+tags: jekyll, auto post
+generes: jekyll
 img: ifttt0.jpg
 imagealt: auto post jekyll posts to social media
 thumb: ifttt0_thumb.jpg

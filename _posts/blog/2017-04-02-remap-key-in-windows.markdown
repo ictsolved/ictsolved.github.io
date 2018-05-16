@@ -7,6 +7,8 @@ author: sarad
 categories:
 - blog
 - Windows
+tags: remap, keyboard, windows
+generes: keyboard
 img: win-remap-1.png
 imagealt: windows keyboard remap
 thumb: win-remap.png

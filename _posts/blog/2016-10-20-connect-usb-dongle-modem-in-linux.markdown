@@ -7,6 +7,8 @@ author: sarad
 categories:
 - blog
 - Linux
+tags: skypro, evdo, ncell, modem, linux
+generes: modem
 img: modem-linux.jpg
 imagealt: connect usb dongle to linux
 thumb: modem-linux_thumb.jpg

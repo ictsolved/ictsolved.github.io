@@ -6,7 +6,7 @@ title: ICT Solved!
 name: Sarad Gajurel
 description: > # this means to ignore newlines until "baseurl:"
   ICT Solved! is a tech blog created with an aim to update readers with the posts related with computer, programming and technology. ICT Solved! covers wide variety of posts with useful tips and tricks.
-#baseurl: ""
+baseurl: ""
 url: "https://ictsolved.github.io"
 blog_img_path: "/assets/img/blog/"
 thumb_img_path: "/assets/img/blog/thumbs/"

@@ -51,7 +51,9 @@ layout: default_posts
             <p><small><i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;<i class="fa fa-user"></i> {{ author.name }} &nbsp;&nbsp;<i class="fa fa-clock-o"></i> Reading time: {% include read_time_post.html %} </small></p>
 
                 <div class="post-content" itemprop="articleBody">
+                  <div align="justify">
                   {{ content }}
+                  </div>
                 </div>
 
             <div class="spacing"></div>

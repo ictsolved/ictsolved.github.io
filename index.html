@@ -1,7 +1,6 @@
 ---
 layout: blog_posts
 title: Home
-permalink: /
 ---
 
 <div class="container mtb">
@@ -9,7 +8,7 @@ permalink: /
         <!-- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
-            {% for post in site.categories['blog'] %}
+            {% for post in paginator.posts %}
                 <!-- Blog Post -->
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
                 <a href="{{ post.url | prepend: site.baseurl }}">
@@ -22,6 +21,34 @@ permalink: /
                 <div class="spacing"></div>
             {% endfor %}
 
+            <!-- pagination -->
+            <div align="center">
+{% if paginator.total_pages > 1 %}
+<div class="pagination"> 
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Previous Page</a>
+  {% else %}
+    <span>&laquo; Previous Page</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="webjeda">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next Page &raquo;</a>
+  {% else %}
+    <span>Next Page &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+</div>
         </div><!-- /col-lg-8 -->
 
         <br>

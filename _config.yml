@@ -26,7 +26,7 @@ colors:  #in hex code if not noted else
   footer_content: "#bfc9d3"
 
 # Pagination
-paginate: 6
+paginate: 5
 paginate_path: /page:num/
 
 ## default date_format

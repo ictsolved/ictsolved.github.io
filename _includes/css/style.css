@@ -80,3 +80,22 @@ csmall{font-size:12px;color:#b3b3b3;}
 .popular-posts p{line-height:normal;margin-bottom:auto;}
 .share i{font-size:22px;padding-right:15px;}
 a.anchor{display:block;position:relative;top:-80px;visibility:hidden;}
+.pagination a, .pagination span {
+    padding: 7px 18px;
+    border: 1px solid #eee;
+    margin-left: -2px;
+    margin-right: -2px;
+    background-color: #ffffff;
+    display: inline-block;
+  }
+
+.pagination a {    
+    &:hover {
+        background-color: #f1f1f1;
+        color: #333;
+    }
+ }
+
+.pagination {
+    text-align: center;
+ }

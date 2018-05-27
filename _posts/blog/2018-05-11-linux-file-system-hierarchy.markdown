@@ -14,63 +14,62 @@ imagealt: list of directories in linux
 thumb: 2018-05-11-linux-directories.jpg
 ---
 
-If we take a look inside the root directory of a Linux or Unix-like operating system, we can see numbers of directories present inside it. But have you ever thought what is those each directory intended to do? We call it Linux File System Hierarchy Standards (FHS). In this post, <!--more--> we are going to discuss briefly all those directories.
+If we take a look at the root directory of a Linux or Unix-like operating system, we can see numbers of directories present inside it. But have you ever thought what is those each directory intended to do? We call it Linux File System Hierarchy Standards (FHS). In this post, <!--more--> we are going to discuss briefly all those directories.
+
+    Note: This article is updated on 2018 May 27 and is based on FHS 3.0.
 
 #### /
-We call it root directory or root of the filesystem. This is the parent directory of the Linux Operating System. All the files or directory existing in the system starts from the root directory and write privilege is provided only to the root user under this directory.
+We call it root directory or root of the filesystem. This is the parent directory of the Linux Operating System. Path for all the files or directory existing in the system starts from the root directory.
 
-#### /bin
-This directory contains systemwide binary executables. The binary contained inside /bin can be used by all users in a system. Examples of common binaries are mkdir, cp, ls etc.
+#### /bin, /sbin
+In FHS 3.0, these are symlinks which point to /usr/bin. For the scripts and binaries referencing to these legacy paths, these symlinks help to find their binaries correctly.
 
 #### /boot
-This directory contains the bootloader and its related files. The files inside this directory are used during the startup of the system. Common examples of file present inside this directory are kernel images, boot loaders like grub etc.
+The boot partition or EFI System Partition (On EFI Systems) is mounted in this directory. It contains bootloader and its related files. The files inside this directory are used during the startup of the system. Common examples of file present inside this directory are kernel images, boot loaders like grub etc.
 
 #### /dev
-In Linux, everything is treated as a file. Even the hard disk, USB devices, CD-ROM, disk partitions exist as files. This folder contains all the device files such as hard drive, USB etc. attached to the system. For example: /dev/sda may be a hard drive, /dev/sdb may be USB Drive.
+This is a root directory for device nodes. A number of special purpose virtual file systems might be mounted below this directory.
 
 #### /etc
-This directory includes configuration files of the programs and also contains scripts to start or stop each service during startup or shutdown. Examples: /etc/locale.conf to define the locales used in the system
+This directory is intended for system-specific configuration. It frequently includes configuration files supplied by the vendor. Also if the configuration is missing for any application, should fall back to defaults.
 
 #### /home
-This directory contains the home folders of all users in a system. Home folders are used to store personal files and personal configurations such as customizations. Example: /home/ictsolved is a home directory of user ictsolved.
+This is the location for home directories of normal users. Home directories have write permission for the users and are generally used to store files and personal configurations.
 
 #### /lib
-The libraries required for the binary executables stored inside /bin and /sbin are located inside this folder. Library files generally have .so extension. For example, libmatroska.so is a library required to play .MKV files by a media player.
+This is also a symlink in FHS 3.0 that points to /usr/lib. The programs referencing to this legacy path can find thier resources correctly with the help of this symlink.
 
 #### /lib64
-The purpose of this directory is same as /lib but inside this directory, 64-bit library files loaded by programs are stored. This directory is not present if you are using a 32-bit Operating System.
+It is also a symlink and exists only on architectures whose ABI places the dynamic loader in this path. Binaries referencing this legacy path find their dynamic loader correctly through this symlink.
 
 #### /mnt
-This directory is used to mount the filesystems. For example, a hard drive /dev/sda with partition /dev/sda1 can be mounted inside this directory to access the files present in /dev/sda1 partition.
+This directory is usually used to mount the filesystems temporarily. For example, a hard drive /dev/sda with partition /dev/sda1 can be mounted inside this directory to access the files present in /dev/sda1.
 
 #### /opt
-Applications that are not present in the official repository of a Linux distribution or the third-party applications installed in the system are stored inside this directory. For instance, if we install lampp server then it is stored inside /opt/lampp.
+This directory generally stores the files of those installed applications which are not in the official repository. For instance, if we install lampp server then it is stored inside /opt/lampp.
 
 #### /proc
-This directory contains the files that hold information about the system process. It contains pseudo or virtual filesystem generally identified with Process ID (PID) in a text file. Example: /proc/cpuinfo contains information about the CPU used in the system.
+It is a virtual kernel file system that exposes the process list and other functionality. This file system is mostly an API to interface with the kernel. A number of special purpose virtual file systems might be mounted below this directory.
 
 #### /root
-Like home directory, this directory is used to store files and configurations but only for the root user.
+It is a home directory of the root user. It is located outside of /home directory to enable root user log in to the system even if /home is not mounted.
 
 #### /run
-This directory contains runtime information of daemons that are started during the initial boot phase. For example, fsck to check the filesystem, mount to mount the file system are stored here.
-
-#### /sbin
-It is similar to /bin directory as it also contains the binary executables but only available to the root user and mostly used for system administration purpose. mkfs is an example of a file stored here which is used to build a filesystem.
+It is a "tmpfs" filesystem where system packages place runtime data. During the boot, this directory is flushed and write permission is granted to privileged programs only.
 
 #### /srv
-This directory contains the location of data files for particular service in a system. The site-specific data structured under protocols such as ftp, www, cvs etc which is served by the system are stored here.
+This directory stores general server payload and is managed by the administrator. Generally, it is writable and possibly shared among systems.
 
 #### /sys
-Similar to /proc, it is also a virtual filesystem which stores information about kernels and connected hardware as well as allows modifying them.
+It is a virtual kernel file system that exposes the discovered devices and other functionality. This file system is mostly an API to interface with the kernel. A number of special purpose virtual file systems might be mounted below this directory.
 
 #### /tmp
-This directory is intended for temporary storage of files and may be used for creating lock file by many programs. Most of the files inside this directory get deleted during shutdown or boot time.
+This directory is intended for temporary storage of small files. This directory is usually flushed during the system boot.
 
 #### /usr
-Many newbie Linux user pronounces it as a User directory but actually, it's called Universal System Resources. The main contents of this directory are user binaries, their documentation (man pages) and libraries, source files of programs, etc. 
+This directory contains operating system resources supplied by the vendor. This directory should not be modified by the administrator, except when installing or removing vendor-supplied packages.
 
 #### /var
-This directory is used to store the data that changes frequently or is variable in nature such as log files, font caches, crash reports etc.
+This directory stores persistent, variable system data. It might contain vendor-supplied data. Applications should be able to reconstruct necessary files and directories in this subhierarchy.
 
-This is the quick lookup of the filesystem hierarchy of a Linux or Unix-like system. We only discussed the basics but there are much more things which cannot be covered in a single blog. There are even subdirectories inside this hierarchy for their specific purposes. If you are interested to learn more about the Linux Filesystem Hierarchy then you can visit [this site <i class="fa fa-external-link" aria-hidden="true"></i>](https://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/index.html){:target="_blank"}. If you have any query or would like to add up, you can share your thoughts in the comment section.
+This is the quick lookup of the filesystem hierarchy of a Linux or Unix-like system. We only discussed the basics but there are much more things which cannot be covered in a single blog. There are even subdirectories (subhierarchy) inside this hierarchy for their specific purposes. If you are interested to learn more about the Linux Filesystem Hierarchy then you can issue "man file-hierarchy" command without quotes in your terminal or visit [FHS 3.0 link. <i class="fa fa-external-link" aria-hidden="true"></i>](http://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html){:target="_blank"}. If you have any query or would like to add up, you can share your thoughts in the comment section.

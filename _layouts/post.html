@@ -1,5 +1,5 @@
 ---
-layout: default_posts
+layout: default
 ---
 
 <!-- Meta Tagas for SEO Start-->
@@ -45,6 +45,7 @@ layout: default_posts
     <div class="row">
         <! -- SINGLE POST -->
         <div class="col-lg-8">
+          {% include adsense.html %}
             <! -- Blog Post  -->
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}" alt="{{ page.imagealt }}"></p>
@@ -55,6 +56,7 @@ layout: default_posts
                   {{ content }}
                   </div>
                 </div>
+                {% include adsense.html %}
 
             <div class="spacing"></div>
 
@@ -81,6 +83,7 @@ layout: default_posts
             {% include sidebar_recent_posts.html %}
             {% include sidebar_categories.html %}
             {% include sidebar_subscribe.html %}
+            {% include adsense.html %}
             {% include sidebar_tags.html %}
             {% include sidebar_post_archive.html %}
         </div>

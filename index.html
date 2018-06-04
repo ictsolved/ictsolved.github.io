@@ -7,7 +7,7 @@ title: ICT Solved!
     <div class="row">
         <!-- BLOG POSTS LIST -->
         <div class="col-lg-8">
-          {% include adsense.html %}
+          {% include adsense_leaderboard.html %}
             {% for post in paginator.posts %}
                 <!-- Blog Post -->
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
@@ -20,7 +20,7 @@ title: ICT Solved!
                 <div class="hline"></div>
                 <div class="spacing"></div>
             {% endfor %}
-{% include adsense.html %}
+{% include adsense_large_rectangle.html %}
             <!-- pagination -->
             <div align="center">
 {% if paginator.total_pages > 1 %}

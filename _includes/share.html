@@ -1,4 +1,5 @@
 <h3>Share This Article</h3>
+<div align="justify">
             <h3>
                 <a href="//www.twitter.com/share?text={{ page.title | cgi_escape }}&url={{ page.url | prepend: site.url }}" target="_blank" title="Tweet" onclick="window.open(this.href, 'twitter-share');return false;">
                     <i class="fa fa-twitter"></i>
@@ -15,15 +16,16 @@
                 <a href="//www.linkedin.com/shareArticle?mini=true&url={{ page.url | prepend: site.url }}" target="_blank" title="Share on LinkedIn" onclick="window.open(this.href, 'linkedin-share');return false;">
                     <i class="fa fa-linkedin"></i>
                 </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="//www.pinterest.com/pin/create/button/?description={{ page.title | cgi_escape }}&url={{ page.url | prepend: site.url }}&media={{ site.url }}{{ page.img | prepend: site.blog_img_path }}" target="_blank" onclick="window.open(this.href, 'pinterest-share');return false;">
                     <i class="fa fa-pinterest-p"></i>
-                </a>
+                </a> -->
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="//www.reddit.com/submit" title="Submit to Reddit" onclick="window.open(this.href = '//www.reddit.com/submit?url=' + encodeURIComponent('{{ page.url | prepend: site.url }}') + '&title={{page.title}}'); return false">
                     <i class="fa fa-reddit-alien" ></i>
                 </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="mailto:?subject={{ page.title }}&body={{ page_url }}" target="_blank" title="Share via e-mail" class="fa fa-envelope">&nbsp;</a>
+<!--                 &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="mailto:?subject={{ page.title }}&body={{ page_url }}" target="_blank" title="Share via e-mail" class="fa fa-envelope">&nbsp;</a> -->
                 
             </h3>
+        </div>

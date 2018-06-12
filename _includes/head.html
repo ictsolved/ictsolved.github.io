@@ -20,7 +20,7 @@
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:site" content="@SaradGajurel" />
     <meta name="twitter:creator" content="@SaradGajurel">
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.img | prepend: site.blog_img_path }}">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
   <link rel="apple-touch-icon" sizes="57x57" href="assets/img/apple-touch-icon-57x57.png" />

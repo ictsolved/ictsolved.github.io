@@ -99,3 +99,20 @@ a.anchor{display:block;position:relative;top:-80px;visibility:hidden;}
 .pagination {
     text-align: center;
  }
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    overflow: hidden;
+}
+
+}
+/* Add rounded corners to the top left and the top right corner of the image */
+.card img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-text {
+    word-wrap: break-word;
+}

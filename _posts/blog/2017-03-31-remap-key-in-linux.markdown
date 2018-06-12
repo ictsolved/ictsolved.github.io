@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Linux
-img: linux-remap.png
+img: linux-remap.jpg
 imagealt: linux keyboard remap
 thumb: linux-remap.jpg
 ---

@@ -3,26 +3,34 @@
     <div class="row">
         <div class="col-lg-6">
 	{% if page.previous %}
-		
-	<ul class="popular-posts">            
-                <li>
-                    <a href="{{ site.baseurl}}{{ page.previous.url }}"><img src="{{ "/assets/img/blog/thumbs/" | prepend: site.baseurl }}{{ page.previous.thumb }}" alt="Previous Post"></a>
-                    <p><a href="{{ site.baseurl}}{{ page.previous.url }}">{{ page.previous.title }}</a></p>
-            </li>            
-        </ul>
-        <a class="btn btn-theme" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">Previous Post</a> 
+
+
+
+<div class="card">
+  <a href="{{ site.baseurl}}{{ page.previous.url }}"><img src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.previous.img }}" alt="{{ page.previous.imagealt }}" style="width:100%"></a>
+  <div class="container">
+    <p><a href="{{ site.baseurl}}{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+    <h4><a href="{{ site.baseurl}}{{ page.previous.url }}">Previous Post</a></h4>
+  </div>
+</div>
+
        {% endif %}
+       <br>
 </div>
 <div class="col-lg-6">
        {% if page.next %}
+
+
+
+
+       <div class="card">
+  <a href="{{ site.baseurl}}{{ page.next.url }}"><img src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.next.img }}" alt="{{ page.next.imagealt }}" style="width:100%"></a>
+  <div class="container">
+    <p><a href="{{ site.baseurl}}{{ page.next.url }}">{{ page.next.title }}</a></p>
+    <h4><a href="{{ site.baseurl}}{{ page.next.url }}">Next Post</a></h4>
+  </div>
+</div>
 		
-		<ul class="popular-posts">            
-                <li>
-                    <a href="{{ site.baseurl}}{{ page.next.url }}"><img src="{{ "/assets/img/blog/thumbs/" | prepend: site.baseurl }}{{ page.next.thumb }}" alt="Next Post"></a>
-                    <p><a href="{{ site.baseurl}}{{ page.next.url }}">{{ page.next.title }}</a></p>
-            </li>        
-        </ul>
-        <a class="btn btn-theme" href="{{ site.baseurl}}{{ page.next.url }}" class="next">Next Post</a>
        {% endif %}
        </div>
 	</div>

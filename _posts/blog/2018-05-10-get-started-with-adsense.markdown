@@ -27,20 +27,20 @@ You need to fulfill three criteria for integrating Adsense to your website.
 
 If you fulfill the above criteria, you can get started with Adsense.
 
-#### Step 1: Sign Up for AdSense
+### Step 1: Sign Up for AdSense
 Visit [AdSense Sign Up <i class="fa fa-external-link" aria-hidden="true"></i>](https://www.google.com/adsense/start){:target="_blank"} page.
 
 You will see a page similar to this one and click on Sign Up Now. 
     <img src="/assets/img/blog/2018-05-10-get-started-with-adsense-2.jpg" alt="Adsense Sign Up">
 
 
-#### Step 2. Enter Web URL and Email
+### Step 2. Enter Web URL and Email
 
 When you click on Sign Up Now, you will need to enter the URL of your website and your email address you want to sign up AdSense with. If you want to occasionally receive helpful emails from AdSense, you can opt-in for the suggestions.
 
 <img src="/assets/img/blog/2018-05-10-get-started-with-adsense-3.jpg" alt="AdSense Details">
 
-#### Step 3: Complete the process
+### Step 3: Complete the process
 
 After filling the information, now click on Save And Continue. You will now need to enter your valid mailing address to receive payments, verify your phone number and paste the provided script inside the head tag of your webpage on which you want to display ads. It will look like this:
 

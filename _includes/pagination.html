@@ -1,24 +1,28 @@
+    <div class="hline"></div>
+    <br>
     <div class="row">
         <div class="col-lg-6">
 	{% if page.previous %}
-		<a class="btn btn-theme" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">Previous Post</a>	
+		
 	<ul class="popular-posts">            
                 <li>
                     <a href="{{ site.baseurl}}{{ page.previous.url }}"><img src="{{ "/assets/img/blog/thumbs/" | prepend: site.baseurl }}{{ page.previous.thumb }}" alt="Previous Post"></a>
                     <p><a href="{{ site.baseurl}}{{ page.previous.url }}">{{ page.previous.title }}</a></p>
             </li>            
         </ul>
+        <a class="btn btn-theme" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">Previous Post</a> 
        {% endif %}
 </div>
 <div class="col-lg-6">
        {% if page.next %}
-		<a class="btn btn-theme" href="{{ site.baseurl}}{{ page.next.url }}" class="next">Next Post</a>
+		
 		<ul class="popular-posts">            
                 <li>
                     <a href="{{ site.baseurl}}{{ page.next.url }}"><img src="{{ "/assets/img/blog/thumbs/" | prepend: site.baseurl }}{{ page.next.thumb }}" alt="Next Post"></a>
                     <p><a href="{{ site.baseurl}}{{ page.next.url }}">{{ page.next.title }}</a></p>
             </li>        
         </ul>
+        <a class="btn btn-theme" href="{{ site.baseurl}}{{ page.next.url }}" class="next">Next Post</a>
        {% endif %}
        </div>
 	</div>

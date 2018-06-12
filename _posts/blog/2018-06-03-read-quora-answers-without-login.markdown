@@ -19,7 +19,7 @@ The answers on the Quora are publicly available, but it has implemented limitati
 
 For those who find this unpleasant, it can be successfully bypassed using the following methods.
 
-#### 1. Using Cookie Method
+### 1. Using Cookie Method
 This is the best method if you want a permanent solution to read answers on Quora without logging in. Quora uses cookies in order to track if you have previously read any questions on its site. If it finds the cookie then, it throws the login popup else you can continue reading on. So blocking quora to create the cookie get the job done. Follow these steps to block cookies of Quora in Google Chrome:
 
 <b>Step 1</b>
@@ -72,7 +72,7 @@ After clicking ADD, the site is visible inside the Block section as in the image
 <br>
 Now you can use Quora without logging in and this setting is persistent until you clear it. If you want to allow the cookies in future, you can follow the same method and remove the site from Blocked section under Cookies in the Content settings.
 
-#### 2. Pasting the URL in Incognito Mode
+### 2. Pasting the URL in Incognito Mode
 It works similarly as the previous solution as Quora cannot find any cookies related to it in the Incognito mode. This method may be handy if you are using Quora on mobile devices or if your browser does not support disabling cookie for the specific site. Also, this solution is preferred if you sometimes log in to the quora to upvote the answer or answer the question. Here is how to do it.
 
 <b>Step 1</b>
@@ -93,7 +93,7 @@ Open an Incognito window and paste the URL into the URL bar.
 <br>
 This way you can read the post without logging in and without the disabling the cookies for Quora.
 
-#### 3. Adding ?share=1 at the end of URL
+### 3. Adding ?share=1 at the end of URL
 Another method that lets you read the answer in Quora without signing in is adding ?share=1 at the end of the URL. Following image shows how to do it:
 <br>
 

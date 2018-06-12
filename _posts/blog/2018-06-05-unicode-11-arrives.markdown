@@ -16,16 +16,16 @@ thumb: 2018-06-05-unicode-11-arrives.jpg
 
 On June 5, 2018, Unicode 11.0 arrives. It includes 66 new emoji code points, out of which 62 of them are for emojis that will be seen on the keyboard. Back in February, a total number of 157 emojis were finalized for 2018. This release signifies <!--more--> that vendors can now begin to add these new emojis into their platform.
 
-#### What new emojis are included?
+### What new emojis are included?
 The above image shows some of the new emojis added in Unicode 11.0. There are six new smileys included which are Smiling Face With 3 Hearts, Hot Face, Cold Face, Partying Face, Woozy Face and Pleading Face. Similarly, four emoji components have been added that includes Emoji Component Red Hair, Emoji Component Curly Hair, Emoji Component Bald, Emoji Component White Hair. Other additions include Superhero, Supervillain, Leg, Parrot, Peacock, Test Tube etc.
 
-#### How will the emojis look like?
+### How will the emojis look like?
 The emojis designs differ with the vendors. Major vendors like Facebook, Twitter, Google, Apple, Samsung, and Microsoft have their own design of emoji sets. The emojis in the above image is the sample of Apple-like emoji sets.
 
-#### When will these emojis become available for use?
+### When will these emojis become available for use?
 The vendors like Facebook and Twitter can update their emoji designs on their web platform at any time. However, the vendors like Google, Samsung, Microsoft, and Apple will probably update their emoji sets in their upcoming major OS update. To summarize, the new emojis will be available by the end of 2018.
 
-#### What to expect in next release?
+### What to expect in next release?
 
 <img src="/assets/img/blog/2018-06-05-unicode-11-arrives-2.jpg" alt="emojis in Unicode 12.0">
 

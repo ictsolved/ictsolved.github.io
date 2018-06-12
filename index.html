@@ -15,7 +15,9 @@ title: ICT Solved!
                     <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}" alt="{{ post.imagealt }}">
                 </a>    
                 <p><small><i class="fa fa-calendar"></i>&nbsp;{{ post.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;<i class="fa fa-user"></i> {{ site.name }} &nbsp;&nbsp;<i class="fa fa-clock-o"></i> Reading time: {% include read_time_blog.html %}</small></p>
+                <div align="justify">
                 {{ post.excerpt }}
+              </div>
                 <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
                 <div class="hline"></div>
                 <div class="spacing"></div>

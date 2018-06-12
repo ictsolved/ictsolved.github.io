@@ -25,7 +25,7 @@ In my keyboard ‘Delete’ key is broken so I am going to remap it to ‘Insert
 
 		C:\Program Files (x86)\KeyTweak
 
-	If you are using 32-bit Windows then goto following location and open KeyTweak.exe</p>
+	If you are using 32-bit Windows then goto following location and open KeyTweak.exe
 
 		C:\Program Files\KeyTweak
 

@@ -29,7 +29,7 @@ The vendors like Facebook and Twitter can update their emoji designs on their we
 
 <img src="/assets/img/blog/2018-06-05-unicode-11-arrives-2.jpg" alt="emojis in Unicode 12.0">
 
-<br>
+
 The next release of Unicode is planned for March 2019. Some draft candidates for next release include axe, driving mask, diya lamp, white heart, hindu temple, flamingo etc. These are just the candidates, and the final list is yet to be decided. Hence they can either be removed or changed during the final release. The candidate hindu temple perhaps suggests that emojis of other religions will also be included in Unicode 12.0.
 
 For more information and regular updates about Unicode and Emoji visit [Emojipedia <i class="fa fa-external-link" aria-hidden="true"></i>](https://emojipedia.org/){:target="_blank"}

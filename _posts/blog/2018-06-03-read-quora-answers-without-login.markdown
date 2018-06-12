@@ -25,51 +25,51 @@ This is the best method if you want a permanent solution to read answers on Quor
 <b>Step 1</b>
 
 Click on the three dotted vertical button at the top right corner and click on settings.
-<br>
+
 
 <img src="/assets/img/blog/2018-06-03-read-quora-answers-without-login-9.jpg" alt="chrome settings">
 
-<br>
+
 <b>Step 2</b>
 
 Scroll to the bottom of a page and click "Advanced" to see more setting options. Find "Content settings" and click on that.
-<br>
+
 
 <img src="/assets/img/blog/2018-06-03-read-quora-answers-without-login-5.jpg" alt="chrome content settings">
 
-<br>
+
 <b>Step 3</b>
 
 Inside Content settings, click on Cookies.
-<br>
+
 
 <img src="/assets/img/blog/2018-06-03-read-quora-answers-without-login-6.jpg" alt="cookies inside content settings in chrome">
 
-<br>
+
 <b>Step 4</b>
 
 Now find the Block section and click on ADD
-<br>
+
 
 <img src="/assets/img/blog/2018-06-03-read-quora-answers-without-login-4.jpg" alt="add cookies to block in chrome">
 
-<br>
+
 <b>Step 5</b>
 
 Now in the textbox under Site, add https://www.quora.com and click on ADD.
-<br>
+
 
 <img src="/assets/img/blog/2018-06-03-read-quora-answers-without-login-1.jpg" alt="adding site to block cookies in chrome">
 
-<br>
+
 <b>Step 6</b>
 
 After clicking ADD, the site is visible inside the Block section as in the image below.
-<br>
+
 
 <img src="/assets/img/blog/2018-06-03-read-quora-answers-without-login-2.jpg" alt="site blocked for cookies">
 
-<br>
+
 Now you can use Quora without logging in and this setting is persistent until you clear it. If you want to allow the cookies in future, you can follow the same method and remove the site from Blocked section under Cookies in the Content settings.
 
 ### 2. Pasting the URL in Incognito Mode
@@ -78,26 +78,26 @@ It works similarly as the previous solution as Quora cannot find any cookies rel
 <b>Step 1</b>
 
 Copy the URL of question you want to read.
-<br>
+
 
 <img src="/assets/img/blog/2018-06-03-read-quora-answers-without-login-7.jpg" alt="copy quora url">
 
-<br>
+
 <b>Step 2</b>
 
 Open an Incognito window and paste the URL into the URL bar.
-<br>
+
 
 <img src="/assets/img/blog/2018-06-03-read-quora-answers-without-login-8.jpg" alt="paste quora url in incognito window">
 
-<br>
+
 This way you can read the post without logging in and without the disabling the cookies for Quora.
 
 ### 3. Adding ?share=1 at the end of URL
 Another method that lets you read the answer in Quora without signing in is adding ?share=1 at the end of the URL. Following image shows how to do it:
-<br>
+
 
 <img src="/assets/img/blog/2018-06-03-read-quora-answers-without-login-3.jpg" alt="use quora without login">
 
-<br>
+
 With these steps, you can read posts on Quora without logging in. Are you happy with the login prompt to read publicly available answers in Quora? Share your opinion in the comment section.

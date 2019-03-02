@@ -27,3 +27,7 @@ thumb:
 image_size=850x450
 
 thumb_size=70x70
+
+background color for images: #2A2D43
+
+text color: #A3C4BC

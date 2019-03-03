@@ -16,15 +16,15 @@ thumb: 2019-03-02-getting-started-with-git.png
 
 Git is a distributed Version Control System (VCS) which is used for tracking the source code during software development. It allows collaboration between the contributors and targets to maintain integrity, and support for distributed, non-linear workflows. <!--more--> Let's get started.
 
-**<u>Contents</u>**
-* [Create your first repository, then add and commit files](#create-add-commit)
-* [Clone a repository](#clone-repository)
-* [Sharing code](#share-code)
-* [Setting your user name and email](#configure-user)
-* [Setting up the upstream remote](#setting-up-remote)
-* [Learning about a command](#help-command)
-* [Set up SSH for Git](#setup-ssh)
-* [Git Installation](#installation)
+>**Contents**
+1. [Create your first repository, then add and commit files](#create-add-commit)
+2. [Clone a repository](#clone-repository)
+3. [Sharing code](#share-code)
+4. [Setting your user name and email](#configure-user)
+5. [Setting up the upstream remote](#setting-up-remote)
+6. [Learning about a command](#help-command)
+7. [Set up SSH for Git](#setup-ssh)
+8. [Git Installation](#installation)
   * [Installing from Source](#installing-from-source)
   * [Installing on Mac](#installing-on-mac)
   * [Installing on Linux](#installing-on-linux)
@@ -366,4 +366,5 @@ After it’s installed, you have both a command-line version (including an SSH c
 
 *Note on Windows usage:* you should use Git with the provided msysGit shell (Unix style), it allows to use the complex lines of command given in this book. If you need, for some reason, to use the native Windows shell / command line console, you have to use double quotes instead of single quotes (for parameters with spaces in them) and you must quote the parameters ending with the circumflex accent (^) if they are last on the line, as it is a continuation symbol in Windows.
 
-*This article is extracted from the original Stack Overflow Documentation released under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} and created by these contributors: [Ala Eddine JEBALI](https://stackoverflow.com/users/1343790/){:target="_blank"}, [Allan Burleson](https://stackoverflow.com/users/5703771/){:target="_blank"}, [Craig Brett](https://stackoverflow.com/users/718940/){:target="_blank"}, [Dan Hulme](https://stackoverflow.com/users/967945/){:target="_blank"}, [eykanal](https://stackoverflow.com/users/168775/){:target="_blank"}, [Henrique Barcelos](https://stackoverflow.com/users/1798341/){:target="_blank"}, [Jonathan Lam](https://stackoverflow.com/users/2397327/){:target="_blank"}, [Kageetai](https://stackoverflow.com/users/1159510/){:target="_blank"}, [maccard](https://stackoverflow.com/users/723918/){:target="_blank"}, [ob1](https://stackoverflow.com/users/8168719/){:target="_blank"}, [Roald Nefs](https://stackoverflow.com/users/4779556/){:target="_blank"}, [ronnyfm](https://stackoverflow.com/users/204968/){:target="_blank"}, [Sazzad Hissain Khan](https://stackoverflow.com/users/1084174/){:target="_blank"}, [Tyler Zika](https://stackoverflow.com/users/1086315/){:target="_blank"}, [tymspy](https://stackoverflow.com/users/3029163/){:target="_blank"}. This website is not affiliated with [Stack Overflow](https://stackoverflow.com/){:target="_blank"}. For corrections or feedback comment below or email to <a href="mailto:ictsimplified@gmail.com?Subject=Feedback on Getting Started with Github" target="_top">ictsimplified@gmail.com</a>*
+>*This article is compiled from the original Stack Overflow Documentation released under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"} and created by these contributors: [Ala Eddine JEBALI](https://stackoverflow.com/users/1343790/){:target="_blank"}, [Allan Burleson](https://stackoverflow.com/users/5703771/){:target="_blank"}, [Craig Brett](https://stackoverflow.com/users/718940/){:target="_blank"}, [Dan Hulme](https://stackoverflow.com/users/967945/){:target="_blank"}, [eykanal](https://stackoverflow.com/users/168775/){:target="_blank"}, [Henrique Barcelos](https://stackoverflow.com/users/1798341/){:target="_blank"}, [Jonathan Lam](https://stackoverflow.com/users/2397327/){:target="_blank"}, [Kageetai](https://stackoverflow.com/users/1159510/){:target="_blank"}, [maccard](https://stackoverflow.com/users/723918/){:target="_blank"}, [ob1](https://stackoverflow.com/users/8168719/){:target="_blank"}, [Roald Nefs](https://stackoverflow.com/users/4779556/){:target="_blank"}, [ronnyfm](https://stackoverflow.com/users/204968/){:target="_blank"}, [Sazzad Hissain Khan](https://stackoverflow.com/users/1084174/){:target="_blank"}, [Tyler Zika](https://stackoverflow.com/users/1086315/){:target="_blank"}, [tymspy](https://stackoverflow.com/users/3029163/){:target="_blank"}. This website is not affiliated with [Stack Overflow](https://stackoverflow.com/){:target="_blank"}. For corrections or feedback comment below or email to <a href="mailto:ictsimplified@gmail.com?Subject=Feedback on Getting Started with Github" target="_top">ictsimplified@gmail.com</a>*
+

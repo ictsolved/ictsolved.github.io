@@ -16,7 +16,21 @@ thumb: 2019-03-02-getting-started-with-git.png
 
 Git is a distributed Version Control System (VCS) which is used for tracking the source code during software development. It allows collaboration between the contributors and targets to maintain integrity, and support for distributed, non-linear workflows. <!--more--> Let's get started.
 
-### Section 1: Create your first repository, then add and commit files
+**<u>Contents</u>**
+* [Create your first repository, then add and commit files](#create-add-commit)
+* [Clone a repository](#clone-repository)
+* [Sharing code](#share-code)
+* [Setting your user name and email](#configure-user)
+* [Setting up the upstream remote](#setting-up-remote)
+* [Learning about a command](#help-command)
+* [Set up SSH for Git](#setup-ssh)
+* [Git Installation](#installation)
+  * [Installing from Source](#installing-from-source)
+  * [Installing on Mac](#installing-on-mac)
+  * [Installing on Linux](#installing-on-linux)
+  * [Installing on Windows](#installing-on-windows)
+
+### <a class="anchor" name="create-add-commit"></a>Create your first repository, then add and commit files
 
 At the command line, first verify that you have Git installed:
 
@@ -29,11 +43,11 @@ On UNIX-like operating systems:
 ```
 which git
 ```
-If nothing is returned, or the command is not recognized, you may have to install Git on your system by downloading and running the installer. See the [Git Homepage](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){:target="_blank"} for exceptionally clear and easy installation instructions.
+If nothing is returned, or the command is not recognized, you may have to install Git on your system. Jump to [Git Installation](#installation) section for instructions.
 
-After installing Git, configure your username and email address. Do this *before* making a commit.
+After installing Git, configure your username and email address. Do this *before* making a commit. Jump to [Setting your user name and email](#configure-user) section for instructions.
 
-Once Git is installed, navigate to the directory you want to place under version control and create an empty Git repository:
+Once Git is installed and configured, navigate to the directory you want to place under version control and create an empty Git repository:
 
 ```
 git init
@@ -81,7 +95,7 @@ git remote add origin https://<your-git-service-address>/owner/repository.git
 
 NOTE: Before adding the remote you have to create the required repository in your git service, You'll be able to push/pull commits after adding your remote.
 
-### Section 2: Clone a repository
+### <a class="anchor" name="clone-repository"></a>Clone a repository
 
 The **git clone** command is used to copy an existing Git repository from a server to the local machine.
 
@@ -119,7 +133,7 @@ git clone git@github.com:username/projectname.git
 ```
 The https version and the **ssh** version are equivalent. However, some hosting services such as GitHub [recommend](https://help.github.com/articles/set-up-git/#next-steps-authenticating-with-github-from-git){:target="_blank"} that you use https rather than **ssh**.
 
-### Section 3: Sharing code
+### <a class="anchor" name="share-code"></a>Sharing code
 
 To share your code you create a repository on a remote server to which you will copy your local repository.
 
@@ -144,7 +158,7 @@ git push --set-upstream origin master
 ```
 Adding *--set-upstream* (or -u) created an upstream (tracking) reference which is used by argument-less Git commands, e.g. **git pull**.
 
-### Section 4: Setting your user name and email
+### <a class="anchor" name="configure-user"></a>Setting your user name and email
 
 You need to set who you are before creating any commit. That will allow commits to have the right author name and email associated to them.
 
@@ -188,7 +202,7 @@ That way, if you forget to set your user.name and user.email for a given reposit
 no name was given and auto-detection is disabled
 no email was given and auto-detection is disabled
 ```
-### Section 5: Setting up the upstream remote
+### <a class="anchor" name="setting-up-remote"></a>Setting up the upstream remote
 
 If you have cloned a fork (e.g. an open source project on Github) you may not have push access to the upstream repository, so you need both your fork but be able to fetch the upstream repository.
 
@@ -211,7 +225,7 @@ If the upstream is not there, or if you also want to add a friend/colleague's fo
 $ git remote add upstream https://github.com/projectusername/repo.git
 $ git remote add dave https://github.com/dave/repo.git
 ```
-### Section 6: Learning about a command
+### <a class="anchor" name="help-command"></a>Learning about a command
 
 To get more information about any git command – i.e. details about what the command does, available options and other documentation – use the *-*-help option or the **help** command.
 
@@ -232,7 +246,7 @@ If you only want a quick help showing you the meaning of the most used command l
 ```
 git checkout -h
 ```
-### Section 7: Set up SSH for Git
+### <a class="anchor" name="setup-ssh"></a>Set up SSH for Git
 
 If you are using *Windows* open [Git Bash](https://git-for-windows.github.io/){:target="_blank"}. If you are using *Mac* or *Linux* open your Terminal.
 
@@ -284,11 +298,11 @@ In order to clone a new repository over SSH you can run the following command:
 ```
 $ git clone ssh://git@bitbucket.server.com:7999/projects/your_project.git
 ```
-### Section 8: Git Installation
+### <a class="anchor" name="installation"></a>Git Installation
 
 Let’s get into using some Git. First things first—you have to install it. You can get it a number of ways; the two major ones are to install it from source or to install an existing package for your platform.
 
-**<u>Installing from Source</u>**
+**<u><a class="anchor" name="installing-from-source"></a>Installing from Source</u>**
 
 If you can, it’s generally useful to install Git from source, because you’ll get the most recent version. Each version of Git tends to include useful UI enhancements, so getting the latest version is often the best route if you feel comfortable compiling software from source. It is also the case that many Linux distributions contain very old packages; so unless you’re on a very up-to-date distro or are using backports, installing from source may be the best bet.
 
@@ -315,7 +329,7 @@ After this is done, you can also get Git via Git itself for updates:
 ```
 $ git clone git://git.kernel.org/pub/scm/git/git.git
 ```
-**<u>Installing on Linux</u>**
+**<u><a class="anchor" name="installing-on-linux"></a>Installing on Linux</u>**
 
 If you want to install Git on Linux via a binary installer, you can generally do so through the basic package-management tool that comes with your distribution. If you’re on Fedora, you can use yum:
 
@@ -327,7 +341,7 @@ Or if you’re on a Debian-based distribution like Ubuntu, try apt-get:
 ```
 $ apt install git
 ```
-**<u>Installing on Mac</u>**
+**<u><a class="anchor" name="installing-on-mac"></a>Installing on Mac</u>**
 
 There are three easy ways to install Git on a Mac. The easiest is to use the graphical Git installer, which you can download from the SourceForge page. [http://sourceforge.net/projects/git-osx-installer/](http://sourceforge.net/projects/git-osx-installer/){:target="_blank"}
 
@@ -343,7 +357,7 @@ Homebrew [http://brew.sh/](http://brew.sh/){:target="_blank"} is another alterna
 ```
 $ brew install git
 ```
-**<u>Installing on Windows</u>**
+**<u><a class="anchor" name="installing-on-windows"></a>Installing on Windows</u>**
 
 Installing Git on Windows is very easy. The msysGit project has one of the easier installation procedures. Simply download the installer exe file from the GitHub page, and run it: [http://msysgit.github.io](http://msysgit.github.io){:target="_blank"}
 

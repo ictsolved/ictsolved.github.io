@@ -111,5 +111,5 @@ and created by these contributors:
 This website is not affiliated with
 [Stack Overflow](https://stackoverflow.com/){:target="_blank"}.
 For corrections or feedback comment below or email to
-<a href="mailto:ictsimplified@gmail.com?Subject=Feedback on Getting Started with Github" target="_top">ictsimplified@gmail.com</a>*
+<a href="mailto:ictsimplified@gmail.com?Subject=Feedback on Git Merge" target="_top">ictsimplified@gmail.com</a>*
 

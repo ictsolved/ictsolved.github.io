@@ -9,7 +9,7 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:image" content="{{ site.url }}{{ page.img | prepend: site.blog_img_path }}" />
+    <meta property="og:image" content="{% if page.img %}{{ site.url }}{{ page.img | prepend: site.blog_img_path }}{% else %}{{ site.url | append: site.about_img_path }}{% endif %}" />
     <meta property="og:site_name" content="ICT Solved!">
     <meta property="article:publisher" content="https://www.facebook.com/ictsolved.sarad/" />
     <meta property="article:author" content="https://www.facebook.com/saradgajurel" />

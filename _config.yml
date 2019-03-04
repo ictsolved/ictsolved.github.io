@@ -9,6 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://ictsolved.github.io"
 blog_img_path: "/assets/img/blog/"
+about_img_path: "/assets/img/about.jpg"
 thumb_img_path: "/assets/img/blog/thumbs/"
 
 # Build settings

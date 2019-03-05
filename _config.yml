@@ -28,10 +28,10 @@ colors:  #in hex code if not noted else
 
 # Pagination
 paginate: 5
-paginate_path: blog/page/:num
+paginate_path: /page/:num
 defaults: 
   - scope:
-      path: "blog/page"
+      path: "page"
     values:
       sitemap: false
 

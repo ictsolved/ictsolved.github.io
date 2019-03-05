@@ -31,9 +31,6 @@
 <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   {% if page.tags %}
   <meta itemprop="keywords" content="{{ page.tags | join: ' ' }}" />
-  {% for genere in page.generes %}
-  <meta property="article:category" content="{{ page.generes }}">
-  {% endfor %}
   {% endif %}
   {% if author %}
   <meta property="article:author" content="{{ author.name }}" />

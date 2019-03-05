@@ -12,6 +12,8 @@ generes: adsense
 img: 2018-05-10-get-started-with-adsense-1.jpg
 imagealt: integrate google adsense to your blog
 thumb: 2018-05-10-get-started-with-adsense-1.jpg
+redirect_from:
+  - /blog/blogging/get-started-with-adsense
 ---
 
 Advertising through the internet is one of the most efficient channels in this digital era since the ads can be targeted towards the user on the basis of their interests. When the relevant ads are displayed, the reachability of ads for the service provider is also high as well as useful for the customers. Making passive income is one of the best opportunity <!--more--> that can be grabbed from online advertising. One doesn't even need to search for the ads provider because there are platforms like Google AdSense, Amazon Associates etc. which provides the ads that one can integrate to their websites. One of the most popular services among these platforms are Google Adsense, a product of Google. In this article, we will see how to get started with the Google Adsense for the website and make passive income.

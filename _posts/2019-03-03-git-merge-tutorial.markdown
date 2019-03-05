@@ -12,6 +12,8 @@ generes: Git
 img: 2019-03-03-git-merge-tutorial.png
 imagealt: git merge tutorial
 thumb: 2019-03-03-git-merge-tutorial.png
+redirect_from:
+  - /blog/git/git-merge-tutorial
 ---
 
 Git merge is used to join two or more development histories together. In this article, we are going to talk about different cases of merging the branches with example. <!--more--> Let's get started.

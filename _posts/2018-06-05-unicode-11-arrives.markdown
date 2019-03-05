@@ -12,6 +12,8 @@ generes: Emoji
 img: 2018-06-05-unicode-11-arrives-1.jpg
 imagealt: emojis in unicode 11
 thumb: 2018-06-05-unicode-11-arrives.jpg
+redirect_from:
+  - /blog/tech/unicode-11-arrives
 ---
 
 On June 5, 2018, Unicode 11.0 arrives. It includes 66 new emoji code points, out of which 62 of them are for emojis that will be seen on the keyboard. Back in February, a total number of 157 emojis were finalized for 2018. This release signifies <!--more--> that vendors can now begin to add these new emojis into their platform.

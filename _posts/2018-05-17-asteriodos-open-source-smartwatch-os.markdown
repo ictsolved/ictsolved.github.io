@@ -6,12 +6,14 @@ date: 2018-05-16 21:04:46
 author: sarad
 categories:
 - blog
-- Technology
+- Tech
 tags: ‪‪AsteroidOS‬, ‪Wear OS‬, ‪Smartwatch‬, ‪operating system‬, ‪Android‬‬
 generes: Smartwatch
 img: 2018-05-17-asteriodos-open-source-smartwatch-os.jpg
 imagealt: asteroidos gets first stable release
 thumb: 2018-05-17-asteriodos-open-source-smartwatch-os.jpg
+redirect_from:
+  - /blog/technology/asteriodos-open-source-smartwatch-os
 ---
 
 AsteroidOS, an open-source operating system for WearOS initiated four years ago by a computer science student has received it's first stable version 1.0 release. It was going through Alpha testing during December 2016 and is currently on the playground as an alternative to Google's WearOS <!--more--> . It can be considered as a Linux distribution for smartwatches in a sense that it is built upon Linux technologies like Wayland (a display server protocol), systemd (system and service manager), Qt5 (software that enables to develop GUI applications) etc.

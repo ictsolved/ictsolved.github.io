@@ -12,6 +12,8 @@ tags: nasa space apps, aarcana
 generes: memorandum
 imagealt: team aarcana at NASA Space Apps Challenge 2017
 thumb: nasa-1.jpg
+redirect_from:
+  - /blog/memorandum/nasa-space-apps-challenge-2017
 ---
 
 Annually NASA organizes an international hackathon event known as "Space Apps" over 48 hours in different cities across the globe. NASA throws set of challenges to address the real-world problems of Earth and space to everyone who dare to tackle the challenge using robotics, data visualization, hardware, design etc. using open data. In Nepal, it was organized by International Centre for Integrated Mountain Development (ICIMOD),<!--more--> Mercy Corps Nepal, Nepal Engineers Association (NEA), and Robotics Association of Nepal (RAN) in collaboration with Young Innovations Pvt. Ltd. and Kathmandu Living Labs at World Trade Tower, Thapathali.

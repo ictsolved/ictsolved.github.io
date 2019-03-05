@@ -12,6 +12,8 @@ generes: Git
 img: 2019-03-02-getting-started-with-git.png
 imagealt: git tutorial
 thumb: 2019-03-02-getting-started-with-git.png
+redirect_from:
+  - /blog/git/getting-started-with-git
 ---
 
 Git is a distributed Version Control System (VCS) which is used for tracking the source code during software development. It allows collaboration between the contributors and targets to maintain integrity, and support for distributed, non-linear workflows. <!--more--> Let's get started.

@@ -12,6 +12,8 @@ generes: modem
 img: modem-linux.jpg
 imagealt: connect usb dongle to linux
 thumb: modem-linux_thumb.jpg
+redirect_from:
+  - /blog/linux/connect-usb-dongle-modem-in-linux
 ---
 
 Linux users are growing gradually in Nepal and mostly there are either IT students or IT professionals who use Linux in the context of our country. Every Linux user who was used to with Windows knows the hassle of migrating from Windows to Linux. Most of the companies target softwares for Windows and hence software availability becomes an ache for the general users. Our mobile broadband ISPs also constitute application for windows but not for Linux. This article will guide you through the setup process of using an USB Dongle/Modem in Linux. <!--more-->

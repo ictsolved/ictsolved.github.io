@@ -12,6 +12,8 @@ generes: linux
 img: 2018-05-11-linux-directories.jpg
 imagealt: list of directories in linux
 thumb: 2018-05-11-linux-directories.jpg
+redirect_from:
+  - /blog/linux/linux-file-system-hierarchy
 ---
 
 If we take a look at the root directory of a Linux or Unix-like operating system, we can see numbers of directories present inside it. But have you ever thought what is those each directory intended to do? We call it Linux File System Hierarchy Standards (FHS). In this post, <!--more--> we are going to discuss briefly all those directories.

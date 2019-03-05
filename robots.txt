@@ -1,12 +1,2 @@
-Sitemap: https://ictsolved.github.io/sitemap.xml
 User-agent: *
-Disallow: /404.html
-Disallow: /archive
-Disallow: /category/
-Disallow: /feed.xml
-Disallow: /google8f9b3acf64578e46.html
-Disallow: /pinterest-7bd45.html
-Disallow: /README.md
-Disallow: /search.html
-Disallow: /thanks/
-Disallow: /privacy-policy/
+Sitemap: https://ictsolved.github.io/sitemap.xml

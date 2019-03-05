@@ -112,6 +112,8 @@ and created by these contributors:
 [Vogel612](https://stackoverflow.com/users/1803692/){:target="_blank"},
 This website is not affiliated with
 [Stack Overflow](https://stackoverflow.com/){:target="_blank"}.
+This article is published under
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"}.
 For corrections or feedback comment below or email to
 <a href="mailto:ictsimplified@gmail.com?Subject=Feedback on Git Merge" target="_top">ictsimplified@gmail.com</a>*
 

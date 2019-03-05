@@ -13,6 +13,7 @@ imagealt: team aarcan enrollment day at techrise
 thumb: techrise-enrollment.jpg
 redirect_from:
   - /blog/blog/memorandum/web-development-at-techrise
+  - /blog/personal%20archive/web-development-at-techrise
 ---
 
 I have already posted about my event of <a href="/blog/memorandum/noskode2016-winner">winning NOSKode2016</a> held on Software Freedom Day. I along with other members of my team <a href="https://aarcana.github.io" target="_blank">Aarcana: for society <i class="fa fa-external-link" aria-hidden="true"></i></a> were rewarded with the certificate of excellence and were given an opportunity to learn an web development course worth NRs. 20,000 for free at <a href="https://www.facebook.com/techrisenepal/" target="_blank">TECHRISE <i class="fa fa-external-link" aria-hidden="true"></i></a>. It was a great moment of joy and our happiness was on the top. So here is how our web development career begun at TECHRISE. <!--more-->

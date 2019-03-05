@@ -1,4 +1,3 @@
-{% assign author = site.data.authors[page.author] %}
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,9 +30,6 @@
 <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   {% if page.tags %}
   <meta itemprop="keywords" content="{{ page.tags | join: ' ' }}" />
-  {% endif %}
-  {% if author %}
-  <meta property="article:author" content="{{ author.name }}" />
   {% endif %}
 
     <script>

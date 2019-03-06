@@ -12,7 +12,7 @@ img: techrise-enrollment.jpg
 imagealt: team aarcan enrollment day at techrise
 thumb: techrise-enrollment.jpg
 redirect_from:
-  - /blog/blog/memorandum/web-development-at-techrise
+  - /blog/memorandum/web-development-at-techrise
   - /blog/personal%20archive/web-development-at-techrise
 ---
 

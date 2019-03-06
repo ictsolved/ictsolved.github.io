@@ -37,7 +37,9 @@
   {% if page.tags %}
   <meta itemprop="keywords" content="{{ page.tags | join: ' ' }}" />
   {% endif %}
-  <meta name="msvalidate.01" content="069819CF72EAF850E6F9880090A89462" />
+  {% if page.msvalidate %}
+  <meta name="msvalidate.01" content="{{page.msvalidate}}" />
+{% endif %}
 
     <script>
     /*! loadCSS: load a CSS file asynchronously. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT */

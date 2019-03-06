@@ -3,14 +3,18 @@
     <meta name="language" content="English" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     {% if page.robots %}
-  <meta name="robots" content="{{page.robots}}" />
-{% endif %}
+    <meta name="robots" content="{{page.robots}}" />
+    {% endif %}
+
     <title> {%if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %} </title>
-    <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% else %}{{ site.description | strip_html | truncate: 160  }}{% endif %}" />
+    <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | strip_html | truncate: 150 }}{% else %}{{ site.description | strip_html | truncate: 150  }}{% endif %}" />
+
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:image" content="{% if page.img %}{{ site.url }}{{ page.img | prepend: site.blog_img_path }}{% else %}{{ site.url | append: site.about_img_path }}{% endif %}" />
     <meta property="og:site_name" content="ICT Solved!">
@@ -19,27 +23,31 @@
     {% if page.date %}
     <meta property="article:published_time" content="{{ page.date }}" />
     {% endif %}
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:site" content="@SaradGajurel" />
     <meta name="twitter:creator" content="@SaradGajurel">
-    <meta name="twitter:image" content="{{ site.url }}{{ page.img | prepend: site.blog_img_path }}">
+    <meta name="twitter:image" content="{% if page.img %}{{ site.url }}{{ page.img | prepend: site.blog_img_path }}{% else %}{{ site.url | append: site.about_img_path }}{% endif %}" />
+
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-touch-icon-152x152.png" />
-<link rel="canonical" href="{{ page.url | prepend: site.url }}">
-  {% if page.tags %}
-  <meta itemprop="keywords" content="{{ page.tags | join: ' ' }}" />
-  {% endif %}
-  {% if page.msvalidate %}
-  <meta name="msvalidate.01" content="{{page.msvalidate}}" />
-{% endif %}
+  	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+   	<link rel="apple-touch-icon" sizes="57x57" href="assets/img/apple-touch-icon-57x57.png" />
+   	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png" />
+   	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png" />
+   	<link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-touch-icon-120x120.png" />
+   	<link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-touch-icon-152x152.png" />
+
+   	<link rel="canonical" href="{{ page.url | prepend: site.url }}">
+
+   	{% if page.tags %}
+   	<meta itemprop="keywords" content="{{ page.tags | join: ' ' }}" />
+   	{% endif %}
+
+   	{% if page.msvalidate %}
+   	<meta name="msvalidate.01" content="{{page.msvalidate}}" />
+   	{% endif %}
 
     <script>
     /*! loadCSS: load a CSS file asynchronously. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT */
@@ -125,9 +133,7 @@
     <style type="text/css">
       {% include css/style.css %}
     </style>
-<!--     <style type="text/css">
-      {% include css/lato-font.css %}
-    </style> -->
+
     <style type="text/css">
       {% include css/raleway-font.css %}
     </style>
@@ -152,17 +158,4 @@
       ga('create', 'UA-84674621-1', 'auto');
       ga('send', 'pageview');
     </script>
-
-    <!-- Custom CSS -->
-    <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
-
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>

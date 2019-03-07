@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Tech
-tags: Unicode 11.0 Emoji 11.0 Emojipedia Emoji
+tags: Unicode 11.0, Emoji 11.0, Emojipedia, Emoji
 generes: Emoji
 img: 2018-06-05-unicode-11-arrives-1.jpg
 imagealt: emojis in unicode 11

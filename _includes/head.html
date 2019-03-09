@@ -44,8 +44,8 @@
 
    	<link rel="canonical" href="{{ page.url | prepend: site.url }}">
 
-   	{% if page.tags %}
-   	<meta itemprop="keywords" content="{{ page.tags | join: ' ' }}" />
+   	{% if page.keywords %}
+   	<meta itemprop="keywords" content="{{ page.keywords | join: ' ' }}" />
    	{% endif %}
 
    	{% if page.msvalidate %}

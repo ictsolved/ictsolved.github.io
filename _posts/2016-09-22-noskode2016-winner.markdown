@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Memorandum
-tags: Noskode, software freedom day 2016, takehiro mouri, techrise, ncit, mahabir pun
+keywords: Noskode, software freedom day 2016, takehiro mouri, techrise, ncit, mahabir pun
 img: 2016-09-22-noskode2016-winner-1.jpg
 imagealt: team aarcana at NOSKode 2016
 thumb: 2016-09-22-noskode2016-winner.jpg

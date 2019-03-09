@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Git
-tags: Git tutorial for beginners, git clone, git remote, git setup
+keywords: Git tutorial for beginners, git clone, git remote, git setup
 generes: Git
 img: 2019-03-02-getting-started-with-git.png
 imagealt: git tutorial

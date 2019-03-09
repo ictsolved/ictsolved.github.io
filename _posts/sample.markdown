@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - 
-tags: 
+keywords: 
 generes: 
 img: 
 imagealt: 

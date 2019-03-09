@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Git
-tags: Git tutorial, git merge, git merge example, git merge tutorial, git merge explained
+keywords: Git tutorial, git merge, git merge example, git merge tutorial, git merge explained
 generes: Git
 img: 2019-03-03-git-merge-tutorial.png
 imagealt: git merge tutorial

@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Linux
-tags: EFI, linux Grub, dual boot
+keywords: EFI, linux Grub, dual boot
 generes: grub
 img: grub.jpg
 imagealt: grub screen

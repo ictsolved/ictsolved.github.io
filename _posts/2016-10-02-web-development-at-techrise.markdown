@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Memorandum
-keywords: techrise, ruby on rails, aarcana
+keywords: techrise, ruby on rails, aarcana, sarad gajurel
 img: techrise-enrollment.jpg
 imagealt: team aarcan enrollment day at techrise
 thumb: techrise-enrollment.jpg

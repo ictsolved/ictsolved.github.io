@@ -7,6 +7,7 @@ author: sarad
 categories:
 - blog
 - Linux
+keywords: remap keyboard, linux keyboard remap, remap keyboard in linux, xmodmap, xkb remap keys
 img: linux-remap.jpg
 imagealt: linux keyboard remap
 thumb: linux-remap.jpg

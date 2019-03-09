@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Linux
-keywords: skypro, evdo, ncell, modem, linux
+keywords: skypro, evdo, ncell, linux modem, linux gsm modem, linux 4g usb modem, linux lte modem
 generes: modem
 img: modem-linux.jpg
 imagealt: connect usb dongle to linux

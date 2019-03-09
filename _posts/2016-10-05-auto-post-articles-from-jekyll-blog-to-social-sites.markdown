@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Blogging
-keywords: jekyll, auto post
+keywords: auto post jekyll, automatically post to facebook from website, jekyll auto post to facebook, auto post blog to social networks, jekyll auto post to facebook page, jekyll auto post to facebook group, auto post to social media from jekyll, auto post share
 generes: jekyll
 img: ifttt0.jpg
 imagealt: auto post jekyll posts to social media

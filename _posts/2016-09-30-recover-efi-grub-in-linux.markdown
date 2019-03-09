@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Linux
-keywords: EFI, linux Grub, dual boot
+keywords: fix Grub, grub rescue, repair grub, grub rescue unknown filesystem, boot repair debian, grub rescue windows 7
 generes: grub
 img: grub.jpg
 imagealt: grub screen

@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Git
-keywords: Git tutorial, git merge, git merge example, git merge tutorial, git merge explained
+keywords: git merge command example, git merge, git merge conflict, git merge tutorial, git merge commit, git merge branch into master, git merge remote branch
 generes: Git
 img: 2019-03-03-git-merge-tutorial.png
 imagealt: git merge tutorial

@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Linux
-keywords: fhs, linux directories
+keywords: linux fhs, linux directories, linux file system hierarchy, explain linux file system, linux file system hierarchy diagram, home linux, file system hierarchy in linux
 generes: linux
 img: 2018-05-11-linux-directories.jpg
 imagealt: list of directories in linux

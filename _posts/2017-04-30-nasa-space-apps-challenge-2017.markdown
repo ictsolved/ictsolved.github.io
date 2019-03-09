@@ -8,7 +8,7 @@ categories:
 - blog
 - Memorandum
 img: nasa-1.jpg
-keywords: nasa space apps, aarcana
+keywords: nasa space apps 2017, aarcana, sarad gajurel
 generes: memorandum
 imagealt: team aarcana at NASA Space Apps Challenge 2017
 thumb: nasa-1.jpg

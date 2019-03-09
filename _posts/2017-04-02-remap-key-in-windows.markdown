@@ -7,7 +7,7 @@ author: sarad
 categories:
 - blog
 - Windows
-keywords: remap, keyboard, windows
+keywords: remap keyboard, windows keyboard remap, remap keyboard in windows
 generes: keyboard
 img: win-remap-1.png
 imagealt: windows keyboard remap

@@ -31,14 +31,13 @@ robots: noindex
     
         <!-- BLOG POSTS LIST -->
         <div class="col-lg-8">
-        
+        {% include sidebar_search_bar.html %}
             <!-- Search Result -->
 		<ol><h3 class="ctitle" id="search-results"></h3></ol>
                 <div class="spacing"></div>
         </div><!--/col-lg-8 -->
             <!-- Sidebar -->
         <div class="col-lg-4">
-            {% include sidebar_search_bar.html %}
             {% include sidebar_recent_posts.html %}
             {% include sidebar_categories.html %}
             {% include sidebar_subscribe.html %}

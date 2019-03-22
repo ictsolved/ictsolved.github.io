@@ -14,7 +14,7 @@ thumb_img_path: "/assets/img/blog/thumbs/"
 
 # Build settings
 markdown: kramdown
-permalink: /:title
+permalink: /:title/
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post is
 
 colors:  #in hex code if not noted else

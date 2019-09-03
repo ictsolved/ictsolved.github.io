@@ -9,9 +9,9 @@ categories:
 - Windows
 keywords: remap keyboard, windows keyboard remap, remap keyboard in windows
 generes: keyboard
-img: win-remap-1.png
+img: 2017-04-02-remap-key-in-windows/remap-keyboard-windows-1.png
 imagealt: windows keyboard remap
-thumb: win-remap.png
+thumb: 2017-04-02-remap-key-in-windows/win-remap.png
 redirect_from:
   - /blog/windows/remap-key-in-windows
 ---
@@ -33,14 +33,14 @@ In my keyboard ‘Delete’ key is broken so I am going to remap it to ‘Insert
 
 3. Press the key you want to remap or click the number in KeyTweak window (helpful if key is broken). You don't need to be confused with the numbers because you can see which key is selected after you click on the its respective number.
 
-	<img src="/assets/img/blog/win-remap-2.png" width="850" height="450" alt="Insert Key">
+	<img src="/assets/img/blog/2017-04-02-remap-key-in-windows/remap-keyboard-windows-2.png" width="850" height="450" alt="Insert Key">
 
 4. Click on 'Choose New Remapping' dropdown button and choose the new action you want to assign for the selected key then click on 'Remap Key'
 
-	<img src="/assets/img/blog/win-remap-3.png" width="850" height="450" alt="Delete action">
+	<img src="/assets/img/blog/2017-04-02-remap-key-in-windows/remap-keyboard-windows-3.png" width="850" height="450" alt="Delete action">
 
 5. Finally click on 'Apply'and restart the computer.
 
-	<img src="/assets/img/blog/win-remap-5.png" width="850" height="450" alt="apply">
+	<img src="/assets/img/blog/2017-04-02-remap-key-in-windows/remap-keyboard-windows-5.png" width="850" height="450" alt="apply">
 
 After the reboot you will be able to use your customized mapping. If you face any difficulty while performing the steps mentioned above comment below and also donot forget to share your experience on remapping the keyboard.

@@ -9,9 +9,9 @@ categories:
 - Linux
 keywords: fix Grub, grub rescue, repair grub, grub rescue unknown filesystem, boot repair debian, grub rescue windows 7
 generes: grub
-img: grub.jpg
+img: 2016-09-30-recover-efi-grub-in-linux/linux-grub.png
 imagealt: grub screen
-thumb: grub.jpg
+thumb: 2016-09-30-recover-efi-grub-in-linux/grub-thumb.png
 redirect_from:
   - /blog/linux/recover-efi-grub-in-linux
   - /blog/linux/recover-grub-in-linux-efi
@@ -35,7 +35,7 @@ All the linux users who use distro with <b>GRUB</b> as a bootloader are aware of
 		
 	You will see the output similar to image below:
 
-	<img src="/assets/img/blog/fdisk.jpg" width="850" height="450" alt="list partitions with fdisk">
+	<img src="/assets/img/blog/2016-09-30-recover-efi-grub-in-linux/linux-fdisk.jpg" width="850" height="450" alt="list partitions with fdisk">
 
 	Look at the 'Device' and 'Type' column. In my case, 
 

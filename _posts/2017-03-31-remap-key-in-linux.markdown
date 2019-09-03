@@ -8,9 +8,9 @@ categories:
 - blog
 - Linux
 keywords: remap keyboard, linux keyboard remap, remap keyboard in linux, xmodmap, xkb remap keys
-img: linux-remap.jpg
+img: 2017-03-31-remap-key-in-linux/remap-key-in-linux.png
 imagealt: linux keyboard remap
-thumb: linux-remap.jpg
+thumb: 2017-03-31-remap-key-in-linux/linux-remap.png
 redirect_from:
   - /blog/linux/remap-key-in-linux
 ---

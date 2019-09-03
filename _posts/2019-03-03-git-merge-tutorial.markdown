@@ -9,9 +9,9 @@ categories:
 - Git
 keywords: git merge command example, git merge, git merge conflict, git merge tutorial, git merge commit, git merge branch into master, git merge remote branch
 generes: Git
-img: 2019-03-03-git-merge-tutorial.png
+img: 2019-03-03-git-merge-tutorial/git-merge-tutorial.png
 imagealt: git merge tutorial
-thumb: 2019-03-03-git-merge-tutorial.png
+thumb: 2019-03-03-git-merge-tutorial/git-merge-tutorial-thumb.png
 redirect_from:
   - /blog/git/git-merge-tutorial
 ---

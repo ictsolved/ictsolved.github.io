@@ -10,7 +10,6 @@ baseurl: ""
 url: "https://ictsolved.github.io"
 blog_img_path: "/assets/img/blog/"
 about_img_path: "/assets/img/about.jpg"
-thumb_img_path: "/assets/img/blog/thumbs/"
 
 # Build settings
 markdown: kramdown

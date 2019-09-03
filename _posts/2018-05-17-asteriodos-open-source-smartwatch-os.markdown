@@ -9,9 +9,9 @@ categories:
 - Tech
 keywords: ‪‪AsteroidOS‬, ‪Wear OS‬, ‪Smartwatch‬, open source smartwatch hardware
 generes: Smartwatch
-img: 2018-05-17-asteriodos-open-source-smartwatch-os.jpg
+img: 2018-05-17-asteriodos-open-source-smartwatch-os/asteriodos-open-source-smartwatch-os.jpg
 imagealt: asteroidos gets first stable release
-thumb: 2018-05-17-asteriodos-open-source-smartwatch-os.jpg
+thumb: 2018-05-17-asteriodos-open-source-smartwatch-os/asteriodos-open-source-smartwatch-os-thumb.jpg
 redirect_from:
   - /blog/technology/asteriodos-open-source-smartwatch-os
 ---

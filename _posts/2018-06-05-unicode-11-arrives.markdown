@@ -9,9 +9,9 @@ categories:
 - Tech
 keywords: Unicode 11.0, Emoji 11.0, Emojipedia, Emoji
 generes: Emoji
-img: 2018-06-05-unicode-11-arrives-1.jpg
+img: 2018-06-05-unicode-11-arrives/unicode-11-arrives-1.jpg
 imagealt: emojis in unicode 11
-thumb: 2018-06-05-unicode-11-arrives.jpg
+thumb: 2018-06-05-unicode-11-arrives/unicode-11-arrives-thumb.jpg
 redirect_from:
   - /blog/tech/unicode-11-arrives
 ---
@@ -29,7 +29,7 @@ The vendors like Facebook and Twitter can update their emoji designs on their we
 
 ### What to expect in next release?
 
-<img src="/assets/img/blog/2018-06-05-unicode-11-arrives-2.jpg" alt="emojis in Unicode 12.0">
+<img src="/assets/img/blog/2018-06-05-unicode-11-arrives/unicode-11-arrives-2.jpg" alt="emojis in Unicode 12.0">
 
 
 The next release of Unicode is planned for March 2019. Some draft candidates for next release include axe, driving mask, diya lamp, white heart, hindu temple, flamingo etc. These are just the candidates, and the final list is yet to be decided. Hence they can either be removed or changed during the final release. The candidate hindu temple perhaps suggests that emojis of other religions will also be included in Unicode 12.0.

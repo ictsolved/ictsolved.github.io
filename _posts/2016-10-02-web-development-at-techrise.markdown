@@ -8,9 +8,9 @@ categories:
 - blog
 - Memorandum
 keywords: techrise, ruby on rails, aarcana, sarad gajurel
-img: techrise-enrollment.jpg
+img: 2016-10-02-web-development-at-techrise/web-development-at-techrise.jpg
 imagealt: team aarcan enrollment day at techrise
-thumb: techrise-enrollment.jpg
+thumb: 2016-10-02-web-development-at-techrise/techrise-enrollment.jpg
 redirect_from:
   - /blog/memorandum/web-development-at-techrise
   - /blog/personal%20archive/web-development-at-techrise

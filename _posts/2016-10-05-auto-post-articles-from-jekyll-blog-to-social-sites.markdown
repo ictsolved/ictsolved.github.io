@@ -9,9 +9,9 @@ categories:
 - Blogging
 keywords: auto post jekyll, automatically post to facebook from website, jekyll auto post to facebook, auto post blog to social networks, jekyll auto post to facebook page, jekyll auto post to facebook group, auto post to social media from jekyll, auto post share
 generes: jekyll
-img: ifttt0.jpg
+img: 2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-0.png
 imagealt: auto post jekyll posts to social media
-thumb: ifttt0_thumb.jpg
+thumb: 2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/ifttt0_thumb.png
 redirect_from:
   - /blog/blogging/auto-post-articles-from-jekyll-blog-to-social-sites
 ---
@@ -34,43 +34,43 @@ This plugin will automatically generate an Atom feed at "/feed.xml" or "_site/fe
 
 <b>3. Go to [IFTTT <i class="fa fa-external-link" aria-hidden="true"></i>](https://ifttt.com/){:target="_blank"} and sign-up for an account.</b>
 
-<img src="/assets/img/blog/ifttt1.jpg" alt="IFTTT sign-up">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-1.jpg" alt="IFTTT sign-up">
 
 <b>4. After creating an account, you will see the page similar to the image below except your recipes will be empty.</b>
 
-<img src="/assets/img/blog/ifttt2.jpg" alt="IFTTT creating recipe">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-2.jpg" alt="IFTTT creating recipe">
 
 <b>Click on Create a Recipe and the following page appears. We have to set a trigger so click on the link "this" which is underlined and highlighted with a cyan colour.</b>
 
-<img src="/assets/img/blog/ifttt3.jpg" alt="IFTTT trigger">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-3.jpg" alt="IFTTT trigger">
 
 <b>5. To choose the trigger channel, type "feed" in search bar and the result with orange RSS feed icon shows up. Click that icon.</b>
 
-<img src="/assets/img/blog/ifttt4.jpg" alt="Choosing Feed">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-4.jpg" alt="Choosing Feed">
 
 <b>6. In the resulting page, choose "New feed item" as the trigger.</b>
 
-<img src="/assets/img/blog/ifttt5.jpg" alt="feed results">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-5.jpg" alt="feed results">
 
 <b>7. The next step is to provide link of feed.xml. If your site is hosted in Github it is probably "github_username.github.io/feed.xml" or "github_username.github.io/repo_name/feed.xml". Provide the link correctly link and click "Create Trigger".</b>
 
-<img src="/assets/img/blog/ifttt6.jpg" alt="feed.xml link">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-6.jpg" alt="feed.xml link">
 
 <b>8. Trigger is set now. Another step is to execute action with the specified trigger so click "that" which is in cyan colour and underlined.
 
-<img src="/assets/img/blog/ifttt7.jpg" alt="setting action">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-7.jpg" alt="setting action">
 
 <b>9. In the action channel search bar type in "twitter" and click on the result that comes in.</b>
 
-<img src="/assets/img/blog/ifttt8.jpg" alt="action search">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-8.jpg" alt="action search">
 
 <b>10. Connect twitter with IFTTT app. Since you want to auto tweet your new article choose "Post a tweet" action</b>
 
-<img src="/assets/img/blog/ifttt9.jpg" alt="choosing action">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-9.jpg" alt="choosing action">
 
 <b>11. The box contains "EntryTitle" and "EntryUrl" by default but to make it look more cool, you can add your desired phrase and click next. Finally click "Create Recipe".</b>
 
-<img src="/assets/img/blog/ifttt10.jpg" alt="finalizing action">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-10.jpg" alt="finalizing action">
 
 Congratulations! You have successfully setup auto posting your article to twitter. Afterwards whenever you post a new article, it is fetched from the feed and is tweeted on your profile within few minutes.
 
@@ -78,10 +78,10 @@ Note: The URL of your posts get shortened while tweeting but if you do not want 
 
 <b>1. Click on your account name on the top right and choose Preferences</b>
 
-<img src="/assets/img/blog/ifttt11.jpg" alt="preferences">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-11.jpg" alt="preferences">
 
 <b>2. Remove check mark from "Auto shorten URLs" and click on Update settings</b>
 
-<img src="/assets/img/blog/ifttt12.jpg" alt="avoiding short urls">
+<img src="/assets/img/blog/2016-10-05-auto-post-articles-from-jekyll-blog-to-social-sites/autopost-blog-to-social-site-12.jpg" alt="avoiding short urls">
 
 This is all you need to do. Don't forget to share your experience on setting up IFTTT through comments.

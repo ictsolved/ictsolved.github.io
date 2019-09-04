@@ -152,21 +152,21 @@ Technology has benefitted us in several ways and one of them is taking an appoin
 
 ### [20. Dental Health App by Andrea Hock](https://dribbble.com/shots/6197013-Dental-Health-App-Automated-Hack-24){:target="_blank"}{:rel="nofollow"}
 <a href="https://dribbble.com/shots/6197013-Dental-Health-App-Automated-Hack-24" target="_blank" rel="nofollow">
-<img src="/assets/img/blog/2019-09-03-23-outstanding-dentist-app-ui-designs/dentist-app-ui-20.png" alt="Dental Health App UI">
+<img src="/assets/img/blog/2019-09-03-23-outstanding-dentist-app-ui-designs/dentist-app-ui-21.png" alt="Dental Health App UI">
 </a>
 
 <hr>
 
 ### [21. Dental Clinic Booking and Appointment by Olga for Netrix in Adobe Live](https://dribbble.com/shots/5573619-Adobe-Live-Stream){:target="_blank"}{:rel="nofollow"}
 <a href="https://dribbble.com/shots/5573619-Adobe-Live-Stream" target="_blank" rel="nofollow">
-<img src="/assets/img/blog/2019-09-03-23-outstanding-dentist-app-ui-designs/dentist-app-ui-21.png" alt="Dental Clinic Booking and Appointment design">
+<img src="/assets/img/blog/2019-09-03-23-outstanding-dentist-app-ui-designs/dentist-app-ui-22.png" alt="Dental Clinic Booking and Appointment design">
 </a>
 
 <hr>
 
 ### [22. My Dentist by Johny vino™](https://dribbble.com/shots/3461370-My-Dentist-app-concept){:target="_blank"}{:rel="nofollow"}
 <a href="https://dribbble.com/shots/3461370-My-Dentist-app-concept" target="_blank" rel="nofollow">
-<img src="/assets/img/blog/2019-09-03-23-outstanding-dentist-app-ui-designs/dentist-app-ui-22.png" alt="Dentist App UI design">
+<img src="/assets/img/blog/2019-09-03-23-outstanding-dentist-app-ui-designs/dentist-app-ui-23.png" alt="Dentist App UI design">
 </a>
 
 So we have presented you the 22 best Dentist App UI inspiration. You can view more screens and license by clicking on the title or image in order to use them in your application.

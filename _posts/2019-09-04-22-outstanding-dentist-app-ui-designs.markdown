@@ -166,7 +166,7 @@ Technology has benefitted us in several ways and one of them is taking an appoin
 
 ### [22. My Dentist by Johny vino™](https://dribbble.com/shots/3461370-My-Dentist-app-concept){:target="_blank"}{:rel="nofollow"}
 <a href="https://dribbble.com/shots/3461370-My-Dentist-app-concept" target="_blank" rel="nofollow">
-<img src="/assets/img/blog/2019-09-03-23-outstanding-dentist-app-ui-designs/dentist-app-ui-23.png" alt="Dentist App UI design">
+<img src="/assets/img/blog/2019-09-03-23-outstanding-dentist-app-ui-designs/dentist-app-ui-23.gif" alt="Dentist App UI design">
 </a>
 
 So we have presented you the 22 best Dentist App UI inspiration. You can view more screens and license by clicking on the title or image in order to use them in your application.

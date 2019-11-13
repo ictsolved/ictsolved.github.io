@@ -120,7 +120,7 @@ a.anchor{display:block;position:relative;top:-80px;visibility:hidden;}
      padding-left: 24px;
      float: left;
      line-height: 64px;
-     font-size: 1.2em;
+     font-size: 19px;
      font-weight: bold;
 }
  .brand a, .brand a:visited {
@@ -147,7 +147,6 @@ a.anchor{display:block;position:relative;top:-80px;visibility:hidden;}
      position: relative;
 }
  nav ul li a, nav ul li a:visited {
-     font-weight: bold;
      font-size: 14px;
      display: block;
      padding: 0 20px;

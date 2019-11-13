@@ -1,16 +1,40 @@
-<div id="footerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <p>
-                    {% for network in site.social %}
+<!-- FOOTER START -->
+<div class="footer">
+  <div class="contain">
+  <div class="col">
+    <h1>Company</h1>
+    <ul>
+    <li><a href="{{site.url}}/about/">About</a></li>
+      <li><a href="{{site.url}}/contact/">Contact</a></li>
+      <li><a href="{{site.url}}/privacy-policy/">Privacy Policy</a></li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Product</h1>
+    <ul>
+        <li><a href="{{site.url}}/csit/" target="_blank">CSIT Ground</a></li>
+      <li><a href="{{site.url}}/nepali-radio/" target="_blank">Nepali Radio</a></li>
+      <li><a href="{{site.url}}/forex-nepal/" target="_blank">Forex Nepal</a></li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Resources</h1>
+    <ul>
+      <li><a href="{{site.url}}/archive/">Sitemap</a></li>
+    </ul>
+  </div>
+</div>
+<div class="clearfix"></div>
+<hr class="line">
+<div class="follow">
+    {% for network in site.social %}
                         <a href="{{ network.url }}" target="_blank" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
                     {% endfor %}
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <div style="text-align: right;"><p><small>ICT Solved! &copy 2019</small></p></div>
-            </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+</div>
+<div class="copyright">
+    <p>
+&copy 2019 - ICT Solved! | <a href="{{site.url}}/privacy-policy/">Privacy Policy</a>
+</p>
+</div>
+</div>
+<!-- END OF FOOTER -->

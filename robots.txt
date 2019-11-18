@@ -1,2 +1,2 @@
-User-agent: *
 Sitemap: https://ictsolved.github.io/sitemap.xml
+Sitemap: https://ictsolved.github.io/csit/sitemap.xml

@@ -1,37 +1,100 @@
 ---
-layout: blog
-permalink: /404.html
+layout: compress
 sitemap: false
-robots: noindex
+permalink: /404
 type: website
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex" />
+  <title>404</title>
+  <meta name="description" content="404" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="{{site.url}}/assets/css/404.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{site.url}}/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{site.url}}/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{site.url}}/assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="{{site.url}}/assets/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="{{site.url}}/assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="{{site.url}}/assets/img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="{{site.url}}/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
+  <!-- facebook -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="404">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:description" content="404">
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:image" content="{{site.url}}/assets/img/about.png" />
+  <meta property="fb:admins" content="https://facebook.com/saradgajurel" />
+  <!-- facebook -->
 
-<!-- Result -->
-<div class="container mtb">
-    <div class="row">
-    
-        <!-- BLOG POSTS LIST -->
-        <div class="col-lg-8 centered">
-        
-            <!-- Search Result -->
-		<h2>404</h2>
-            <br>
-            <div class="hline"></div>
-            <br>
-            <h3>The page you requested is not found.</h3>
-                <div class="spacing"></div>
-        </div><!--/col-lg-8 -->
-        <div class="spacing"></div>
-            <!-- Sidebar -->
-        <div class="col-lg-4">
-            {% include sidebar_search_bar.html %}
-            {% include sidebar_recent_posts.html %}
-            {% include sidebar_categories.html %}
-            {% include sidebar_subscribe.html %}
-            {% include sidebar_tags.html %}
-            {% include sidebar_post_archive.html %}
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="404">
+  <meta name="twitter:description" content="404">
+  <meta name="twitter:creator" content="{{ site.twitter_username }}">
+  <meta name="twitter:image" content="{{site.url}}/assets/img/about.png">
+  <!-- twitter -->
+
+  <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-84674621-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <script src="{{site.url}}/assets/js/jquery.min.js"></script>
+</head>
+<body class="bg-purple">
+        <div class="stars">
+            <div class="custom-navbar">
+                <div class="brand-logo">
+                    <a href="{{site.url}}">ICT Solved!</a>
+                </div>
+                <div class="navbar-links">
+                    <ul>
+                      <li><a href="{{site.url}}">Home</a></li>
+                      <li><a href="{{site.url}}/about/">About</a></li>
+                      <li><a href="{{site.url}}/contact/">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="central-body">
+                <img class="image-404" src="{{site.url}}/assets/img/404/404.svg" width="300px">
+                <a href="{{site.url}}{{site.baseurl}}" class="btn-go-home">GO BACK HOME</a>
+            </div>
+            <div class="objects">
+                <img class="object_rocket" src="{{site.url}}/assets/img/404/rocket.svg" width="40px">
+                <div class="earth-moon">
+                    <img class="object_earth" src="{{site.url}}/assets/img/404/earth.svg" width="100px">
+                    <img class="object_moon" src="{{site.url}}/assets/img/404/moon.svg" width="80px">
+                </div>
+                <div class="box_astronaut">
+                    <img class="object_astronaut" src="{{site.url}}/assets/img/404/astronaut.svg" width="140px">
+                </div>
+            </div>
+            <div class="glowing_stars">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+
+            </div>
+
         </div>
-    </div><!-- /row -->
-</div><!-- /container -->
+    </body>
+</html>

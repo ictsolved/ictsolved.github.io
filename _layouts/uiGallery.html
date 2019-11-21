@@ -55,6 +55,11 @@ layout: default
                   <div align="justify">
                   {{ content }}
                   {% for ui in page.ui %}
+                  	{% assign remainder = forloop.index | modulo: 10 %}
+        			{% assign rindex = forloop.rindex-1 %}
+        			{% if rindex!=0 and remainder == 0 %}
+        			{% include adsense_inFeedForUI.html %}
+        			{% endif %}
                 	<h3>{{ forloop.index }}.<a href="{{ ui.url }}" target="_blank" rel="nofollow" style="text-transform: capitalize;">&nbsp;{{ ui.title }}</a></h3> 
                   <a href="{{ ui.url }}" target="_blank" rel="nofollow"><img src="{{ page.uiImagePath }}{{ ui.img }}" alt="{{ ui.alt }}"></a>
                   {% if ui.description %}

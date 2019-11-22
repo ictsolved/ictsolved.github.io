@@ -61,7 +61,7 @@ layout: default
         			{% include adsense_inFeedForUI.html %}
         			{% endif %}
                 	<h3>{{ forloop.index }}.<a href="{{ ui.url }}" target="_blank" rel="nofollow" style="text-transform: capitalize;">&nbsp;{{ ui.title }}</a></h3> 
-                  <a href="{{ ui.url }}" target="_blank" rel="nofollow"><img src="{{ page.uiImagePath }}{{ ui.img }}" alt="{{ ui.alt }}"></a>
+                  <a href="{{ ui.url }}" target="_blank" rel="nofollow"><img src="{% if ui.img%} {{ page.uiImagePath }}{{ ui.img }} {% else %} {{ui.imgUrl}} {% endif %} " alt="{{ ui.alt }}"></a>
                   {% if ui.description %}
                  	<p>{{ ui.description }}</p>
                  {% endif %}

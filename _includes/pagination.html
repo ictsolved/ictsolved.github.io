@@ -9,8 +9,8 @@
 <div class="card">
   <a href="{{ site.baseurl}}{{ page.previous.url }}"><img src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.previous.img }}" alt="{{ page.previous.imagealt }}" style="width:100%"></a>
   <div class="container">
-    <p><a href="{{ site.baseurl}}{{ page.previous.url }}">{{ page.previous.title }}</a></p>
-    <h4><a href="{{ site.baseurl}}{{ page.previous.url }}">Previous Post</a></h4>
+    <p class="sidebar"><a href="{{ site.baseurl}}{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+    <h2 class="subheading"><a href="{{ site.baseurl}}{{ page.previous.url }}">Previous Post</a></h2>
   </div>
 </div>
 
@@ -26,8 +26,8 @@
        <div class="card">
   <a href="{{ site.baseurl}}{{ page.next.url }}"><img src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.next.img }}" alt="{{ page.next.imagealt }}" style="width:100%"></a>
   <div class="container">
-    <p><a href="{{ site.baseurl}}{{ page.next.url }}">{{ page.next.title }}</a></p>
-    <h4><a href="{{ site.baseurl}}{{ page.next.url }}">Next Post</a></h4>
+    <p class="sidebar"><a href="{{ site.baseurl}}{{ page.next.url }}">{{ page.next.title }}</a></p>
+    <h2 class="subheading"><a href="{{ site.baseurl}}{{ page.next.url }}">Next Post</a></h2>
   </div>
 </div>
 		

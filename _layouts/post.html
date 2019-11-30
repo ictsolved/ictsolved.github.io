@@ -47,7 +47,7 @@ layout: default
         <div class="col-lg-8">
           {% include adsense_onTopAd.html %}
             <! -- Blog Post  -->
-            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+            <a href="{{ page.url | prepend: site.baseurl }}"><h1 class="ctitle">{{ page.title }}</h1></a>
             <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}" alt="{{ page.imagealt }}"></p>
             <p><small><i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;<i class="fa fa-user"></i> {{ author.name }} &nbsp;&nbsp;<i class="fa fa-clock-o"></i> Reading time: {% include read_time_post.html %} </small></p>
 
@@ -77,6 +77,7 @@ layout: default
         
         <br>
         <!-- Sidebar -->
+        <div class="sidebar-margin">
         <div class="col-lg-4">
             {% include sidebar_search_bar.html %}
             {% include sidebar_similar_posts.html %}
@@ -84,10 +85,9 @@ layout: default
             {% include adsense_LargeSkyScrapper.html %}
             {% include sidebar_categories.html %}
             {% include sidebar_subscribe.html %}
-            {% include sidebar_tags.html %}
             {% include sidebar_post_archive.html %}
         </div>
-
+</div>
     </div><! --/row -->
 </div><! --/container -->
 </article>

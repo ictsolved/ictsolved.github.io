@@ -2,7 +2,7 @@
     <h4>Post Archive</h4>
     <div class="hline"></div>
     <p>
-            <p class="rss-subscribe">Visit <a href="{{ "/archive" | prepend: site.baseurl }}">Archive </a>for all posts.</p>
+            <p class="rss-subscribe sidebar">Visit <a href="{{ "/archive" | prepend: site.baseurl }}">Archive </a>for all posts.</p>
         </p>
     <div>
 {%for post in site.posts limit:5 %}
@@ -20,7 +20,7 @@
     {% endunless %}
     <li><span class="post-date">
         {% assign date_format = site.date_format.archive %}
-        {{ post.date | date: date_format }} </span><p><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></p></li>
+        {{ post.date | date: date_format }} </span><p class="sidebar"><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></p></li>
 {% endfor %}
 </ul>
 </div>

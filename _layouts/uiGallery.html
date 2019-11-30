@@ -61,8 +61,8 @@ layout: default
         			{% include adsense_inFeedForUI.html %}
         			<hr>
         			{% endif %}
-                	<h3>{{ forloop.index }}.<a href="{{ ui.url }}" target="_blank" rel="nofollow" style="text-transform: capitalize;">&nbsp;{{ ui.title }}</a></h3> 
-                  <a href="{{ ui.url }}" target="_blank" rel="nofollow"><img src="{% if ui.img%} {{ page.uiImagePath }}{{ ui.img }} {% else %} {{ui.imgUrl}} {% endif %} " alt="{{ ui.alt }}"></a>
+                	<h2 class="subheading">{{ forloop.index }}.<a href="{{ ui.url }}" target="_blank" rel="nofollow" style="text-transform: capitalize;">&nbsp;{{ ui.title }}</a></h2> 
+                  <a href="{{ ui.url }}" target="_blank" rel="nofollow"><img src="{% if ui.img%} {{ page.uiImagePath }}{{ ui.img }} {% else %} {{ui.imgUrl}} {% endif %} " alt="{% if ui.alt%}{{ ui.alt }} {% else %}{{ page.designAlt }} {% endif %} "></a>
                   {% if ui.description %}
                  	<p>{{ ui.description }}</p>
                  {% endif %}
@@ -99,7 +99,6 @@ layout: default
             {% include adsense_LargeSkyScrapper.html %}
             {% include sidebar_categories.html %}
             {% include sidebar_subscribe.html %}
-            {% include sidebar_tags.html %}
             {% include sidebar_post_archive.html %}
         </div>
 

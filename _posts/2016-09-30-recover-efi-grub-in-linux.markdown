@@ -4,8 +4,7 @@ title: "Recover Grub of EFI System in Linux"
 description: Recovering GRUB is an easy task and it can be done quickly by following these steps. Prepare your Live bootable linux media and get your hands ready to issue the command to the terminal.
 date: 2016-09-30 03:16:46
 author: sarad
-categories:
-- blog
+tags:
 - Linux
 keywords: fix Grub, grub rescue, repair grub, grub rescue unknown filesystem, boot repair debian, grub rescue windows 7
 generes: grub
@@ -35,7 +34,7 @@ All the linux users who use distro with <b>GRUB</b> as a bootloader are aware of
 		
 	You will see the output similar to image below:
 
-	<img src="/assets/img/blog/2016-09-30-recover-efi-grub-in-linux/linux-fdisk.jpg" width="850" height="450" alt="list partitions with fdisk">
+	<img src="/assets/images/blog/2016-09-30-recover-efi-grub-in-linux/linux-fdisk.jpg" width="850" height="450" alt="list partitions with fdisk">
 
 	Look at the 'Device' and 'Type' column. In my case, 
 

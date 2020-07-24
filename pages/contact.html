@@ -1,93 +1,77 @@
 ---
-layout: blog
+layout: default
 type: website
-title: Contact
-keywords: ict solved, ictsolved, saradgajurel, sarad gajurel
+title: Contact - ICT Solved!
+keywords: ICT Solved! Contact, Contact ICT Solved!
 permalink: /contact/
 ---
-
-<div class="container mtb">
-    <div class="row centered">
-        <h3 class="mb">Author</h3>
-        
-        {% for member in site.members %}
-        <!-- <div class="col-lg-3 col-md-3 col-sm-3"> -->
-            <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/" | prepend: site.baseurl }}{{ member.img }}" alt="">
-                <div class="he-view">
-                    <div class="bg a0" data-animate="fadeIn">
-                        <h3 class="a1" data-animate="fadeInDown">My Social Links</h3>
-                        {% for entry in member.social %}
-                            <a href="{{ entry.url }}" target="_blank" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
-                        {% endfor %}
-                    </div><!-- he bg -->
-                </div><!-- he view -->      
-            </div><!-- he wrap -->
-            <h4>{{ member.name }}</h4>
-            <h5 class="ctitle">{{ member.position }}</h5>
-            <p>{{ member.text }}</p>
-        <!-- </div><! --/col-lg-3 -->       
-        {% endfor %}
-        
-    </div><! --/row -->
-</div><! --/container -->
-
-<div id="contactwrap">
-</div>
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-12">
-            <h4>Leave Message or Feedback</h4>
-            <div class="hline"></div>
-            <p>{{ site.contact }}</p>
-            <form id="contact-form" method="POST" action="//formspree.io/ictsimplified@gmail.com">
-                <input type="hidden" name="_next" value="https://ictsolved.github.io/thanks" />
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="fname">Firstname</label>
-                            <input class="form-control" type="text" name="name" required placeholder="Firstname">
+<section class="page-title-area bg-cover1">
+    <div class="page-title-wrapper section-spacing">
+        <div class="page-title text-center white-text">
+            <h1 class="heading-1">Contact</h1>
+        </div>
+    </div>
+</section>
+<section class="form-area bg-color1" id="form-area">
+    <div class="form-wrapper section-spacing tminus-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h3 class="sub-title heading-3">Leave Message or Feedback</h3>
+                    <script type="text/javascript">var submitted = false;</script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                        onload="showSuccess(submitted)"></iframe>
+                    <form class="form-action" id="form"
+                        action="https://docs.google.com/forms/d/e/1FAIpQLSeNNS45sQ4ksr7l-NhAaztckAAgGGZmc7fkFP6bM4RrCxOtFQ/formResponse"
+                        method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                        <div class=" form-row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input required type="text" class="form-control" placeholder="Full Name"
+                                        name="entry.746959430">
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="lname">Lastname</label>
-                            <input class="form-control" type="text" name="name" required placeholder="Lastname">
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input required type="email" class="form-control" placeholder="Email Address"
+                                        name="entry.197585866">
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input required type="text" class="form-control" placeholder="Subject"
+                                        name="entry.156303226">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <textarea required rows="6" class="form-control" placeholder="Message"
+                                        name="entry.1245798888"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group m-0">
+                            <button type="submit" class="btn-style2 btn btn-primary">Submit </button>
+                        </div>
+                    </form>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input class="form-control" type="email" name="_replyto" required placeholder="Your Email">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input class="form-control" type="text" name="subject" required placeholder="Subject of Message">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" name="message" placeholder="Message" required rows="5"></textarea>
-                        </div>
-                    </div>
-                    <p class="text-muted"><strong>*</strong> All fields are required.</p>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-theme">Send Message</button>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                    </div>
-                </div>
-             </form>
-        </div><!-- /col-lg-8 -->
-    </div><!-- /row -->
-</div><!-- /container -->
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    function showSuccess(submitted) {
+        if (submitted) {
+            var form = document.getElementById("form");
+            form.reset();
+            form.innerHTML = '<div class="card"><div class="card-header" id="headingOne1"><p>Thank you for getting in touch!</p><p>We will be getting back to you shortly. While we do our best to reach you quickly, it may take about 24 hours to receive a response from us during peak hours. Thanks in advance for your patience.</p><p>Have a great day!</p></div></div>';
+            document.getElementById('form-area').scrollIntoView();
+        }
+    }
+</script>

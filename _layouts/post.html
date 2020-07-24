@@ -2,92 +2,90 @@
 layout: default
 ---
 
-<!-- Meta Tagas for SEO Start-->
-{% assign author = site.data.authors[page.author] %}
-{% if page.date_modified %}
-{% assign modified = page.date_modified %}
-{% else %}
-{% assign modified = page.date %}
-{% endif %}
-{% assign date_format = site.date_format.post %}
-
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <meta itemprop="name headline" content="{{ page.title }}" />
-    <p class="post-meta">
-    <meta datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" content="{{ page.date | date: date_format }}" />
-    <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified" />
-    {% if author %}
-    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="{{ author.name }}" />
-      <meta itemprop="email" content="{{ author.email }}" />
-      <meta itemprop="image" content="{{ author.image }}" />
-    </span>
-    <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="{{ site.name }}" />
-      <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-        <meta itemprop="url" content="{{ site.url }}/assets/img/logo_new.png" />
-        <meta itemprop="height" content="387" />
-        <meta itemprop="width" content="387" />
-      </span>
-    </span>
-    {% endif %}
-    <meta itemprop="mainEntityOfPage" content="{{ site.url }}" />
-    <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-      <meta itemprop="url" content="{{ site.url }}/assets/img/logo_new.png" />
-      <meta itemprop="height" content="387" />
-      <meta itemprop="width" content="387" />
-    </span>
-    </p>
-      </header>
-
-<div class="container mtb">
-    <div class="row">
-        <! -- SINGLE POST -->
-        <div class="col-lg-8">
-          {% include adsense_onTopAd.html %}
-            <! -- Blog Post  -->
-            <a href="{{ page.url | prepend: site.baseurl }}"><h1 class="ctitle">{{ page.title }}</h1></a>
-            <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}" alt="{{ page.imagealt }}"></p>
-            <p><small><i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;<i class="fa fa-user"></i> {{ author.name }} &nbsp;&nbsp;<i class="fa fa-clock-o"></i> Reading time: {% include read_time_post.html %} </small></p>
-
-                <div class="post-content" itemprop="articleBody">
-                  <div align="justify">
-                  {{ content }}
-                  </div>
-                </div>
-                {% include adsense_large_rectangle.html %}
-
-            <div class="spacing"></div>
-
-            <!-- Share Post -->
-            {% include share.html %}
-             <br>
-
-         <!-- Pagination Begin -->
-            {% include pagination.html %}
-            <br>
-        <!-- Pagination End -->
-
-        <!-- Discuss Comments Begin -->
-            {% include disqus.html %}
-        <!-- Discuss Comments End -->
-
-        </div><! --/col-lg-8 -->
-        
-        <br>
-        <!-- Sidebar -->
-        <div class="sidebar-margin">
-        <div class="col-lg-4">
-            {% include sidebar_search_bar.html %}
-            {% include sidebar_similar_posts.html %}
-            {% include sidebar_recent_posts.html %}
-            {% include adsense_LargeSkyScrapper.html %}
-            {% include sidebar_categories.html %}
-            {% include sidebar_subscribe.html %}
-            {% include sidebar_post_archive.html %}
+<section class="page-title-area bg-cover1">
+    <div class="page-title-wrapper section-spacing">
+        <div class="page-title text-center white-text">
+            <h2 class="heading-2">{{ page.title }}</h2>
+            <ul class="page-title-meta list-inline">
+                <li class="list-inline-item"><img src="{{ site.url }}/assets/images/slider-date.png"
+                        alt="calendar icon">{{ page.date | date_to_string }}</li>
+            </ul>
         </div>
-</div>
-    </div><! --/row -->
-</div><! --/container -->
-</article>
+    </div>
+</section>
+
+<section class="blog-area bg-color1">
+    <div class="blog-wrapper section-spacing bminus-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-lg-8">
+                    <div class="single-post">
+                        <div class="single-img">
+                            <img src="{{ site.url }}/assets/images/blog/{{ page.img }}" alt="{{ page.title }}" />
+                        </div>
+                        <div class="single-content">
+                            {{ content }}
+                        </div>
+                        <div class="single-tags-share">
+                            <ul class="single-tags list-inline float-left">
+                                <strong>Tag:</strong>
+                                <li class="list-inline-item">
+                                    <!-- <a class="text-capitalize"
+                                        href="../tag/education/index.html">
+                                        {% for tag in page.tags %}
+                                        {{ tag }}
+                                        {% endfor %}
+                                    </a> -->
+                                    {% for tag in page.tags %}
+                                    {{ tag }}
+                                    {% endfor %}
+                                </li>
+                            </ul>
+                            <div class="social-share-btns">
+                                <ul class="single-share list-inline float-right">
+                                    <li class="list-inline-item">Share:</li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}"
+                                            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                                            title="Share on Facebook">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ page.url }}"
+                                            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                                            title="Share on Twitter">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <nav class="page-pagination mb-5">
+                            <ul class="pagination d-flex justify-content-between themeix-highlight">
+                                <li class="page-item themeix-highlight">
+                                    <a class="page-link next-btn"
+                                        href="../technology-placeat-ipsum-libero/index.html"><i
+                                            class="fa fa-angle-double-left"></i> Previous Post</a>
+                                </li>
+                                <li class="page-item themeix-highlight">
+                                    <a class="page-link prev-btn" href="../blog-post-left-sidebar/index.html">Next
+                                        Post<i class="fa fa-angle-double-right"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="post-comment">
+                        {% include disqus.html %}
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="sidebar-area sidebar-right">
+                        {% include sidebar-post.html %}
+                        {% include sidebar-tag.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

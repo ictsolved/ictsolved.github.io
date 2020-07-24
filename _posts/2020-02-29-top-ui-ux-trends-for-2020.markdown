@@ -4,8 +4,7 @@ title: "The Top UI / UX Trends To Know For 2020"
 description: The UI and UX of an app play such an important role in its success. These factors are key to delivering a program or service that is useful and engaging. A good UI/UX design can draw new users to your app and it is also what keeps them coming back.
 date: 2020-02-29 13:04:46
 author: sarad
-categories:
-- blog
+tags:
 - UI/UX
 keywords: 2020 ui trend, ui/ux trend of 2020, ui/ux trend to know in 2020, top ui trend, top ux trend, latest ui design trend
 generes: UI/UX

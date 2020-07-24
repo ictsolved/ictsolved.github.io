@@ -1,11 +1,10 @@
 ---
-layout: uiGallery
+layout: post
 title: "25 Awesome Figma Illustration Templates"
 description: We are presenting you the awesome collection of figma illustration templates curated by the designers to inspire you for UI/UX designs. These templates are chosen from the UI design challenges which were featured and selected as best illustrations so there is no doubt that these are awesome and is a source of inspiration for you.
 date: 2019-11-30 11:27:46
 author: sarad
-categories:
-- blog
+tags:
 - UI/UX
 keywords: figma illustratin templates, figma designs, figma design templates, figma art collection, figma illustrations
 generes: UI/UX

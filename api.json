@@ -3,13 +3,19 @@ sitemap: false
 robots: noindex
 ---
 
+{% assign tags = '' %}
 [{% for post in site.posts %}
+	{% for tag in post.tags %}
+	{% assign tags = tags | append: tag | append: ',' %}
+	{% endfor %}
        {
         "title": "{{ post.title | xml_escape }}",
         "description": {{ post.content | strip_html | truncate: 60 | jsonify }},
         "date":"{{post.date | xml_escape | date_to_xmlschema }}",
         "image": "{{ post.img | prepend: site.blog_img_path | prepend: site.url | xml_escape }}",
-        "url": "{{ post.url | prepend: site.url | xml_escape }}"
+        "url": "{{ post.url | prepend: site.url | xml_escape }}",
+        "tag": {{ tags | jsonify }}
       }
       {% unless forloop.last %},{% endunless %}
+      {% assign tags = '' %}
     {% endfor %}]

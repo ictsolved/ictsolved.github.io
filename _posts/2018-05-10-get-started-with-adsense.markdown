@@ -4,8 +4,7 @@ title: "How to get started with Google AdSense?"
 description: Integrating Google AdSense in your website to make passive income is really a great idea. To be eligible for the AdSense program, one must comply with the terms and policies set by Google.
 date: 2018-05-10 17:04:46
 author: sarad
-categories:
-- blog
+tags:
 - Blogging
 keywords: adsense tutorial, google adsense sign up, google adsense earnings, google adsense tutorial, google adsense money, adsense sign in, how to create adsense account, learn google adsense, google ads adsense, google adsense make money, how to earn more with adsense, how to use google adsense to make money, learn adsense
 generes: adsense
@@ -33,23 +32,23 @@ If you fulfill the above criteria, you can get started with Adsense.
 Visit [AdSense Sign Up <i class="fa fa-external-link" aria-hidden="true"></i>](https://www.google.com/adsense/start){:target="_blank"} page.
 
 You will see a page similar to this one and click on Sign Up Now. 
-    <img src="/assets/img/blog/2018-05-10-get-started-with-adsense/2018-05-10-get-started-with-adsense-2.jpg" alt="Adsense Sign Up">
+    <img src="/assets/images/blog/2018-05-10-get-started-with-adsense/2018-05-10-get-started-with-adsense-2.jpg" alt="Adsense Sign Up">
 
 
 ### Step 2. Enter Web URL and Email
 
 When you click on Sign Up Now, you will need to enter the URL of your website and your email address you want to sign up AdSense with. If you want to occasionally receive helpful emails from AdSense, you can opt-in for the suggestions.
 
-<img src="/assets/img/blog/2018-05-10-get-started-with-adsense/2018-05-10-get-started-with-adsense-3.jpg" alt="AdSense Details">
+<img src="/assets/images/blog/2018-05-10-get-started-with-adsense/2018-05-10-get-started-with-adsense-3.jpg" alt="AdSense Details">
 
 ### Step 3: Complete the process
 
 After filling the information, now click on Save And Continue. You will now need to enter your valid mailing address to receive payments, verify your phone number and paste the provided script inside the head tag of your webpage on which you want to display ads. It will look like this:
 
-<img src="/assets/img/blog/2018-05-10-get-started-with-adsense/2018-05-10-get-started-with-adsense-4.jpg" alt="AdSense Code">
+<img src="/assets/images/blog/2018-05-10-get-started-with-adsense/2018-05-10-get-started-with-adsense-4.jpg" alt="AdSense Code">
 
 After you paste the scripts inside head tag in your browser, now put the tick mark in the checkbox saying "I've pasted the code into my site." and click Done. Your request is now successfully placed and AdSense team will verify whether you are eligible to apply for the AdSense within two days and mail you accordingly.
 
-<img src="/assets/img/blog/2018-05-10-get-started-with-adsense/2018-05-10-get-started-with-adsense-5.jpg" alt="AdSense Request Successful">
+<img src="/assets/images/blog/2018-05-10-get-started-with-adsense/2018-05-10-get-started-with-adsense-5.jpg" alt="AdSense Request Successful">
 
 If your request is approved, the ads will start to show on your website and you will start earning. You can check your earning from the AdSense dashboard. You can increase your earning by optimizing the website with SEO, by increasing traffic to your website with the attractive contents and following the AdSense Policy strictly. You can also add analytics service to your website in order to monitor the traffic on your website.

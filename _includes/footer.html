@@ -1,40 +1,62 @@
-<!-- FOOTER START -->
-<div class="footer">
-  <div class="contain">
-  <div class="col">
-    <h1>Company</h1>
-    <ul>
-    <li><a href="{{site.url}}/about/">About</a></li>
-      <li><a href="{{site.url}}/contact/">Contact</a></li>
-      <li><a href="{{site.url}}/privacy-policy/">Privacy Policy</a></li>
-    </ul>
-  </div>
-  <div class="col">
-    <h1>Product</h1>
-    <ul>
-        <li><a href="{{site.url}}/csit/" target="_blank">CSIT Tutor</a></li>
-      <li><a href="{{site.url}}/nepali-radio/" target="_blank">Nepali Radio</a></li>
-      <li><a href="{{site.url}}/forex-nepal/" target="_blank">Forex Nepal</a></li>
-    </ul>
-  </div>
-  <div class="col">
-    <h1>Resources</h1>
-    <ul>
-      <li><a href="{{site.url}}/archive/">Sitemap</a></li>
-    </ul>
-  </div>
-</div>
-<div class="clearfix"></div>
-<hr class="line">
-<div class="follow">
-    {% for network in site.social %}
-                        <a href="{{ network.url }}" target="_blank" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-</div>
-<div class="copyright">
-    <p>
-&copy 2020 - ICT Solved! | <a href="{{site.url}}/privacy-policy/">Privacy Policy</a>
-</p>
-</div>
-</div>
-<!-- END OF FOOTER -->
+<footer class="footer-area bg-color3">
+    <div class="footer-wrapper section-spacing bminus-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="footer-widget wow fadeIn" data-wow-duration="1s">
+                        <h5 class="footer-title heading-5">About ICT Solved!</h5>
+                        <p>{{ site.description }}</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="footer-widget wow fadeIn" data-wow-duration="2s">
+                        <h5 class="footer-title heading-5">Products</h5>
+                        <ul class="footer-category list-inline">
+                            <li><a href="{{ site.url }}/csit">CSIT Tutor</a></li>
+                            <li><a href="{{ site.url }}/nepali-radio">Nepali Radio</a></li>
+                            <li><a href="{{ site.url }}/forex-nepal">Forex Nepal</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-widget wow fadeIn" data-wow-duration="3s">
+                        <h5 class="footer-title heading-5">Links</h5>
+                        <ul class="footer-category list-inline">
+                            <li><a href="{{ site.url }}/privacy-policy">Privacy Policy</a></li>
+                            <!-- <li><a href="">Sitemap</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-3">
+                    <div class="footer-widget wow fadeIn" data-wow-duration="4s">
+                        <h5 class="footer-title heading-5">Follow Us</h5>
+                        <ul class="footer-socials list-inline">
+                            <li class="list-inline-item"><a href="https://www.behance.com/"><i
+                                        class="fa fa-behance"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.twitter.com/"><i
+                                        class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/"><i
+                                        class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/"><i
+                                        class="fa fa-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.reddit.com/"><i
+                                        class="fa fa-reddit"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.vimeo.com/"><i
+                                        class="fa fa-vimeo"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.github.com/"><i
+                                        class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <div class="container">
+            <div class="footer-copyright text-center">
+                <p> &copy; Copyright 2016-2020 ICT Solved!</p>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="home-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+</footer>

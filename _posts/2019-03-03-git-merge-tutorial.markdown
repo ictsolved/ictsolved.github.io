@@ -4,8 +4,7 @@ title: "Git Merge Tutorial"
 description: Git merge is used to join two or more development histories together. In this article, we are going to talk about different cases of merging the branches with example.
 date: 2019-03-03 08:44:46
 author: sarad
-categories:
-- blog
+tags:
 - Git
 keywords: git merge command example, git merge, git merge conflict, git merge tutorial, git merge commit, git merge branch into master, git merge remote branch
 generes: Git

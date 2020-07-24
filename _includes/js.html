@@ -1,4 +1,11 @@
-<script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-<script async src="{{ "/assets/js/jquery.hoverex.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ site.url }}/assets/js/nav.min.js"> </script>
+<script src="{{ site.url }}/assets/js/build.min.js"></script>
+<script>
+    $(function () {
+        $('a[href*=\\#]').not(".no-smooth").on('click', function (event) {
+            var el = $(this.hash);
+            if (el.length > 0) {
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top - 100 }, 500);
+            }
+        });
+    });
+</script>

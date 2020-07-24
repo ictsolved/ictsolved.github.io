@@ -1,11 +1,10 @@
 ---
-layout: uiGallery
+layout: post
 title: "40 Bookstore App UI Designs For Inspiration"
 description: Here is a curated list of bookstore mobile application UI designs choosen from UI design challenges which were featured and considered best. These UI designs will inspire you for creating your own designs.
 date: 2019-11-30 11:19:46
 author: sarad
-categories:
-- blog
+tags:
 - UI/UX
 keywords: bookstore app design, bookstore app inspiration, bookstore app concept, book shop mobile app design
 generes: UI/UX

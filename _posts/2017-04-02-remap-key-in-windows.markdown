@@ -4,8 +4,7 @@ title: "How to remap or swap keyboard keys in Windows 7, 8.1 & 10?"
 description: Windows offers a method to tweak the keyboard keys functionality through use of registry. There are also several graphical tools to perform this operation. You can follow these steps to remap your keyboard in Windows.
 date: 2017-04-02 09:18:42
 author: sarad
-categories:
-- blog
+tags:
 - Windows
 keywords: remap keyboard, windows keyboard remap, remap keyboard in windows
 generes: keyboard
@@ -33,14 +32,14 @@ In my keyboard ‘Delete’ key is broken so I am going to remap it to ‘Insert
 
 3. Press the key you want to remap or click the number in KeyTweak window (helpful if key is broken). You don't need to be confused with the numbers because you can see which key is selected after you click on the its respective number.
 
-	<img src="/assets/img/blog/2017-04-02-remap-key-in-windows/remap-keyboard-windows-2.png" width="850" height="450" alt="Insert Key">
+	<img src="/assets/images/blog/2017-04-02-remap-key-in-windows/remap-keyboard-windows-2.png" width="850" height="450" alt="Insert Key">
 
 4. Click on 'Choose New Remapping' dropdown button and choose the new action you want to assign for the selected key then click on 'Remap Key'
 
-	<img src="/assets/img/blog/2017-04-02-remap-key-in-windows/remap-keyboard-windows-3.png" width="850" height="450" alt="Delete action">
+	<img src="/assets/images/blog/2017-04-02-remap-key-in-windows/remap-keyboard-windows-3.png" width="850" height="450" alt="Delete action">
 
 5. Finally click on 'Apply'and restart the computer.
 
-	<img src="/assets/img/blog/2017-04-02-remap-key-in-windows/remap-keyboard-windows-5.png" width="850" height="450" alt="apply">
+	<img src="/assets/images/blog/2017-04-02-remap-key-in-windows/remap-keyboard-windows-5.png" width="850" height="450" alt="apply">
 
 After the reboot you will be able to use your customized mapping. If you face any difficulty while performing the steps mentioned above comment below and also donot forget to share your experience on remapping the keyboard.

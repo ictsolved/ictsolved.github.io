@@ -4,8 +4,7 @@ title: "Tools Every Project Manager Needs for Improved Workflows and Better Resu
 description: Even if everyone works in the same office, project management tools can help to improve organizational workflow. Here are some things to look for in the perfect project management tool for you.
 date: 2020-05-22 13:04:46
 author: sarad
-categories:
-- blog
+tags:
 - Tech
 keywords: project management tools for productivity, top project management tools, best tools for project management
 generes: Tech

@@ -4,8 +4,7 @@ title: "Learning Web Development at TECHRISE"
 description: TECHRISE is providing training of Ruby on Rails through it's web portal. It offers a comprehensive web development training on Ruby on Rails as well as Git for version control.
 date: 2016-10-02 17:54:46
 author: sarad
-categories:
-- blog
+tags:
 - Memorandum
 keywords: techrise, ruby on rails, aarcana, sarad gajurel
 img: 2016-10-02-web-development-at-techrise/web-development-at-techrise.jpg

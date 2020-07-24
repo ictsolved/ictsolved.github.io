@@ -4,8 +4,7 @@ title: "Purpose of each Directory inside Root Partition in Linux"
 description: Linux or Unix-like operating systems are based on it's own Filesystem Hierarchy Standards (FHS). Each directory has it's own purpose. This article will talk about the purpose of these directories.
 date: 2018-05-11 14:04:46
 author: sarad
-categories:
-- blog
+tags:
 - Linux
 keywords: linux fhs, linux directories, linux file system hierarchy, explain linux file system, linux file system hierarchy diagram, home linux, file system hierarchy in linux
 generes: linux

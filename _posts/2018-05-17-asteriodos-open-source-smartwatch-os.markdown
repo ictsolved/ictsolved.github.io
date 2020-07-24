@@ -4,8 +4,7 @@ title: "AsteroidOS: An Open-source Smartwatch OS Gets First Stable Release"
 description: AsteroidOS, an open-source operating system for WearOS initiated four years ago by a computer science student has received it's first stable version 1.0 release. It was going through Alpha testing during December 2016 and is currently on the playground as an alternative to Google's WearOS.
 date: 2018-05-16 21:04:46
 author: sarad
-categories:
-- blog
+tags:
 - Tech
 keywords: ‪‪AsteroidOS‬, ‪Wear OS‬, ‪Smartwatch‬, open source smartwatch hardware
 generes: Smartwatch

@@ -1,0 +1,70 @@
+<header class="header-area">
+    <div class="header-navigation">
+        <div class="container">
+            <div class="navigation-box">
+                <div class="navigation-left">
+                    <a class="header-logo" href="{{ site.url }}"><img src="{{ site.url }}/assets/images/header-logo.png"
+                            alt="ICT Solved!"></a>
+                </div>
+                <div class="navigation-right">
+                    <nav class="navigation-navbar">
+                        <ul id="navigation-menu" class="slimmenu">
+                            <li class="active">
+                                <a href="{{ site.url }}">Home</a>
+                            </li>
+                            <li class="active themeix-dropdown has-children">
+                                <a href="#">More</a>
+                                <ul class="themeix-dropdown-item" role="menu">
+                                    <li>
+                                        <a href="{{ site.url }}/csit">CSIT Tutor</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ site.url }}/nepali-radio">Nepali Radio</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ site.url }}/forex-nepal">Forex Nepal</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a href="{{ site.url }}/about/">About</a>
+                            </li>
+                            <li class="active">
+                                <a href="{{ site.url }}/contact/">Contact</a>
+                            </li>
+                            <li>
+                                <a class="nav-search" data-toggle="modal" data-target="#modal"><img
+                                        src="{{ site.url }}/assets/images/search-logo.png" alt="nav search"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalScrollableTitle">Search Post</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="modal-search-form" action="#">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="search-input"
+                                            placeholder="Enter Keyword or Tag" required="">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-primary" type="submit"><i
+                                                    class="fa fa-search"></i></button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                            <ul id="results-container"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

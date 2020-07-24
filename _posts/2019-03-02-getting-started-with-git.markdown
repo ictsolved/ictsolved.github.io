@@ -4,8 +4,7 @@ title: "Getting Started with Git"
 description: Git is a distributed Version Control System (VCS) which is used for tracking the source code during software development. It allows collaboration between the contributors and targets to maintain integrity, and support for distributed, non-linear workflows.
 date: 2019-03-02 13:44:46
 author: sarad
-categories:
-- blog
+tags:
 - Git
 keywords: git, git tutorial, git clone, git remote, git setup, git download, install git, git login, install git ubuntu, git command, git bash commands, version control system, git version control, git windows tutorial, best way to learn git, using git for version control, git tutorial for beginners, best git tutorial, what is git, git tutorial windows
 generes: Git

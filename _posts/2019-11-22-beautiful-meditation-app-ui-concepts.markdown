@@ -1,11 +1,10 @@
 ---
-layout: uiGallery
+layout: post
 title: "38 Beautiful Meditation App UI Design Concepts"
 description: These are the most beautiful and pixel perfect meditation app UI design concepts from which you can take inspiration while developing your applicaiton. All these UI are carefully designed with the UI/UX design pattern that are currently dominating the industry.
 date: 2019-11-22 08:24:46
 author: sarad
-categories:
-- blog
+tags:
 - UI/UX
 keywords: meditation app design, meditation app inspiration,meditation app concept,relaxation app design,meditation mobile app design
 generes: UI/UX

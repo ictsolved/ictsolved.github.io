@@ -4,8 +4,7 @@ title: "Participated in NASA Space Apps Challenge 2017"
 description: NASA organized Space Apps Challenge this year with five global challenges and in Nepal, along with the global challenges, six local challenges were also given by the collaborators Mercy Corps Nepal and ICIMOD.
 date: 2017-04-30 20:54:46
 author: sarad
-categories:
-- blog
+tags:
 - Memorandum
 img: 2017-04-30-nasa-space-apps-challenge-2017/nasa-space-apps-challenge-nepal-1.jpg
 keywords: nasa space apps 2017, aarcana, sarad gajurel
@@ -18,7 +17,7 @@ redirect_from:
 
 Annually NASA organizes an international hackathon event known as "Space Apps" over 48 hours in different cities across the globe. NASA throws set of challenges to address the real-world problems of Earth and space to everyone who dare to tackle the challenge using robotics, data visualization, hardware, design etc. using open data. In Nepal, it was organized by International Centre for Integrated Mountain Development (ICIMOD),<!--more--> Mercy Corps Nepal, Nepal Engineers Association (NEA), and Robotics Association of Nepal (RAN) in collaboration with Young Innovations Pvt. Ltd. and Kathmandu Living Labs at World Trade Tower, Thapathali.
 
-<img src="/assets/img/blog/2017-04-30-nasa-space-apps-challenge-2017/nasa-space-apps-challenge-nepal-3.jpg" alt="Team Aarcana">
+<img src="/assets/images/blog/2017-04-30-nasa-space-apps-challenge-2017/nasa-space-apps-challenge-nepal-3.jpg" alt="Team Aarcana">
 <small>Team Aarcana: Deepak Lal Karna, Sarad Gajurel, Ranjan Bir Bajracharya, and Rujan Shakya (Left-to-Right)</small>
 
 In this hackathon there were five global challenges by NASA and six local challenges by the collaborators Mercy Corps Nepal and ICIMOD. To cope with one of the global challenges "Earth and Us" thrown by NASA, me along with my team <a href="https://aarcana.github.io" target="_blank">Aarcana <i class="fa fa-external-link" aria-hidden="true"></i></a> innovated a new idea to show the connectivity of rural and urban areas so as to balance the economical, socio-cultural and environmental aspects and our theme was "Live Smart".
@@ -29,7 +28,7 @@ On the first day all the team introduced themselves and pitched their ideas on s
 
 After award ceremony there was a Hi-Tea session and Networking session where participants engaged in extending their friend circle. The participants also created the network with organizers, collaborators and supporters. We discussed about our project with the jury members too and they wanted to know if we'll be implementing the project, we reported that it is currently in the development phase and it will be further continued if we get support of mentors and sponsers.
 
-<img src="/assets/img/blog/2017-04-30-nasa-space-apps-challenge-2017/nasa-space-apps-challenge-nepal-2.jpg" alt="Aarcana with RAN president and vice president">
+<img src="/assets/images/blog/2017-04-30-nasa-space-apps-challenge-2017/nasa-space-apps-challenge-nepal-2.jpg" alt="Aarcana with RAN president and vice president">
 <small>Photo shoot with RAN President Bikash Gurung and Vice-president Utsab Shrestha (Position 4<sup>th</sup> and 5<sup>th</sup> from right to left respectively)</small>
 
 

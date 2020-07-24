@@ -1,74 +1,52 @@
 ---
-layout: blog
+layout: default
 title: ICT Solved!
 type: website
 msvalidate: 069819CF72EAF850E6F9880090A89462
 keywords: ict solved, ictsolved, tech blog, tech news, technology blog, saradgajurel, sarad gajurel
 redirect_from:
-  - /blog/
-  - /customization
+- /blog/
+- /customization
 ---
-
-<div class="container mtb">
-    <div class="row">
-        <!-- BLOG POSTS LIST -->
-        <div class="col-lg-8">
-          {% include adsense_onTopAd.html %}
-            {% for post in paginator.posts %}
-                <!-- Blog Post -->
-                <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="ctitle">{{ post.title }}</h2></a>
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}" alt="{{ post.imagealt }}">
-                </a>    
-                <p><small><i class="fa fa-calendar"></i>&nbsp;{{ post.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;<i class="fa fa-user"></i> {{ site.name }} &nbsp;&nbsp;<i class="fa fa-clock-o"></i> Reading time: {% include read_time_blog.html %}</small></p>
-                <div align="justify">
-                {{ post.excerpt }}
-              </div>
-                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
-                <div class="hline"></div>
-                <div class="spacing"></div>
-            {% endfor %}
-{% include adsense_large_rectangle.html %}
-            <!-- pagination -->
-            <div align="center">
-{% if paginator.total_pages > 1 %}
-<div class="pagination"> 
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <span class="webjeda">{{ page }}</span>
-    {% elsif page == 1 %}
-      <a href="/">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
-</div>
-
-        </div><!-- /col-lg-8 -->
-
-        <br>
-
-        <!-- Sidebar -->
-        <div class="col-lg-4 sidebar">
-            {% include sidebar_search_bar.html %}
-            {% include sidebar_categories.html %}
-            {% include adsense_LargeSkyScrapper.html %}
-            {% include sidebar_subscribe.html %}
-            {% include sidebar_post_archive.html %}
+<section class="page-title-area bg-cover1">
+    <div class="page-title-wrapper section-spacing">
+        <div class="page-title text-center white-text">
+            <h1 class="heading-1">{{ site.title }}</h1>
         </div>
-    </div><!-- /row -->
-</div><!-- /container -->
+    </div>
+</section>
+<div class="blog-area bg-color1">
+    <div class="blog-wrapper section-spacing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-lg-8 mx-auto">
+                    {% for post in paginator.posts %}
+                    <article class="blog-post blog-spacing wow fadeIn" data-wow-duration="1s">
+                        <div class="blog-img">
+                            <a href="{{ post.url  }}"><img src="{{ site.url  }}/assets/images/blog/{{ post.img }}"
+                                    alt="{{ post.title }}" /></a>
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="heading-3"><a href="{{ post.url }}">{{ post.title }}</a>
+                            </h3>
+                            <div class="post-excerpt">
+                                <a href="{{ post.url }}">{{ post.excerpt }}</a>
+                            </div>
+                        </div>
+                        <ul class="blog-meta list-inline">
+                            <li class="list-inline-item"><img src="{{ site.url  }}/assets/images/blog-date.png"
+                                    alt="{{ post.title }}">{{ post.date | date_to_string }}</li>
+                        </ul>
+                    </article>
+                    {% endfor %}
+                    {% include pagination.html %}
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="sidebar-area sidebar-right">
+                        {% include sidebar-tag.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

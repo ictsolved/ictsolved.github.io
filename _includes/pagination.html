@@ -1,36 +1,20 @@
-    <div class="hline"></div>
-    <br>
-    <div class="row">
-        <div class="col-lg-6">
-	{% if page.previous %}
-
-
-
-<div class="card">
-  <a href="{{ site.baseurl}}{{ page.previous.url }}"><img src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.previous.img }}" alt="{{ page.previous.imagealt }}" style="width:100%"></a>
-  <div class="container">
-    <p class="sidebar"><a href="{{ site.baseurl}}{{ page.previous.url }}">{{ page.previous.title }}</a></p>
-    <h2 class="subheading"><a href="{{ site.baseurl}}{{ page.previous.url }}">Previous Post</a></h2>
-  </div>
-</div>
-
-       {% endif %}
-       <br>
-</div>
-<div class="col-lg-6">
-       {% if page.next %}
-
-
-
-
-       <div class="card">
-  <a href="{{ site.baseurl}}{{ page.next.url }}"><img src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.next.img }}" alt="{{ page.next.imagealt }}" style="width:100%"></a>
-  <div class="container">
-    <p class="sidebar"><a href="{{ site.baseurl}}{{ page.next.url }}">{{ page.next.title }}</a></p>
-    <h2 class="subheading"><a href="{{ site.baseurl}}{{ page.next.url }}">Next Post</a></h2>
-  </div>
-</div>
-		
-       {% endif %}
-       </div>
-	</div>
+<nav class="page-pagination">
+    <ul class="pagination d-flex justify-content-between themeix-highlight">
+        {% if paginator.total_pages > 1 %}
+        {% if paginator.previous_page %}
+        <li class="page-item themeix-highlight">
+            <a class="page-link next-btn" href="{{ site.url }}{{ paginator.previous_page_path | replace: '//', '/' }}">
+                <i class="fa fa-angle-double-left"></i>Previous Page</a>
+        </li>
+        {% else %}
+        {% endif %}
+        {% if paginator.next_page %}
+        <li class="page-item themeix-highlight">
+            <a class="page-link prev-btn" href="{{ site.url }}/{{ paginator.next_page_path | replace: '//', '/'}}">Next
+                Page<i class="fa fa-angle-double-right"></i></a>
+        </li>
+        {% else %}
+        {% endif %}
+        {% endif %}
+    </ul>
+</nav>

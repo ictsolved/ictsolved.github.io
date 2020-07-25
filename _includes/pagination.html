@@ -3,14 +3,14 @@
         {% if paginator.total_pages > 1 %}
         {% if paginator.previous_page %}
         <li class="page-item themeix-highlight">
-            <a class="page-link next-btn" href="{{ site.url }}{{ paginator.previous_page_path }}">
+            <a class="page-link next-btn" href="{{ site.url }}{{ paginator.previous_page_path }}/">
                 <i class="fa fa-angle-double-left"></i>Previous Page</a>
         </li>
         {% else %}
         {% endif %}
         {% if paginator.next_page %}
         <li class="page-item themeix-highlight">
-            <a class="page-link prev-btn" href="{{ site.url }}{{ paginator.next_page_path }}">Next
+            <a class="page-link prev-btn" href="{{ site.url }}{{ paginator.next_page_path }}/">Next
                 Page<i class="fa fa-angle-double-right"></i></a>
         </li>
         {% else %}

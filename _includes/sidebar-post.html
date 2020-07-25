@@ -3,22 +3,22 @@
 {% assign maxRelatedCounter = 0 %}
 {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
 <h5 class="sub-title heading-5">Similar Posts</h5>
-{% for post in site.posts %}
-{% assign sameTagCount = 0 %}
-{% assign commonTags = '' %}
-{% for tag in post.tags %}
-{% if post.url != page.url %}
-{% if page.tags contains tag %}
-{% assign sameTagCount = sameTagCount | plus: 1 %}
-{% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-{% assign commonTags = commonTags | append: tagmarkup %}
-{% endif %}
-{% endif %}
-{% endfor %}
-{% if sameTagCount >= minCommonTags %}
 <div class="recent-widget sidebar-widget">
+    {% for post in site.posts %}
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+    {% for tag in post.tags %}
+    {% if post.url != page.url %}
+    {% if page.tags contains tag %}
+    {% assign sameTagCount = sameTagCount | plus: 1 %}
+    {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+    {% assign commonTags = commonTags | append: tagmarkup %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% if sameTagCount >= minCommonTags %}
     <div class="recent-wrapper">
-        <a class="recent-img">
+        <a class="recent-img" href="{{site.url}}{{ post.url }}">
             <img src="{{ site.url }}/assets/images/blog/{{ post.thumb }}" alt="{{ post.title }}">
         </a>
         <div class="recent-details">
@@ -28,18 +28,18 @@
             </ul>
         </div>
     </div>
+    {% if maxRelatedCounter >= maxRelated %}
+    {% break %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
 </div>
-{% if maxRelatedCounter >= maxRelated %}
-{% break %}
-{% endif %}
-{% endif %}
-{% endfor %}
 
 <h5 class="sub-title heading-5">Recent Posts</h5>
 <div class="recent-widget sidebar-widget">
     {% for post in site.posts limit:3 %}
     <div class="recent-wrapper">
-        <a class="recent-img">
+        <a class="recent-img" href="{{site.url}}{{ post.url }}">
             <img src="{{ site.url }}/assets/images/blog/{{ post.thumb }}" alt="{{ post.title }}">
         </a>
         <div class="recent-details">

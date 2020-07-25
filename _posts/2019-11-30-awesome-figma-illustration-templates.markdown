@@ -141,3 +141,8 @@ outro: "These are the awesome figma illustration templates which can be source f
 ---
 
 Figma is a collaborative prototype design tool that is widely being used for the UI/UX design. It is a cloud-based tool and offers various features <!--more--> a UI/UX designer seeks. We are presenting you the awesome collection of figma illustration templates curated by the designers to inspire you for UI/UX designs. These templates are chosen from the UI design challenges which were featured and selected as best illustrations so there is no doubt that these are awesome and is a source of inspiration for you.
+
+{% for item in page.ui %}
+<h4 class="mb-2"><a href="{{ item.url }}" target="_blank" rel="nofollow">{{ item.title }}</a></h4>
+<a href="{{ item.url }}" target="_blank" rel="nofollow"><img class="mb-3" src="{{ item.imgUrl }}" alt="{{ item.alt }}"></a>
+{% endfor %}

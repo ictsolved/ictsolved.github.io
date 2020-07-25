@@ -216,3 +216,8 @@ outro: "You have seen some of the beautiful bookstore UI designs for bookstore a
 ---
 
 Here is a curated list of bookstore mobile application UI designs choosen from UI design challenges which were featured and considered best. These designs can fit for E-book reader application, <!--more-->application of bookstore or book shop, an audiobook listening application and for other similar kind of applications.  These UI designs will inspire you for creating your own designs.
+
+{% for item in page.ui %}
+<h4 class="mb-2"><a href="{{ item.url }}" target="_blank" rel="nofollow">{{ item.title }}</a></h4>
+<a href="{{ item.url }}" target="_blank" rel="nofollow"><img class="mb-3" src="{{ item.imgUrl }}" alt="{{ item.alt }}"></a>
+{% endfor %}

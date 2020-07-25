@@ -18,7 +18,7 @@
         content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:image"
-        content="{% if page.img %}{{ site.url }}/assets/images/blog/{{ page.img }}{% else %}{{ site.url }}/assets/images/about.png{% endif %}" />
+        content="{% if page.img %}{{ site.url }}/assets/images/blog/{{ page.img }}{% else %}{{ site.url }}/assets/images/about.jpg{% endif %}" />
     <meta property="og:site_name" content="ICT Solved!">
     {% unless page.type %}
     <meta property="article:publisher" content="https://www.facebook.com/ictsolved.sarad/" />
@@ -36,7 +36,7 @@
     <meta name="twitter:site" content="@SaradGajurel" />
     <meta name="twitter:creator" content="@SaradGajurel">
     <meta name="twitter:image"
-        content="{% if page.img %}{{ site.url }}/assets/images/blog/{{ page.img }}{% else %}{{ site.url }}/assets/images/about.png{% endif %}" />
+        content="{% if page.img %}{{ site.url }}/assets/images/blog/{{ page.img }}{% else %}{{ site.url }}/assets/images/about.jpg{% endif %}" />
 
     <link rel="shortcut icon" href="{{ site.url }}/assets/images/favicon.png" type="image/x-icon" />
     <link rel="icon" href="{{ site.url }}/assets/images/favicon.png" type="image/x-icon" />

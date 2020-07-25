@@ -63,15 +63,18 @@ layout: default
                         </div>
                         <nav class="page-pagination mb-5">
                             <ul class="pagination d-flex justify-content-between themeix-highlight">
+                                {% if page.previous %}
                                 <li class="page-item themeix-highlight">
-                                    <a class="page-link next-btn"
-                                        href="../technology-placeat-ipsum-libero/index.html"><i
+                                    <a class="page-link next-btn" href="{{ site.url}}/{{ page.previous.url }}"><i
                                             class="fa fa-angle-double-left"></i> Previous Post</a>
                                 </li>
+                                {% endif %}
+                                {% if page.next %}
                                 <li class="page-item themeix-highlight">
-                                    <a class="page-link prev-btn" href="../blog-post-left-sidebar/index.html">Next
+                                    <a class="page-link prev-btn" href="{{ site.url}}/{{ page.next.url }}">Next
                                         Post<i class="fa fa-angle-double-right"></i></a>
                                 </li>
+                                {% endif %}
                             </ul>
                         </nav>
                     </div>

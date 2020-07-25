@@ -28,7 +28,7 @@ layout: default
                         </div>
                         <div class="single-tags-share">
                             <ul class="single-tags list-inline float-left">
-                                <strong>Tag:</strong>
+                                <li class="list-inline-item">Tag:</li>
                                 <li class="list-inline-item">
                                     <!-- <a class="text-capitalize"
                                         href="../tag/education/index.html">
@@ -52,7 +52,7 @@ layout: default
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}"
+                                        <a href="https://twitter.com/intent/tweet?text={{ page.title | replace: ' ', '&nbsp;' }}&amp;url={{ site.url }}{{ page.url }}"
                                             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
                                             title="Share on Twitter">
                                             <i class="fa fa-twitter"></i>

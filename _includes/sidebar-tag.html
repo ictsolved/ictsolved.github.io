@@ -1,11 +1,10 @@
-<!-- <h5 class="sub-title heading-5">Tags</h5>
+<h5 class="sub-title heading-5">Categories</h5>
 <div class="tag-widget sidebar-widget list-inline">
-    {% for tag in site.tags %}{% unless tag.first == "blog" %}
+    {% for tag in site.tags %}
     <span class="site-tag">
-        <a href="{{site.url}}/tag/#{{ tag | first }}" style="font-size: 88%">
+        <a href="{{site.url}}/tag/#{{ tag | first }}" rel="nofollow">
             {{ tag | first }}({{ tag | last | size }})
         </a>
     </span>
-    {% endunless %}{% endfor %}
-</div> -->
-<span></span>
+    {% endfor %}
+</div>

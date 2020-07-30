@@ -1,0 +1,44 @@
+---
+layout: default
+type: website
+title: Tags
+permalink: /tag/
+sitemap: false
+robots: noindex
+---
+
+<section class="page-title-area bg-cover1">
+    <div class="page-title-wrapper section-spacing">
+        <div class="page-title text-center white-text">
+            <h1 class="heading-1">{{ page.title }}</h1>
+        </div>
+    </div>
+</section>
+
+<section class="faq-area bg-color3">
+    <div class="faq-wrapper section-spacing bminus-30">
+        <div class="container">
+            {% for tag in site.tags %}
+            <h3 class="heading-3"><a id="{{ tag.first }}">{{ tag.first }}</a></h3>
+            <div class="row">
+                {% for post in site.tags[tag.first] %}
+                <div class="col-md-6">
+                    <a href="{{ site.url }}{{ post.url }}">
+                        <article class="faq-service bg-color1">
+                            <header class="faq-logo wow bounceIn" data-wow-duration="1s">
+                                <div class="logo-image"> <img src="{{ site.url }}/assets/images/blog/{{ post.thumb }}"
+                                        alt="{{ post.title }}" /></div>
+                            </header>
+                            <footer class="faq-content">
+                                <h4 class="heading-4">{{ post.title }}</h4>
+                                <p>{{ post.date | date_to_string }}</p>
+                            </footer>
+                        </article>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

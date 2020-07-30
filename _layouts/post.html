@@ -30,14 +30,10 @@ layout: default
                             <ul class="single-tags list-inline float-left">
                                 <li class="list-inline-item">Tag:</li>
                                 <li class="list-inline-item">
-                                    <!-- <a class="text-capitalize"
-                                        href="../tag/education/index.html">
-                                        {% for tag in page.tags %}
-                                        {{ tag }}
-                                        {% endfor %}
-                                    </a> -->
                                     {% for tag in page.tags %}
-                                    {{ tag }}
+                                    <a class="text-capitalize" href="{{ site.url }}/tag/#{{ tag }}">
+                                        {{ tag }}
+                                    </a>
                                     {% endfor %}
                                 </li>
                             </ul>

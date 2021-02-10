@@ -19,6 +19,7 @@ fields:
   default: now
   config:
     date_format: YYYY-MM-DD h:mm A
+  hidden: true
 - type: text
   name: author
   label: author

@@ -10,8 +10,8 @@ description: GitHub Pages are great for static sites and if you want to point yo
   in Cloudflare.
 keywords: poing github page to sub domain, host github pages in sub domain, github
   pages custom domain, github pages custom domain cloudflare
-img: blog/v1613066410/blog/GitHub_Pages_Custom_Sub-domain_li3mn0.png
-thumb: blog/v1613066513/blog/GitHub_Pages_Custom_Sub-domain_thumb_d4p1me.png
+img: ''
+thumb: ''
 imagealt: github pages custom domain
 
 ---

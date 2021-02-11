@@ -50,4 +50,4 @@ fields:
     required: false
   label: imagealt
 pages:
-- _posts/configure-custom-domain-and-sub-domain-with-github-pages-in-cloudflare.md
+- _posts/2021-02-11-configure-custom-domain-and-sub-domain-with-github-pages-in-cloudflare.md

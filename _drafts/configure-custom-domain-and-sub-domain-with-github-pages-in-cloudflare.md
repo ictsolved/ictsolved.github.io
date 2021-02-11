@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-02-11 19:09:42 +0545
+date: 2021-02-11T19:09:42.000+05:45
 author: sarad
 tags:
 - Blogging
@@ -17,7 +17,7 @@ img_remote: https://res.cloudinary.com/ictsolved/image/upload/v1613068188/blog/G
 thumb_remote: https://res.cloudinary.com/ictsolved/image/upload/v1613068182/blog/GitHub_Pages_Custom_Sub-domain_thumb_nk5ljf.png
 
 ---
-I started blogging with GitHub pages as a hobby and wrote few articles. I had also integrated Google Analytics so I noticed that some of my posts were gaining more organic traffic than I expected. I then decided to use custom domain for my blog so that it would help to create a brand value. Few months later, I created another static portal and decided to host it in the GitHub pages but in the sub-domain. At first, I faced some issue but after some hit-and-trial in Cloudflare, I succeeded to linking another portal in the sub-domain. In this article, I will show how you can configure a custom domain as well as sub-domian for your GitHub pages in Cloudflare.
+I started blogging with GitHub pages as a hobby and wrote few articles. I had also integrated Google Analytics so I noticed<!--more--> that some of my posts were gaining more organic traffic than I expected. I then decided to use custom domain for my blog so that it would help to create a brand value. Few months later, I created another static portal and decided to host it in the GitHub pages but in the sub-domain. At first, I faced some issue but after some hit-and-trial in Cloudflare, I succeeded to linking another portal in the sub-domain. In this article, I will show how you can configure a custom domain as well as sub-domian for your GitHub pages in Cloudflare.
 
 The first step is to host your site in GitHub Pages and make sure it is accessible at https://username.github.io or https://username.github.io/repo. Also register for a custom domain, if you have not already registered.
 
@@ -28,7 +28,7 @@ Once your site is up and running on GitHub pages and you have your custom domain
 Click on Add a Site button and enter your domain name to add it in the Cloudflare. After adding the site, Cloudflare asks you to update the nameservers in your domain and provides you two nameservers which are in the following format.
 
     first.ns.cloudflare.com
-
+    
     second.ns.cloudflare.com
 
 Now you'll need to update the nameservers of your domain. Login to your domain registrar portal and update the nameservers that are provided by Cloudflare. It may take upto 24 hours for your name servers to be updated and get verified in Cloudflare. Once your nameservers are verified, you'll see your site in home page of Cloudflare with Active status like below.

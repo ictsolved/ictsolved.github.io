@@ -13,8 +13,8 @@ keywords: poing github page to sub domain, host github pages in sub domain, gith
 img: ''
 thumb: ''
 imagealt: github pages custom domain
-img_remote: blog/v1613068188/blog/GitHub_Pages_Custom_Sub-domain_qsdfm2.png
-thumb_remote: blog/v1613068182/blog/GitHub_Pages_Custom_Sub-domain_thumb_nk5ljf.png
+img_remote: https://res.cloudinary.com/ictsolved/image/upload/v1613068188/blog/GitHub_Pages_Custom_Sub-domain_qsdfm2.png
+thumb_remote: https://res.cloudinary.com/ictsolved/image/upload/v1613068182/blog/GitHub_Pages_Custom_Sub-domain_thumb_nk5ljf.png
 
 ---
 I started blogging with GitHub pages as a hobby and wrote few articles. I had also integrated Google Analytics so I noticed that some of my posts were gaining more organic traffic than I expected. I then decided to use custom domain for my blog so that it would help to create a brand value. Few months later, I created another static portal and decided to host it in the GitHub pages but in the sub-domain. At first, I faced some issue but after some hit-and-trial in Cloudflare, I succeeded to linking another portal in the sub-domain. In this article, I will show how you can configure a custom domain as well as sub-domian for your GitHub pages in Cloudflare.

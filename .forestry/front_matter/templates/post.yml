@@ -34,16 +34,16 @@ fields:
 - type: textarea
   name: keywords
   label: keywords
-- name: img
+- name: img_remote
   type: file
   config:
     maxSize: 64
-  label: img
-- name: thumb
+  label: img_remote
+- name: thumb_remote
   type: file
   config:
     maxSize: 64
-  label: thumb
+  label: thumb_remote
 - name: imagealt
   type: text
   config:

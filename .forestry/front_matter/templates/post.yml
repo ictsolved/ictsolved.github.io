@@ -49,3 +49,5 @@ fields:
   config:
     required: false
   label: imagealt
+pages:
+- _posts/configure-custom-sub-domain-with-github-pages-in-cloudflare.md

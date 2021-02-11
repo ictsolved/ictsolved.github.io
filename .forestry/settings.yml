@@ -8,7 +8,7 @@ sections:
   label: Posts
   create: all
 upload_dir: blog
-public_path: blog
+public_path: https://res.cloudinary.com/ictsolved/image/upload
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"

@@ -7,7 +7,6 @@ author: sarad
 tags:
 - Blogging
 keywords: adsense tutorial, google adsense sign up, google adsense earnings, google adsense tutorial, google adsense money, adsense sign in, how to create adsense account, learn google adsense, google ads adsense, google adsense make money, how to earn more with adsense, how to use google adsense to make money, learn adsense
-generes: adsense
 img: 2018-05-10-get-started-with-adsense/2018-05-10-get-started-with-adsense-1.jpg
 imagealt: integrate google adsense to your blog
 thumb: 2018-05-10-get-started-with-adsense/get-started-with-adsense-thumb.jpg

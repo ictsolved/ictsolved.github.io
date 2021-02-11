@@ -7,7 +7,6 @@ author: sarad
 tags:
 - Tech
 keywords: project management tools for productivity, top project management tools, best tools for project management
-generes: Tech
 img: 2020-05-22-best-project-management-tools/2020-05-22-best-project-management-tools-cover.jpg
 imagealt: top project management tools
 thumb: 2020-05-22-best-project-management-tools/2020-05-22-best-project-management-tools-thumb.jpg

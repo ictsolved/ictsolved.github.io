@@ -7,7 +7,6 @@ author: sarad
 tags:
   - UI/UX
 keywords: meditation app design, meditation app inspiration,meditation app concept,relaxation app design,meditation mobile app design
-generes: UI/UX
 img: 2019-11-21-beautiful-meditation-app-ui-concepts/meditation-app-ui-cover.png
 imagealt: meditation app ui design concept
 thumb: 2019-11-21-beautiful-meditation-app-ui-concepts/meditation-app-ui-thumb.png

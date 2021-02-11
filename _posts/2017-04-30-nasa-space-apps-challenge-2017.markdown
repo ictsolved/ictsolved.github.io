@@ -8,7 +8,6 @@ tags:
 - Memorandum
 img: 2017-04-30-nasa-space-apps-challenge-2017/nasa-space-apps-challenge-nepal-1.jpg
 keywords: nasa space apps 2017, aarcana, sarad gajurel
-generes: memorandum
 imagealt: team aarcana at NASA Space Apps Challenge 2017
 thumb: 2017-04-30-nasa-space-apps-challenge-2017/nasa-1.jpg
 redirect_from:

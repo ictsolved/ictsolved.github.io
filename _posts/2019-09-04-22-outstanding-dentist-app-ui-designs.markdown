@@ -7,7 +7,6 @@ author: sarad
 tags:
 - UI/UX
 keywords: dentist app design, dental care ui, dentist appointment app design, tooth care app design, dentist mobile app design
-generes: UI/UX
 img: 2019-09-03-23-outstanding-dentist-app-ui-designs/dentist-app-ui-cover.png
 imagealt: dentist app ui design
 thumb: 2019-09-03-23-outstanding-dentist-app-ui-designs/outstanding-dentist-app-ui-designs-thumb.png

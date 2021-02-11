@@ -7,7 +7,6 @@ author: sarad
 tags:
 - Tech
 keywords: ?share=1, bypass quora login, quora answers with out sign in, quora sign in annoying
-generes: Quora
 img: 2018-06-03-read-quora-answers-without-login/read-quora-answers-without-login-0.jpg
 imagealt: quora answers without login
 thumb: 2018-06-03-read-quora-answers-without-login/read-quora-answers-without-login-thumb.jpg

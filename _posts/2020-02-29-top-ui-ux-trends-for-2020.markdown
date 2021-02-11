@@ -7,7 +7,6 @@ author: sarad
 tags:
 - UI/UX
 keywords: 2020 ui trend, ui/ux trend of 2020, ui/ux trend to know in 2020, top ui trend, top ux trend, latest ui design trend
-generes: UI/UX
 img: 2020-02-29-top-ui-trends-for-2020/2020-02-29-top-ui-trends-for-2020-cover.png
 imagealt: ui/ux trend of 2020
 thumb: 2020-02-29-top-ui-trends-for-2020/2020-02-29-top-ui-trends-for-2020-thumb.png

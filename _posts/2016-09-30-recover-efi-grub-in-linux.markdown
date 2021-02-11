@@ -7,7 +7,6 @@ author: sarad
 tags:
 - Linux
 keywords: fix Grub, grub rescue, repair grub, grub rescue unknown filesystem, boot repair debian, grub rescue windows 7
-generes: grub
 img: 2016-09-30-recover-efi-grub-in-linux/linux-grub.png
 imagealt: grub screen
 thumb: 2016-09-30-recover-efi-grub-in-linux/grub-thumb.png

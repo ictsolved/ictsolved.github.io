@@ -21,7 +21,11 @@ layout: default
                 <div class="col-md-7 col-lg-8">
                     <div class="single-post">
                         <div class="single-img">
+                            {% if page.img_remote %}
+                            <img src="{{ page.img_remote }}" alt="{{ page.title }}" />
+                            {% elsif page.img %}
                             <img src="{{ site.url }}/assets/images/blog/{{ page.img }}" alt="{{ page.title }}" />
+                            {% endif %}
                         </div>
                         <div class="single-content">
                             {{ content }}

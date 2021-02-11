@@ -7,7 +7,6 @@ author: sarad
 tags:
 - UI/UX
 keywords: bookstore app design, bookstore app inspiration, bookstore app concept, book shop mobile app design
-generes: UI/UX
 img: 2019-11-30-bookstore-app-ui-designs-for-inspiration/bookstore-app-ui-cover.png
 imagealt: bookstore app ui design
 thumb: 2019-11-30-bookstore-app-ui-designs-for-inspiration/bookstore-app-ui-thumb.png

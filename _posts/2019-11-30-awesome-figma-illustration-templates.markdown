@@ -7,7 +7,6 @@ author: sarad
 tags:
 - UI/UX
 keywords: figma illustratin templates, figma designs, figma design templates, figma art collection, figma illustrations
-generes: UI/UX
 img: 2019-11-30-awesome-figma-illustration-templates/figma-illustrations-cover.png
 imagealt: figma illustration templates
 thumb: 2019-11-30-awesome-figma-illustration-templates/figma-illustrations-thumb.png

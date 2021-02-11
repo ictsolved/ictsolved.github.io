@@ -7,7 +7,6 @@ author: sarad
 tags:
 - UI/UX
 keywords: alarm clock ui, stopwatch ui, timer app ui, world clock app ui, clock app ui 2019, clock app ui design
-generes: UI/UX
 img: 2019-09-01-15-best-clock-app-ui-design-2019/alarm-clock-app-design-cover.png
 imagealt: clock app ui design 2019
 thumb: 2019-09-01-15-best-clock-app-ui-design-2019/best-clock-app-ui-design-2019-thumb.png

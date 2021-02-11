@@ -22,4 +22,6 @@ The first step is to host your site in GitHub Pages and make sure it is accessib
 
 ### Step 2
 
-Once your site is up and running on GitHub pages and you have your custom domain, head towards [https://www.cloudflare.com/](https://www.cloudflare.com/ "Cloudflare"), sign up for an account if you are not already registered. After you login, you will see following page. 
+Once your site is up and running on GitHub pages and you have your custom domain, head towards [https://www.cloudflare.com/](https://www.cloudflare.com/ "Cloudflare"), sign up for an account if you are not already registered. After you login, you will see following page.
+
+![](blog/v1613056564/blog/2021-02-11_203409_ut4mgv.png)

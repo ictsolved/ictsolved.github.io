@@ -7,10 +7,10 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-upload_dir: assets/images/blog
-public_path: "/assets/images/blog"
+upload_dir: blog
+public_path: blog
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_env:

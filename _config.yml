@@ -27,3 +27,6 @@ defaults:
 date_format:
   archive: "%b %d"
   post: "%b %-d, %Y"
+
+feed:
+  posts_limit: 200

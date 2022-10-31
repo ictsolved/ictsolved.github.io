@@ -1,5 +1,5 @@
 {% assign maxRelated = 4 %}
-{% assign minCommonTags =  1 %}
+{% assign minCommonTags = 1 %}
 {% assign maxRelatedCounter = 0 %}
 {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
 <h5 class="sub-title heading-5">Similar Posts</h5>
@@ -51,7 +51,7 @@
         </a>
         {% elsif post.img %}
         <a class="recent-img" href="{{site.url}}{{ post.url }}">
-        <img src="{{ site.url }}/assets/images/blog/{{ post.thumb }}" alt="{{ post.title }}">
+            <img src="{{ site.url }}/assets/images/blog/{{ post.thumb }}" alt="{{ post.title }}">
         </a>
         {% endif %}
         <div class="recent-details">

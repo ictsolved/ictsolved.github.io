@@ -56,9 +56,13 @@
 
     {% feed_meta %}
 
+    {% if page.url != /404 %}
+
     <!-- Google Auto Ads -->
     <script data-ad-client="ca-pub-6295960587787276" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    {% endif %}
 
     <!-- Google Analytics -->
     <script>
